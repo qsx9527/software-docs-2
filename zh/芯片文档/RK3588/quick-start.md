@@ -10,3 +10,6 @@
 
 看到这段内容，说明中文 RK3588 测试文档已经被拉取。
 
+
+在这里，尝试一下引用跳转[查看 AIO-8550JD4 前言](/docs/products/mainboards/AIO-8550JD4/aio-8550jd4/preface)
+
