@@ -4,5 +4,4 @@ This is the English test index for `software-docs-2` remote pull verification.
 
 - Category directory: `en/Chip-Docs`
 - Chip directory: `RK3588`
-- Test document: `quick-start.md`
-
+- Test document: [Quick Start](quick-start.md)
