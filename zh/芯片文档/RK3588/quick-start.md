@@ -13,3 +13,5 @@
 
 在这里，尝试一下引用跳转[查看 AIO-8550JD4 前言](/docs/products/mainboards/AIO-8550JD4/aio-8550jd4/preface)
 
+这里尝试双中括号 
+* [[开发使用文档]](../../RK3568/index.md) 
