@@ -29,7 +29,7 @@
 **（1）推荐在 X86_64 Ubuntu 18.04 系统环境下进行开发，若使用其它系统版本，可能需要对编译环境做相应调整。**
 </span>
 
-<span style={{ color: 'red', fontWeight: 700, display: 'block' }}>
+<span style={{ color: 'red', fontWeight: 700 }}>
 **（2）使用普通用户进行编译，不要使用 root 用户权限进行编译。**
 </span>
 
