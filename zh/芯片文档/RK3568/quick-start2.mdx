@@ -11,79 +11,41 @@
 看到这段内容，说明中文 RK3568 测试文档已经被拉取。
 
 尝试mdx语法：
-# 编译 Linux4.19 固件
-
-## 编译环境搭建
-
-本章介绍 Linux SDK 的编译环境搭建
-
-<div className="not-prose rounded-lg border border-red-500/20 bg-red-500/5 p-4 text-red-600 dark:text-red-400">
-  <p className="m-0 font-bold text-red-700 dark:text-red-300">注意：</p>
-  <p className="m-0 mt-2 font-medium">（1）推荐在 X86_64 Ubuntu 18.04 系统环境下进行开发，若使用其它系统版本，可能需要对编译环境做相应调整。</p>
-  <p className="m-0 mt-1 font-medium">（2）使用普通用户进行编译，不要使用 root 用户权限进行编译。</p>
-</div>
-
-### 获取 SDK
-
-首先准备一个空文件夹用于存放 SDK，建议在 home 目录下，本文以`~/proj`为例
-
-<span style={{ color: 'red', fontWeight: 700 }}>不要在虚拟机共享文件夹以及非英文目录存放、解压SDK，避免产生不必要的错误</span>
-
-
-颜色示例：
 ---
-title: 颜色使用示例
-description: Fumadocs MDX 中颜色与样式的使用演示
+title: SDK 注意事项
+description: 使用内联样式演示
 ---
 
-# 颜色使用示例
+# SDK 安装注意事项
 
-## 1. 基础文本颜色（推荐使用 Tailwind）
+### 重要警告
 
-<span className="text-red-500">这是红色文字</span>  
-<span className="text-blue-600">这是蓝色文字</span>  
-<span className="text-green-500 font-bold">这是绿色加粗文字</span>  
-<span className="text-purple-600">紫色文字</span>  
-<span className="text-orange-500">橙色文字</span>
-
-## 2. 背景颜色 + 文字
-
-<div className="bg-red-100 text-red-700 p-4 rounded-md">
-  这是一个红色背景的警告框
-</div>
-
-<div className="bg-blue-100 text-blue-700 p-4 rounded-md mt-4">
-  这是一个蓝色背景的信息框
-</div>
-
-## 3. 使用 Fumadocs 内置 Callout 组件（更美观）
-
-<Callout type="info">
-  这是一条普通信息（蓝色调）
-</Callout>
-
-<Callout type="warning">
-  这是一条警告（橙黄色调）
-</Callout>
-
-<Callout type="danger">
-  这是一条危险/错误提示（红色调）
-</Callout>
-
-<Callout type="success">
-  这是一条成功提示（绿色调）
-</Callout>
-
-## 4. 更多高级用法
-
-<span className="text-red-500 hover:text-red-700 transition-colors cursor-pointer">
-  悬停时颜色会加深
+<span style={{ color: '#ef4444', fontWeight: 700, fontSize: '1.1em' }}>
+  不要在虚拟机共享文件夹以及非英文目录存放、解压 SDK，避免产生不必要的错误。
 </span>
 
-**粗体红色**：<span className="text-red-600 font-bold">重要内容</span>
+### 其他常见颜色示例
 
----
+**红色警告**：<span style={{ color: '#dc2626', fontWeight: 600 }}>高危操作，请谨慎执行</span>
 
-**提示**：  
-Fumadocs 默认集成 Tailwind CSS，你可以直接使用所有 Tailwind 颜色类（`text-red-500`、`bg-emerald-600` 等）。  
-想查看更多颜色可选项，可前往：[Fumadocs UI 文档](https://www.fumadocs.dev/docs/ui)
+**蓝色提示**：<span style={{ color: '#2563eb', fontWeight: 500 }}>建议使用英文路径</span>
+
+**绿色成功**：<span style={{ color: '#16a34a', fontWeight: 600 }}>安装完成，可正常使用</span>
+
+**橙色注意**：<span style={{ color: '#ea580c', backgroundColor: '#fff7ed', padding: '2px 8px', borderRadius: '4px' }}>
+  注意：请确保网络环境畅通
+</span>
+
+### 带背景色的警告块
+
+<div style={{ 
+  color: '#991b1b', 
+  backgroundColor: '#fee2e2', 
+  padding: '16px', 
+  borderRadius: '8px', 
+  borderLeft: '5px solid #ef4444',
+  margin: '16px 0'
+}}>
+  <strong>重要提醒：</strong><br/>
+  不要在虚拟机共享文件夹以及非英文目录存放、解压SDK，避免产生不必要的错误。
+</div>
