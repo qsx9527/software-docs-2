@@ -12,3 +12,29 @@
 
 尝试mdx语法：
 <span style={{ color: 'red', fontWeight: 700 }}>不要在虚拟机共享文件夹以及非英文目录存放、解压SDK，避免产生不必要的错误</span>
+
+
+
+# 编译 Linux4.19 固件
+
+## 编译环境搭建
+
+本章介绍 Linux SDK 的编译环境搭建
+
+<span style={{ color: 'red', fontWeight: 700, display: 'block', marginBottom: '16px' }}>
+**注意：**
+</span>
+
+<span style={{ color: 'red', fontWeight: 700, display: 'block', marginBottom: '8px' }}>
+**（1）推荐在 X86_64 Ubuntu 18.04 系统环境下进行开发，若使用其它系统版本，可能需要对编译环境做相应调整。**
+</span>
+
+<span style={{ color: 'red', fontWeight: 700, display: 'block' }}>
+**（2）使用普通用户进行编译，不要使用 root 用户权限进行编译。**
+</span>
+
+### 获取 SDK
+
+首先准备一个空文件夹用于存放 SDK，建议在 home 目录下，本文以`~/proj`为例
+
+<span style={{ color: 'red', fontWeight: 700 }}>不要在虚拟机共享文件夹以及非英文目录存放、解压SDK，避免产生不必要的错误</span>
