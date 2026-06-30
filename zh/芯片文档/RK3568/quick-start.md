@@ -15,22 +15,73 @@
 
 
 
-# 编译 Linux4.19 固件
+# MDX Sandbox for C40PL
 
-## 编译环境搭建
+这是一篇手动创建在 `zh/AI摄像机/C40PL/` 下的 `.mdx` 测试文档，用于验证当前 Fumadocs 生产服务对源 `.mdx` 文档的真实渲染效果。
 
-本章介绍 Linux SDK 的编译环境搭建
+<div className="not-prose rounded-lg border border-fd-border bg-fd-secondary/40 p-4">
+  <p className="m-0 text-fd-primary font-semibold">这是一个小写 JSX/HTML 容器，使用 className 字符串属性。</p>
+  <p className="m-0 text-fd-muted-foreground">这篇文档用于验证源 .mdx 只保留门户链接和图片重写，不再进入旧 Markdown 兼容清洗。</p>
+</div>
 
-<span style={{ color: 'red', fontWeight: 700, display: 'block', marginBottom: '16px' }}>
-**注意：**
-</span>
+## JSX 字符串属性
 
-<span style={{ color: 'red', fontWeight: 700, display: 'block', marginBottom: '8px' }}>**（1）推荐在 X86_64 Ubuntu 18.04 系统环境下进行开发，若使用其它系统版本，可能需要对编译环境做相应调整。**</span>
+<div className="not-prose rounded-lg border border-fd-border bg-fd-secondary/40 p-4">
+  <p className="m-0 text-fd-primary font-semibold">这一行使用 JSX 的 className 字符串属性。</p>
+  <p className="m-0 text-fd-muted-foreground">字符串属性不依赖 JSX 表达式，适合作为基础对照组。</p>
+</div>
 
-<span style={{ color: 'red', fontWeight: 700 }}>**（2）使用普通用户进行编译，不要使用 root 用户权限进行编译。**</span>
+## JSX style 对象
 
-### 获取 SDK
+<div style={{ color: 'red', border: '1px solid currentColor', padding: '12px', borderRadius: '6px' }}>
+  这一段使用 `style={{ color: 'red' }}`，如果 .mdx 没有进入旧 Markdown 兼容清洗，这里应该显示为红色。
+</div>
 
-首先准备一个空文件夹用于存放 SDK，建议在 home 目录下，本文以`~/proj`为例
+行内红字：<span style={{ color: 'red', fontWeight: 700 }}>这段 span 也应该是红色</span>。
 
-<span style={{ color: 'red', fontWeight: 700 }}>不要在虚拟机共享文件夹以及非英文目录存放、解压SDK，避免产生不必要的错误</span>
+## Fumadocs 内置大写组件
+
+<Cards>
+  <Card title="站内链接" href="/docs/products/ai-camera/C40PL/getting-started/started" description="验证源 .mdx 中的大写组件不会被兼容清洗转义。" />
+  <Card title="本页锚点" href="#mdx-sandbox-anchor" description="验证大写组件和普通锚点可以共存。" />
+</Cards>
+
+## 原生 HTML 与 MDX 混写
+
+可以混用 <span className="text-fd-primary font-semibold">带 className 的 span</span>、<kbd>Ctrl</kbd> + <kbd>K</kbd>、<u>下划线</u>、H<sub>2</sub>O、E = mc<sup>2</sup>。
+
+<details open>
+  <summary>展开区域 summary</summary>
+
+  这里是 `<details>` 内部内容，里面仍然可以写 **Markdown 加粗** 和列表：
+
+  - 第一项
+  - 第二项
+</details>
+
+## 表格
+
+| 能力 | 写法 | 当前效果 |
+| --- | --- | --- |
+| Markdown 表格 | `table syntax` | 由 Fumadocs 包装成可横向滚动表格 |
+| 大写 JSX 组件 | `<Cards>` / `<Card>` | .mdx 跳过兼容清洗后应作为组件渲染 |
+| 字符串属性 | `className="..."` | 可渲染 |
+| 花括号表达式 | `style={{ color: 'red' }}` | .mdx 跳过兼容清洗后应保留 JSX 表达式 |
+
+## 图片
+
+![C40PL](../../../rv1126_img/C40PL/c40pl.jpg)
+
+## 锚点
+
+<a id="mdx-sandbox-anchor"></a>
+
+可以跳到 [本页锚点](#mdx-sandbox-anchor)，也可以跳到 [C40PL 快速开始](/docs/products/ai-camera/C40PL/getting-started/started)。
+
+## 代码块
+
+```mdx
+<div className="not-prose rounded-lg border border-fd-border p-4">
+  小写 HTML/JSX 标签可以在当前源文档链路里渲染。
+</div>
+```
