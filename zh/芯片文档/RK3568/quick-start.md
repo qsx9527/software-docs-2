@@ -28,3 +28,62 @@
 首先准备一个空文件夹用于存放 SDK，建议在 home 目录下，本文以`~/proj`为例
 
 <span style={{ color: 'red', fontWeight: 700 }}>不要在虚拟机共享文件夹以及非英文目录存放、解压SDK，避免产生不必要的错误</span>
+
+
+颜色使用示例：
+---
+title: 颜色使用示例
+description: Fumadocs MDX 中颜色与样式的使用演示
+---
+
+# 颜色使用示例
+
+## 1. 基础文本颜色（推荐使用 Tailwind）
+
+<span className="text-red-500">这是红色文字</span>  
+<span className="text-blue-600">这是蓝色文字</span>  
+<span className="text-green-500 font-bold">这是绿色加粗文字</span>  
+<span className="text-purple-600">紫色文字</span>  
+<span className="text-orange-500">橙色文字</span>
+
+## 2. 背景颜色 + 文字
+
+<div className="bg-red-100 text-red-700 p-4 rounded-md">
+  这是一个红色背景的警告框
+</div>
+
+<div className="bg-blue-100 text-blue-700 p-4 rounded-md mt-4">
+  这是一个蓝色背景的信息框
+</div>
+
+## 3. 使用 Fumadocs 内置 Callout 组件（更美观）
+
+<Callout type="info">
+  这是一条普通信息（蓝色调）
+</Callout>
+
+<Callout type="warning">
+  这是一条警告（橙黄色调）
+</Callout>
+
+<Callout type="danger">
+  这是一条危险/错误提示（红色调）
+</Callout>
+
+<Callout type="success">
+  这是一条成功提示（绿色调）
+</Callout>
+
+## 4. 更多高级用法
+
+<span className="text-red-500 hover:text-red-700 transition-colors cursor-pointer">
+  悬停时颜色会加深
+</span>
+
+**粗体红色**：<span className="text-red-600 font-bold">重要内容</span>
+
+---
+
+**提示**：  
+Fumadocs 默认集成 Tailwind CSS，你可以直接使用所有 Tailwind 颜色类（`text-red-500`、`bg-emerald-600` 等）。  
+想查看更多颜色可选项，可前往：[Fumadocs UI 文档](https://www.fumadocs.dev/docs/ui)
