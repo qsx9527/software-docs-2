@@ -17,18 +17,14 @@
 
 本章介绍 Linux SDK 的编译环境搭建
 
-<div style={{ color: 'red' }}>
-
-**注意：**
-
-**（1）推荐在 X86_64 Ubuntu 18.04 系统环境下进行开发，若使用其它系统版本，可能需要对编译环境做相应调整。**
-
-**（2）使用普通用户进行编译，不要使用 root 用户权限进行编译。**
-
+<div className="not-prose rounded-lg border border-red-500/20 bg-red-500/5 p-4 text-red-600 dark:text-red-400">
+  <p className="m-0 font-bold text-red-700 dark:text-red-300">注意：</p>
+  <p className="m-0 mt-2 font-medium">（1）推荐在 X86_64 Ubuntu 18.04 系统环境下进行开发，若使用其它系统版本，可能需要对编译环境做相应调整。</p>
+  <p className="m-0 mt-1 font-medium">（2）使用普通用户进行编译，不要使用 root 用户权限进行编译。</p>
 </div>
 
 ### 获取 SDK
 
 首先准备一个空文件夹用于存放 SDK，建议在 home 目录下，本文以`~/proj`为例
 
-<span style={{ color: 'red' }}>**不要在虚拟机共享文件夹以及非英文目录存放、解压SDK，避免产生不必要的错误**</span>
+<span style={{ color: 'red', fontWeight: 700 }}>不要在虚拟机共享文件夹以及非英文目录存放、解压SDK，避免产生不必要的错误</span>
