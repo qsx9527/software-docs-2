@@ -6,3 +6,4 @@
 - 芯片目录：`RK3568`
 - 测试文档：`quick-start.md`
 - [Introduction](quick-start.md)
+- [Introduction2](quick-start2.md)
