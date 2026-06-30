@@ -1,6 +1,6 @@
 # RK3568 快速开始占位文档
 
-<span style="color: red; font-weight: 700;">这是一份虚拟文档，用于测试 `qsx9527/software-docs-2` 仓库的手动拉取流程。</span>
+这是一份虚拟文档，用于测试 `qsx9527/software-docs-2` 仓库的手动拉取流程。
 
 ## 验证信息
 
