@@ -1,3 +1,7 @@
+
+
+CORE-1126BJD4 有 8 组 GPIO bank：GPIO0~GPIO7，每组又以 A0~A7, B0~B7, C0~C7, D0~D7 作为编号区分，常用以下公式计算引脚：
+
 # RK3588 የፈጣን ጅምር ቦታ ያዥ ሰነድ
 
 ይህ የ `qsx9527/software-docs-2` ማከማቻ (repository) በእጅ የማውረድ (manual pull) ሂደትን ለመፈተሽ የተዘጋጀ ምናባዊ ሰነድ ነው።
