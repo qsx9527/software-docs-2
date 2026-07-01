@@ -1,24 +1,25 @@
-# RK3588 快速开始占位文档
+# RK3588 የፈጣን ጅምር ቦታ ያዥ ሰነድ
 
-这是一份虚拟文档，用于测试 `qsx9527/software-docs-2` 仓库的手动拉取流程。
+ይህ የ `qsx9527/software-docs-2` ማከማቻ (repository) በእጅ የማውረድ (manual pull) ሂደትን ለመፈተሽ የተዘጋጀ ምናባዊ ሰነድ ነው።
 
-## 验证信息
+## የማረጋገጫ መረጃ
 
-- 远端仓库：`https://github.com/qsx9527/software-docs-2.git`
-- 测试分支：`test/placeholder-docs`
-- 文档路径：`zh/芯片文档/RK3588/quick-start.md`
+* የርቀት ማከማቻ (Remote repository): `[https://github.com/qsx9527/software-docs-2.git](https://github.com/qsx9527/software-docs-2.git)`
+* የሙከራ ቅርንጫፍ (Test branch): `test/placeholder-docs`
+* የሰነድ መንገድ (Document path): `zh/芯片文档/RK3588/quick-start.md`
 
-看到这段内容，说明中文 RK3588 测试文档已经被拉取。
+ይህንን ይዘት ማየት የቻይንኛ RK3588 የሙከራ ሰነድ በተሳካ ሁኔታ መውረዱን ያሳያል።
 
+እዚህ ላይ፣ የማመሳከሪያ ሊንክ ዝላይን (reference jump) መሞከር፦ [የ AIO-8550JD4 መቅድም ይመልከቱ](https://www.google.com/search?q=/docs/products/mainboards/AIO-8550JD4/aio-8550jd4/preface)
 
-在这里，尝试一下引用跳转[查看 AIO-8550JD4 前言](/docs/products/mainboards/AIO-8550JD4/aio-8550jd4/preface)
+እዚህ ላይ ድርብ ካሬ ቅንፎችን (double brackets) መሞከር፦
 
-这里尝试双中括号 
-* [[开发使用文档]](../RK3568/index.md) 
+* [[የልማት አጠቃቀም ሰነድ]](https://www.google.com/search?q=../RK3568/index.md)
 
-这里尝试单中括号 
-* [开发使用文档](../RK3568/index.md) 
+እዚህ ላይ ነጠላ ካሬ ቅንፍ (single bracket) መሞከር፦
 
+* [የልማት አጠቃቀም ሰነድ](https://www.google.com/search?q=../RK3568/index.md)
 
-这里尝试三中括号 
-* [[[开发使用文档]]](../RK3568/index.md) 
+እዚህ ላይ ሶስት እጥፍ ካሬ ቅንፎችን (triple brackets) መሞከር፦
+
+* [[[የልማት አጠቃቀም ሰነድ]]](https://www.google.com/search?q=../RK3568/index.md)
