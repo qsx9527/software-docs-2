@@ -4,6 +4,12 @@ description: 尝试解释
 icon: Album
 ---
 
+[安装驱动](quick-start#የማረጋገጫ-መረጃ)
+[安装驱动](#የማረጋገጫ-መረጃ)
+[安装驱动](docs/server/chip-docs/RK3588/quick-start#የማረጋገጫ-መረጃ)
+
+quick-start#የማረጋገጫ-መረጃ
+
 CORE-1126BJD4 有 8 组 GPIO bank：GPIO0~GPIO7，每组又以 A0~A7, B0~B7, C0~C7, D0~D7 作为编号区分，常用以下公式计算引脚
 
 CORE-1126BJD4 有 8 组 GPIO bank：`GPIO0~GPIO7`，每组又以 `A0~A7`, `B0~B7`, `C0~C7`, `D0~D7` 作为编号区分，常用以下公式计算引脚
