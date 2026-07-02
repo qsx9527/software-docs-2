@@ -7,6 +7,7 @@ icon: Album
 [安装驱动](quick-start#የማረጋገጫ-መረጃ)
 [安装驱动](#የማረጋገጫ-መረጃ)
 [安装驱动](docs/server/chip-docs/RK3588/quick-start#የማረጋገጫ-መረጃ)
+[安装驱动](/docs/server/chip-docs/RK3588/quick-start#የማረጋገጫ-መረጃ)
 
 quick-start#የማረጋገጫ-መረጃ
 
