@@ -1,4 +1,9 @@
 
+---
+title: 入门介绍
+description: 尝试解释
+icon: Album
+---
 
 CORE-1126BJD4 有 8 组 GPIO bank：GPIO0~GPIO7，每组又以 A0~A7, B0~B7, C0~C7, D0~D7 作为编号区分，常用以下公式计算引脚
 
