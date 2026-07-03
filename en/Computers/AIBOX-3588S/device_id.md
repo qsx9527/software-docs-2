@@ -1,3 +1,8 @@
+---
+title: "Device ID"
+description: "AIBOX-3588S Device ID documentation."
+---
+
 # Device ID
 ## View Device ID
 

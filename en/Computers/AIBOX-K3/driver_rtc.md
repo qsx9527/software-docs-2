@@ -1,3 +1,8 @@
+---
+title: "RTC"
+description: "AIBOX-K3 RTC documentation."
+---
+
 # RTC
  
 The AIBOX-K3 development board has the `HYM8563` RTC (Real Time Clock) chip, which can keep the clock running through the button battery even when the development board is powered off.

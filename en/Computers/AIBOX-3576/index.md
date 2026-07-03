@@ -1,3 +1,8 @@
+---
+title: "AIBOX-3576"
+description: "AIBOX-3576 computer documentation navigation."
+---
+
 # AIBOX-3576
 - [Preface](preface.md)
 # User Manual

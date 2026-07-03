@@ -1,3 +1,8 @@
+---
+title: "Sophon Sail"
+description: "AIBOX-1684 Sophon Sail 文档。"
+---
+
 # Sophon Sail
 
 Sophon Sail 对 SophonSDK 中的 BMLib、BMDecoder、BMCV、BMRuntime 进行了封装，将 SophonSDK 中原有的“加载 bmodel 并驱动 TPU 推理”、“驱动 TPU 做图像处理”、“驱动 VPU 做图像和视频解码”等功能抽象成更为简单的 C++ 接口对外提供；并且使用 pybind11 再次封装，提供简洁易用的 python 接口。

@@ -1,3 +1,8 @@
+---
+title: "LED Usage"
+description: "AIBOX-186 LED Usage documentation."
+---
+
 # LED Usage
 
 There are 2 LEDs on the AIBOX-186 board:

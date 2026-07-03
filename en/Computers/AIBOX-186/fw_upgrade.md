@@ -1,3 +1,8 @@
+---
+title: "Firmware Upgrade"
+description: "AIBOX-186 Firmware Upgrade documentation."
+---
+
 # Firmware Upgrade
 
 AIBOX-186 uses a TF card to upgrade the firmware, and users must strictly follow the steps below.

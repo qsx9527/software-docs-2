@@ -1,3 +1,8 @@
+---
+title: "WIFI"
+description: "AIBOX-1684 WIFI documentation."
+---
+
 # WIFI
 
 AIBOX-1684 supports wireless WIFI, and the network card name in the system defaults to `wlan0`:

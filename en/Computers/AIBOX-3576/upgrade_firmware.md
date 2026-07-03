@@ -1,3 +1,8 @@
+---
+title: "Upgrade the firmware via USB cable"
+description: "AIBOX-3576 Upgrade the firmware via USB cable documentation."
+---
+
 # Upgrade the firmware via USB cable
 
 ## Introduction

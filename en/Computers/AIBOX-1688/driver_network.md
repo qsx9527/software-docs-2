@@ -1,3 +1,8 @@
+---
+title: "NETWORK Usage"
+description: "AIBOX-1688 NETWORK Usage documentation."
+---
+
 # NETWORK Usage
 AIBOX-1688 has three types of networks:
 * Cellular Network (4G/5G)

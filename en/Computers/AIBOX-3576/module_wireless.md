@@ -1,3 +1,8 @@
+---
+title: "Communication Module"
+description: "AIBOX-3576 Communication Module documentation."
+---
+
 # Communication Module
 
 

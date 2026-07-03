@@ -1,3 +1,8 @@
+---
+title: "HDMI 显示测试"
+description: "AIBOX-186 HDMI 显示测试文档。"
+---
+
 # HDMI 显示测试
 
 AIBOX-186  支持标准的 HDMI2.0 输出。

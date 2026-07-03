@@ -1,3 +1,7 @@
+---
+title: "Serial port module"
+description: "AIBOX-3576 Serial port module documentation."
+---
 
 # Serial port module
 

@@ -1,3 +1,8 @@
+---
+title: "USB Drive, TF Card, SSD Mounting"
+description: "AIBOX-186 USB Drive, TF Card, SSD Mounting documentation."
+---
+
 # USB Drive, TF Card, SSD Mounting
 AIBOX-186 supports a range of storage device interfaces (PCIE, SATA, USB, TF card).
 

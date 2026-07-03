@@ -1,3 +1,8 @@
+---
+title: "Bluetooth"
+description: "AIBOX-186 Bluetooth documentation."
+---
+
 # Bluetooth
 
 The AIBOX-186 supports wireless Bluetooth and can display Bluetooth device information via the `hciconfig -a` command:

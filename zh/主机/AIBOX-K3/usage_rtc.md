@@ -1,3 +1,8 @@
+---
+title: "RTC"
+description: "AIBOX-K3 RTC 文档。"
+---
+
 # RTC
 
 ## 简介

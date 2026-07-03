@@ -1,3 +1,8 @@
+---
+title: "Interface Introduction"
+description: "AIBOX-K3 Interface Introduction documentation."
+---
+
 # Interface Introduction
 
 The BOARD with space features a rich array of interfaces, including:

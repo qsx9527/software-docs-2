@@ -1,3 +1,8 @@
+---
+title: "前言"
+description: "AIBOX-1684X 前言文档。"
+---
+
 # 前言
 
 ## 概述

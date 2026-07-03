@@ -1,3 +1,8 @@
+---
+title: "PWM 使用"
+description: "AIBOX-K3 PWM 使用文档。"
+---
+
 # PWM 使用
 AIBOX-K3 开发板上对外只引出一个 PWM（FAN）, 但 K3-COM260 的金手指引出了多路 PWM， 在控制台下运行 PMW 读写命令或者自行在内核态或者用户态编写 PWM 读写程序，
 就可以对 PWM 进行输入输出操作;

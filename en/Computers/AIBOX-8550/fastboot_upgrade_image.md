@@ -1,3 +1,8 @@
+---
+title: "Upgrade Partition Image"
+description: "AIBOX-8550 Upgrade Partition Image documentation."
+---
+
 # Upgrade Partition Image
 
 ## Enter Bootloader Mode

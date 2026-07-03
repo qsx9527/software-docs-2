@@ -1,3 +1,8 @@
+---
+title: "Get Started"
+description: "AIBOX-1688 Get Started documentation."
+---
+
 # Get Started
 
 ## Power On

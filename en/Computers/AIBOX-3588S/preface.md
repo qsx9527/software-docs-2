@@ -1,3 +1,8 @@
+---
+title: "Preface"
+description: "AIBOX-3588S Preface documentation."
+---
+
 # Preface
 
 ## Overview

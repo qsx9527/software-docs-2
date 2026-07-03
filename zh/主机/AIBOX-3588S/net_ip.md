@@ -1,3 +1,8 @@
+---
+title: "网络 IP 配置"
+description: "AIBOX-3588S 网络 IP 配置文档。"
+---
+
 # 网络 IP 配置
 
 ## Ubuntu 系统

@@ -1,3 +1,8 @@
+---
+title: "Cellular Network"
+description: "AIBOX-186 Cellular Network documentation."
+---
+
 # Cellular Network
 
 AIBOX-186 supports 4G LTE. In the system settings, there are various network forms, and you can turn on the data traffic switch here:

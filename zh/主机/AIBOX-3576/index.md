@@ -1,3 +1,8 @@
+---
+title: "AIBOX-3576"
+description: "AIBOX-3576 主机产品文档导航。"
+---
+
 # AIBOX-3576
 - [前言](preface.md)
 # 使用手册

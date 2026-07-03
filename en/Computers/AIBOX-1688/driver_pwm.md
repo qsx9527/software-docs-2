@@ -1,3 +1,8 @@
+---
+title: "PWM Usage"
+description: "AIBOX-1688 PWM Usage documentation."
+---
+
 # PWM Usage
 The AIO-1688JD4 development board only exposes one PWM (FAN) externally, but the AIBOX-1688's gold fingers expose multiple PWMs. By running PMW read/write commands in the console or writing PWM read/write programs in kernel or user mode, you can perform input and output operations on the PWM.
 

@@ -1,3 +1,8 @@
+---
+title: "Sophon SDK development"
+description: "AIBOX-1684X Sophon SDK development documentation."
+---
+
 # Sophon SDK development
 
 ## Sophon SDK

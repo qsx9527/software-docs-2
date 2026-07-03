@@ -1,3 +1,8 @@
+---
+title: "Check if miniforge3 and conda are installed. If already installed, this step can be skipped."
+description: "AIBOX-3588 Check if miniforge3 and conda are installed. If already installed, this step can be skipped. documentation."
+---
+
 AIBOX-3588 supports the deployment of a range of mainstream artificial intelligence algorithms, including but not limited to the following categories of algorithms:
 
 | sample                                                                                                | category	                 |

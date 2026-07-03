@@ -1,3 +1,8 @@
+---
+title: "GPIO 使用"
+description: "AIBOX-3588 GPIO 使用文档。"
+---
+
 # GPIO 使用
 
 

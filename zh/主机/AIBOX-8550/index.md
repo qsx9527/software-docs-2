@@ -1,3 +1,8 @@
+---
+title: "AIBOX-8550"
+description: "AIBOX-8550 主机产品文档导航。"
+---
+
 # AIBOX-8550
 - [前言](preface.md)
 # 上手教程

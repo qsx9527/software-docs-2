@@ -1,3 +1,8 @@
+---
+title: "Fan Operation Strategy"
+description: "AIBOX-186 Fan Operation Strategy documentation."
+---
+
 # Fan Operation Strategy
 
 AIBOX-186 fan operation is divided into 4 levels:

@@ -1,2 +1,7 @@
+---
+title: "CAN 使用"
+description: "AIBOX-3588 CAN 使用文档。"
+---
+
 ## CAN
 CAN 接口的使用可直接参考 AIBOX-3588 维基页面的《[CAN 使用](https://wiki.t-firefly.com/CORE-3588JD4/driver_can.html#can-jian-jie)》部分

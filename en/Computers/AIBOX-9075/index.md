@@ -1,3 +1,8 @@
+---
+title: "AIBOX-9075"
+description: "AIBOX-9075 computer documentation navigation."
+---
+
 # AIBOX-9075
 - [Preface](preface.md)
 # Quick Start

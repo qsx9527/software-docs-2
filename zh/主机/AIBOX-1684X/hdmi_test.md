@@ -1,3 +1,8 @@
+---
+title: "HDMI 显示测试"
+description: "AIBOX-1684X HDMI 显示测试文档。"
+---
+
 # HDMI 显示测试
 
 AIBOX-1684X 不带有显卡芯片，且主控 HDMI 输出部分并没有使用标准的 framebuffer 驱动，出厂情况下接入 HDMI 是没有显示的。

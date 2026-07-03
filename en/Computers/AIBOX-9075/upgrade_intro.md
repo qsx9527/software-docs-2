@@ -1,3 +1,8 @@
+---
+title: "Before Upgrade"
+description: "AIBOX-9075 Before Upgrade documentation."
+---
+
 # Before Upgrade
 
 ## Intro

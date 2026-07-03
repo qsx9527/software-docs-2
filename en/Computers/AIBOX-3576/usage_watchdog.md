@@ -1,3 +1,8 @@
+---
+title: "Watchdog"
+description: "AIBOX-3576 Watchdog documentation."
+---
+
 # Watchdog
 
 AIBOX-3576 comes with an external watchdog.The device names for the external watchdogs is `/dev/wdt_core`. For example, using `/dev/wdt_core`, the procedure is as follows:

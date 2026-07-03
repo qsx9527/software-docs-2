@@ -1,3 +1,8 @@
+---
+title: "Before Upgrade"
+description: "AIBOX-8550 Before Upgrade documentation."
+---
+
 # Before Upgrade
 
 ## Intro

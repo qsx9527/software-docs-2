@@ -1,3 +1,8 @@
+---
+title: "LED 使用"
+description: "AIBOX-1688 LED 使用文档。"
+---
+
 # LED 使用
 
 AIO-1688JD4 开发板上有 2 个 LED 灯（[如图所示](interface_definition.html#zheng-ji-jie-kou-ding-yi) ）:

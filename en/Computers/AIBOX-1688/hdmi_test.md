@@ -1,3 +1,8 @@
+---
+title: "HDMI Display Test"
+description: "AIBOX-1688 HDMI Display Test documentation."
+---
+
 # HDMI Display Test
 
 AIBOX-1688 supports standard HDMI2.0 output.

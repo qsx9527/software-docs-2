@@ -1,3 +1,8 @@
+---
+title: "Serial module"
+description: "AIBOX-9075 Serial module documentation."
+---
+
 # Serial module
 
 ## [USB to TTL serial module](https://www.firefly.store/products/usb-to-uart-module-cp2104)

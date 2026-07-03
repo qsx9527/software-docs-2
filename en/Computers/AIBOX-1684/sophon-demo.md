@@ -1,3 +1,8 @@
+---
+title: "AI algorithm deployment"
+description: "AIBOX-1684 AI algorithm deployment documentation."
+---
+
 # AI algorithm deployment
 
 AIBOX-1684 has a comprehensive local private deployment capability of AI algorithms, whether it is a novel large language model with high computing requirements, or a classic YOLOv5 object detection model, AIBOX-1684 can be competent.

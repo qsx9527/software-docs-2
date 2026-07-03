@@ -1,3 +1,8 @@
+---
+title: "AIBOX-9075"
+description: "AIBOX-9075 主机产品文档导航。"
+---
+
 # AIBOX-9075
 - [前言](preface.md)
 # 上手教程

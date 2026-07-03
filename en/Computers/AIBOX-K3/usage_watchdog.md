@@ -1,3 +1,8 @@
+---
+title: "Watchdog"
+description: "AIBOX-K3 Watchdog documentation."
+---
+
 # Watchdog
 
 AIBOX-K3 comes with an external watchdog.The device names for the external watchdogs is `/dev/wdt_base`. For example, using `/dev/wdt_base`, the procedure is as follows:

@@ -1,3 +1,8 @@
+---
+title: "检查是否安装 miniforge3 和 conda 版本信息，若已安装则可省略此小节步骤。"
+description: "AIBOX-3576 检查是否安装 miniforge3 和 conda 版本信息，若已安装则可省略此小节步骤。文档。"
+---
+
 AIBOX-3576支持一系列主流人工智能算法的部署，支持但不限于以下算法类別：
 
 | sample                                                                                                | 算法类别	       |

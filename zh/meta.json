@@ -3,6 +3,7 @@
   "description": "用于验证 software-docs-2 根目录 meta.json 的分类排序、描述和图标。",
   "icon": "FolderTree",
   "pages": [
+    "主机",
     "芯片文档"
   ],
   "defaultOpen": true,

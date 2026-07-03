@@ -1,3 +1,8 @@
+---
+title: "Network IP configuration"
+description: "AIBOX-1684X Network IP configuration documentation."
+---
+
 # Network IP configuration
 
 

@@ -1,3 +1,8 @@
+---
+title: "RTC 教程"
+description: "AIBOX-8550 RTC 教程文档。"
+---
+
 # RTC 教程
 
 AIBOX-8550 搭载有 RTC (Real Time Clock) 芯片。

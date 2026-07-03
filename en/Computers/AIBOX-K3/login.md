@@ -1,3 +1,8 @@
+---
+title: "Login"
+description: "AIBOX-K3 Login documentation."
+---
+
 # Login
 
 There are two ways to login to AIBOX-K3, one is via Console (Debug serial), the other is via HDMI.

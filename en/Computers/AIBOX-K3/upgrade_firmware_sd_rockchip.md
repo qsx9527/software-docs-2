@@ -1,3 +1,8 @@
+---
+title: "Upgrade the firmware via SD card"
+description: "AIBOX-K3 Upgrade the firmware via SD card documentation."
+---
+
 # Upgrade the firmware via SD card
 
 ## Introduction

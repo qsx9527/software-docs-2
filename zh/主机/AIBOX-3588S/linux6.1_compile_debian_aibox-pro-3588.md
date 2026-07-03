@@ -1,3 +1,8 @@
+---
+title: "解压"
+description: "AIBOX-3588S 解压文档。"
+---
+
 ### rootfs
 * 下载根文件系统：[Debian 根文件系统(64位) Kernel6.1](https://www.t-firefly.com/doc/download/290.html)，请使用网盘中 kernel-6.1 目录下的文件系统。
 * 解压 rootfs 并链接 rootfs

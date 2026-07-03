@@ -1,3 +1,8 @@
+---
+title: "AIBOX-8550"
+description: "AIBOX-8550 computer documentation navigation."
+---
+
 # AIBOX-8550
 - [Preface](preface.md)
 # Quick Start

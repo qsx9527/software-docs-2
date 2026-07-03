@@ -1,3 +1,8 @@
+---
+title: "Compiling BSP"
+description: "AIBOX-1688 Compiling BSP documentation."
+---
+
 # Compiling BSP
 
 ## Introduction

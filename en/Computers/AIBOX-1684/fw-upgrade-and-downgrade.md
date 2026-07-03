@@ -1,3 +1,8 @@
+---
+title: "Upgrade and downgrade between old and new firmware"
+description: "AIBOX-1684 Upgrade and downgrade between old and new firmware documentation."
+---
+
 # Upgrade and downgrade between old and new firmware
 
 WARNING:

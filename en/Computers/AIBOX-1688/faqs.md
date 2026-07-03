@@ -1,3 +1,8 @@
+---
+title: "FAQs"
+description: "AIBOX-1688 FAQs documentation."
+---
+
 # FAQs
 
 ## SDK Release

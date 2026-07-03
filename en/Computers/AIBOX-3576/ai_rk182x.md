@@ -1,3 +1,8 @@
+---
+title: "RK1820/RK1828"
+description: "AIBOX-3576 RK1820/RK1828 documentation."
+---
+
 # RK1820/RK1828 
 
 * RK3588 Soc(Host) : As the core of the system, responsible for task scheduling, resource allocation, and overall control.

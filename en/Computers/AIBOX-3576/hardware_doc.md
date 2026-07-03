@@ -1,2 +1,7 @@
+---
+title: "Hardware documents"
+description: "AIBOX-3576 Hardware documents documentation."
+---
+
 # Hardware documents
 * [Product specification.pdf](https://download.t-firefly.com/%E4%BA%A7%E5%93%81%E8%A7%84%E6%A0%BC%E6%96%87%E6%A1%A3/%E5%B5%8C%E5%85%A5%E5%BC%8F%E4%B8%BB%E6%9C%BA/AIBOX-3576%26AIBOX-3588_6T%20Large%20Model%20AI%20Box_Product%20Introduction.pdf)

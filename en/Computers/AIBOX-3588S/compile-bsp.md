@@ -1,3 +1,8 @@
+---
+title: "Compile BSP"
+description: "AIBOX-3588S Compile BSP documentation."
+---
+
 # Compile BSP
 
 ## Introduction

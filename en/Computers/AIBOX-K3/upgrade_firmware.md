@@ -1,3 +1,8 @@
+---
+title: "Upgrading Firmware Using a USB Cable"
+description: "AIBOX-K3 Upgrading Firmware Using a USB Cable documentation."
+---
+
 # Upgrading Firmware Using a USB Cable
 
 ## Introduction

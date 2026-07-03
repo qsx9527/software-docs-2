@@ -1,3 +1,8 @@
+---
+title: "Artificial Intelligence Algorithm Deployment Routine"
+description: "AIBOX-1688 Artificial Intelligence Algorithm Deployment Routine documentation."
+---
+
 # Artificial Intelligence Algorithm Deployment Routine
 
 AIBOX-1688X has comprehensive capabilities for local private deployment of artificial intelligence algorithms. Whether it's a novel, high-computational-demand large language model or the classic YOLOv5 object detection model, AIBOX-1688X can handle both.

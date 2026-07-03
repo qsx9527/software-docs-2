@@ -1,3 +1,8 @@
+---
+title: "Enter EDL Mode"
+description: "AIBOX-8550 Enter EDL Mode documentation."
+---
+
 1. The device should disconnect all power supply.
 
 2. Use Type-A to Tyep-C USB cable to connected device's download port with PC.

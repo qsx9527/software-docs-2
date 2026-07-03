@@ -1,0 +1,32 @@
+{
+  "title": "AIBOX-9075",
+  "description": "AIBOX-9075 主机产品文档。",
+  "pagesIndex": "preface",
+  "pages": [
+    "preface",
+    "intro",
+    "start",
+    "debug",
+    "usage_npu",
+    "usage_video",
+    "usage_serial",
+    "usage_watchdog",
+    "usage_rtc",
+    "linux_compile",
+    "upgrade_intro",
+    "qfil_upgrade_firmware",
+    "interface_definition",
+    "product_size",
+    "faqs",
+    "fastboot_upgrade_image",
+    "module_camera",
+    "module_serial",
+    "module_wireless",
+    "ref",
+    "upgrade_firmware_enter_edl",
+    "usage_audio",
+    "usage_camera"
+  ],
+  "defaultOpen": true,
+  "collapsible": true
+}

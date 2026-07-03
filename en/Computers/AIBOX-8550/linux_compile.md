@@ -1,3 +1,8 @@
+---
+title: "Linux Compile"
+description: "AIBOX-8550 Linux Compile documentation."
+---
+
 # Linux Compile
 
 This tutorial introduces how to compile programs for AIBOX-8550.

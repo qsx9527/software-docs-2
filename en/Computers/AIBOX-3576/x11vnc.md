@@ -1,3 +1,8 @@
+---
+title: "Remote Desktop X11VNC"
+description: "AIBOX-3576 Remote Desktop X11VNC documentation."
+---
+
 # Remote Desktop X11VNC
 
 x11vnc is a tool that allows administrators to connect to the server's real X desktop directly through the VNC Viewer.

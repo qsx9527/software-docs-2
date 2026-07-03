@@ -1,3 +1,8 @@
+---
+title: "CAMERA Usage"
+description: "AIBOX-186 CAMERA Usage documentation."
+---
+
 # CAMERA Usage
 
 The AIBOX-186 features 3 `MIPI CSI` interfaces (1*4 lanes / 2*2 lanes), with a single sensor supporting a maximum of 8K@15fps linear input or 12M@60fps HDR input.

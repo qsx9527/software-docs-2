@@ -1,3 +1,8 @@
+---
+title: "Interface Definition"
+description: "AIBOX-186 Interface Definition documentation."
+---
+
 # Interface Definition
 
 AIBOX-186 features rich interfaces.

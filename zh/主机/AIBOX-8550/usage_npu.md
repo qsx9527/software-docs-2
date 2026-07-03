@@ -1,3 +1,8 @@
+---
+title: "AI 教程"
+description: "AIBOX-8550 AI 教程文档。"
+---
+
 # AI 教程
 
 QCS8550 拥有 Hexagon 数据处理芯片(DSP)，里面包含用于处理 AI 计算的 NPU。

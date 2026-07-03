@@ -1,3 +1,8 @@
+---
+title: "Use TF card to upgrade firmware"
+description: "AIBOX-3588 Use TF card to upgrade firmware documentation."
+---
+
 # Use TF card to upgrade firmware
 
 ## Preparation

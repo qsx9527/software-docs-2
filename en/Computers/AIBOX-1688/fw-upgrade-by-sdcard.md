@@ -1,3 +1,8 @@
+---
+title: "Upgrade System Firmware Using TF Card"
+description: "AIBOX-1688 Upgrade System Firmware Using TF Card documentation."
+---
+
 # Upgrade System Firmware Using TF Card
 
 ## Preparation

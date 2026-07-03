@@ -1,3 +1,8 @@
+---
+title: "看门狗"
+description: "AIBOX-3576 看门狗文档。"
+---
+
 # 看门狗
 
 AIBOX-3576的外部看门狗的设备名称是`/dev/wdt_core`，使用方法如下:

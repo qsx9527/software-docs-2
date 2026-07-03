@@ -1,3 +1,8 @@
+---
+title: "Boot mode description"
+description: "AIBOX-3588S Boot mode description documentation."
+---
+
 # Boot mode description
 
 ## Preface

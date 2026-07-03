@@ -1,0 +1,32 @@
+{
+  "title": "AIBOX-8550",
+  "description": "AIBOX-8550 computer product documentation.",
+  "pagesIndex": "preface",
+  "pages": [
+    "preface",
+    "intro",
+    "start",
+    "debug",
+    "usage_npu",
+    "usage_video",
+    "usage_audio",
+    "linux_compile",
+    "upgrade_intro",
+    "qfil_upgrade_firmware",
+    "fastboot_upgrade_image",
+    "interface_definition",
+    "product_size",
+    "faqs",
+    "module_camera",
+    "module_serial",
+    "module_wireless",
+    "ref",
+    "upgrade_firmware_enter_edl",
+    "usage_camera",
+    "usage_rtc",
+    "usage_serial",
+    "usage_watchdog"
+  ],
+  "defaultOpen": true,
+  "collapsible": true
+}

@@ -1,3 +1,8 @@
+---
+title: "Audio Usage"
+description: "AIBOX-8550 Audio Usage documentation."
+---
+
 # Audio Usage
 
 AIBOX-8550 has 1 I2S signal for HDMI audio playback.

@@ -1,3 +1,8 @@
+---
+title: "Serial port debugging"
+description: "AIBOX-1688 Serial port debugging documentation."
+---
+
 # Serial port debugging
 
 ## Using Type-C for serial port debugging

@@ -1,3 +1,8 @@
+---
+title: "Interface Definition"
+description: "AIBOX-9075 Interface Definition documentation."
+---
+
 # Interface Definition
 
 AIBOX-9075 provides these interfaces:

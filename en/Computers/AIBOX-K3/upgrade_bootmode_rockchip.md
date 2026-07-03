@@ -1,3 +1,8 @@
+---
+title: "Boot mode description"
+description: "AIBOX-K3 Boot mode description documentation."
+---
+
 # Boot mode description
 
 ## Preface

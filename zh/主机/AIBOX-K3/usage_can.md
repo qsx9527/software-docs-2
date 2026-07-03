@@ -1,2 +1,7 @@
+---
+title: "CAN 使用"
+description: "AIBOX-K3 CAN 使用文档。"
+---
+
 ## CAN
 CAN 接口的使用可直接参考 AIBOX-K3 维基页面的《[CAN 使用](https://wiki.t-firefly.com/K3-COM260/driver_can.html#can-jian-jie)》部分

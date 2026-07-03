@@ -1,3 +1,8 @@
+---
+title: "Interface definition"
+description: "AIBOX-1684X Interface definition documentation."
+---
+
 # Interface definition
 
 AIBOX-1684X has rich interfaces, mainly including:

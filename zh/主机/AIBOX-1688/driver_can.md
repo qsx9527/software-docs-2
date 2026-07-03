@@ -1,3 +1,8 @@
+---
+title: "CAN"
+description: "AIBOX-1688 CAN 文档。"
+---
+
 ## CAN 使用
 ### CAN 简介
 CAN(Controller Area Network)总线，即控制器局域网总线，是一种有效支持分布式控制或实时控制的串行通信网络。CAN总线是一种在汽车上广泛采用的总线协议，被设计作为汽车环境中的微控制器通讯。

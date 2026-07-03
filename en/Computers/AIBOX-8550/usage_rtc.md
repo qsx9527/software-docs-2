@@ -1,3 +1,8 @@
+---
+title: "RTC Usage"
+description: "AIBOX-8550 RTC Usage documentation."
+---
+
 # RTC Usage
 
 AIBOX-8550 has RTC chip.

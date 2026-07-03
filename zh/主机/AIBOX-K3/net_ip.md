@@ -1,3 +1,8 @@
+---
+title: "网络 IP 配置"
+description: "AIBOX-K3 网络 IP 配置文档。"
+---
+
 # 网络 IP 配置
 
 ## Ubuntu 系统

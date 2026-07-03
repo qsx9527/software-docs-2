@@ -1,3 +1,8 @@
+---
+title: "HDMI 显示测试"
+description: "AIBOX-3588S HDMI 显示测试文档。"
+---
+
 # HDMI 显示测试
 
 AIBOX-3588S  支持标准的 HDMI2.0 输出。

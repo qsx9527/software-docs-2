@@ -1,3 +1,8 @@
+---
+title: "看门狗"
+description: "AIBOX-K3 看门狗文档。"
+---
+
 # 看门狗
 
 AIBOX-K3的外部看门狗的设备名称是`/dev/wdt_base`，使用方法如下:

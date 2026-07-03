@@ -1,3 +1,8 @@
+---
+title: "RTC"
+description: "AIBOX-1684 RTC documentation."
+---
+
 # RTC
  
 The AIBOX-1684 development board has the `HYM8563` RTC (Real Time Clock) chip, which can keep the clock running through the button battery even when the development board is powered off.

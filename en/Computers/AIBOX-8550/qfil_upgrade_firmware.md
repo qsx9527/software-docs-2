@@ -1,3 +1,8 @@
+---
+title: "Upgrade Complete Firmware"
+description: "AIBOX-8550 Upgrade Complete Firmware documentation."
+---
+
 # Upgrade Complete Firmware
 
 ## Enter EDL (Emergency Download) mode

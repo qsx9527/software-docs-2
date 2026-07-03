@@ -1,3 +1,8 @@
+---
+title: "GPIO Usage"
+description: "AIBOX-186 GPIO Usage documentation."
+---
+
 # GPIO Usage
 
 The CV186AH chip includes 7 groups of GPIO controllers, each controlling 32 GPIOs, corresponding to the Linux device nodes as follows:

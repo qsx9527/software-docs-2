@@ -1,3 +1,8 @@
+---
+title: "First use"
+description: "AIBOX-1684X First use documentation."
+---
+
 # First use
 
 ## Power On

@@ -1,3 +1,8 @@
+---
+title: "RTC Usage"
+description: "AIBOX-1688 RTC Usage documentation."
+---
+
 # RTC Usage
 
 The AIO-1688JD4 development board has an RTC (Real Time Clock) chip `TT8563RH`, which can be used to set the system clock.

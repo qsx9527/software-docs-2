@@ -1,3 +1,8 @@
+---
+title: "编译 BSP"
+description: "AIBOX-1684X 编译 BSP文档。"
+---
+
 # 编译 BSP
 
 ## 介绍

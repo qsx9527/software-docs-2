@@ -1,3 +1,8 @@
+---
+title: "System firmware upgrade"
+description: "AIBOX-1684X System firmware upgrade documentation."
+---
+
 # System firmware upgrade
 
 If the system firmware is damaged due to improper operations or the system firmware version needs to be updated, perform the following operations to upgrade the system firmware of AIBOX-1684X.

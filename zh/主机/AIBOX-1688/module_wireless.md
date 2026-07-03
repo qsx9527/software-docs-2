@@ -1,3 +1,8 @@
+---
+title: "通信模组"
+description: "AIBOX-1688 通信模组文档。"
+---
+
 # 通信模组
 Firefly 支持的通信模组如下：
 

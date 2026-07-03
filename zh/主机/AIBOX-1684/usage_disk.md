@@ -1,3 +1,8 @@
+---
+title: "U 盘、TF 卡挂载"
+description: "AIBOX-1684 U 盘、TF 卡挂载文档。"
+---
+
 # U 盘、TF 卡挂载
 
 当插入 U 盘或者 TF 卡，存储设备会被识别为 `/dev/sdb1` 或 `/dev/mmcblkp1` 类似节点，与桌面 PC Linux 环境下相同。

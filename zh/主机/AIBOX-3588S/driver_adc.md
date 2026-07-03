@@ -1,3 +1,8 @@
+---
+title: "ADC 使用"
+description: "AIBOX-3588S ADC 使用文档。"
+---
+
 # ADC 使用
 AIBOX-3588S 开发板上并没有引出外部的 ADC, 但 CORE-3588SJD4 AI 的金手指引出了多路 ADC， 在控制台下运行 ADC 读写命令或者自行在内核态或者用户态编写 ADC 读写程序，就
 可以对 ADC 进行输入输出操作。

@@ -1,3 +1,8 @@
+---
+title: "WIFI"
+description: "AIBOX-K3 WIFI documentation."
+---
+
 # WIFI
 
 AIBOX-K3 supports wireless WIFI, and the network card name in the system defaults to `wlan0`:

@@ -1,3 +1,8 @@
+---
+title: "Enter EDL Mode"
+description: "AIBOX-9075 Enter EDL Mode documentation."
+---
+
 1. The device should disconnect all power supply.
 
 2. Use Type-A USB cable to connected device's download port with PC.

@@ -1,3 +1,8 @@
+---
+title: "Bluetooth"
+description: "AIBOX-K3 Bluetooth documentation."
+---
+
 # Bluetooth
 
 AIBOX-K3 supports wireless bluetooth, you can display the bluetooth device information through `hciconfig -a` command:

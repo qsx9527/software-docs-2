@@ -1,3 +1,8 @@
+---
+title: "MaskRom模式"
+description: "AIBOX-3588S MaskRom模式文档。"
+---
+
 # MaskRom模式
 
 ***有关启动模式的介绍，请参阅[《升级固件介绍》](upgrade_bootmode_rockchip.md)一章***

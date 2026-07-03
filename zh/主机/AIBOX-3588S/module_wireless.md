@@ -1,3 +1,8 @@
+---
+title: "通信模组"
+description: "AIBOX-3588S 通信模组文档。"
+---
+
 # 通信模组
 
 

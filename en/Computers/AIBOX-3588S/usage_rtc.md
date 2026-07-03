@@ -1,3 +1,8 @@
+---
+title: "RTC"
+description: "AIBOX-3588S RTC documentation."
+---
+
 # RTC
 
 ## Introduction

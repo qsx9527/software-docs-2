@@ -1,3 +1,8 @@
+---
+title: "Cellular Network"
+description: "AIBOX-3588S Cellular Network documentation."
+---
+
 # Cellular Network
 
 AIBOX-3588S supports 4G LTE. In system settings, there are multiple network options. You can enable mobile data here:

@@ -1,3 +1,8 @@
+---
+title: "AIBOX-1688"
+description: "AIBOX-1688 主机产品文档导航。"
+---
+
 # AIBOX-1688
 - [前言](preface.md)
 - [接口介绍](interface_definition.md)

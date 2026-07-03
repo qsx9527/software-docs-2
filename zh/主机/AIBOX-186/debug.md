@@ -1,3 +1,8 @@
+---
+title: "串口调试"
+description: "AIBOX-186 串口调试文档。"
+---
+
 # 串口调试
 
 ## 使用 Type-C 串口调试

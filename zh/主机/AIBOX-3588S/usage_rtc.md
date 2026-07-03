@@ -1,3 +1,8 @@
+---
+title: "RTC"
+description: "AIBOX-3588S RTC 文档。"
+---
+
 # RTC
 
 ## 简介

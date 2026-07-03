@@ -1,3 +1,8 @@
+---
+title: "Login"
+description: "AIBOX-1688 Login documentation."
+---
+
 # Login
 There are two ways to log in to AIBOX-1688: one is through Type-C, and the other is via network SSH.
 

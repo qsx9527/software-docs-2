@@ -1,3 +1,8 @@
+---
+title: "RTC Usage"
+description: "AIBOX-9075 RTC Usage documentation."
+---
+
 # RTC Usage
 
 AIBOX-9075 has RTC chip.

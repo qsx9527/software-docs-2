@@ -1,3 +1,8 @@
+---
+title: "Video Usage"
+description: "AIBOX-8550 Video Usage documentation."
+---
+
 # Video Usage
 
 AIBOX-8550 default video framework is Gstreamer.

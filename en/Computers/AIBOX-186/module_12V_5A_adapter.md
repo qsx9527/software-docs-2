@@ -1,3 +1,8 @@
+---
+title: "12V Power Adapter"
+description: "AIBOX-186 12V Power Adapter documentation."
+---
+
 # 12V Power Adapter
 
 ## Product Parameters

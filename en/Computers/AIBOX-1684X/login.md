@@ -1,3 +1,8 @@
+---
+title: "Login"
+description: "AIBOX-1684X Login documentation."
+---
+
 # Login
 
 There are two ways to login to AIBOX-1684X, one is via RS232, the other is via network SSH.

@@ -1,3 +1,8 @@
+---
+title: "LED"
+description: "AIBOX-3588 LED documentation."
+---
+
 # LED
 
 There are 2 LEDs on the AIBOX-3588 board:

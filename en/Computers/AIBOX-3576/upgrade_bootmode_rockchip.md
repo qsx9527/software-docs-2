@@ -1,3 +1,8 @@
+---
+title: "Boot mode description"
+description: "AIBOX-3576 Boot mode description documentation."
+---
+
 # Boot mode description
 
 ## Preface

@@ -1,3 +1,8 @@
+---
+title: "Network IP Configuration"
+description: "AIBOX-1688 Network IP Configuration documentation."
+---
+
 # Network IP Configuration
 
 ## Ubuntu System

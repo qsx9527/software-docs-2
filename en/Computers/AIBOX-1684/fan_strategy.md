@@ -1,3 +1,8 @@
+---
+title: "Fan working strategy"
+description: "AIBOX-1684 Fan working strategy documentation."
+---
+
 # Fan working strategy
 
 AIBOX-1684 fans work in 5 levels:

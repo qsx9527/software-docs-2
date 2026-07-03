@@ -1,3 +1,8 @@
+---
+title: "Synchronize SDK code"
+description: "AIBOX-3588S Synchronize SDK code documentation."
+---
+
 ## Documentation
 
 The following links contain the "Product Brief," "Datasheet," and "User Manual."

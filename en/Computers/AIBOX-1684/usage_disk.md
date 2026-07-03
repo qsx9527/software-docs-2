@@ -1,3 +1,8 @@
+---
+title: "USB drive, TF card mount"
+description: "AIBOX-1684 USB drive, TF card mount documentation."
+---
+
 # USB drive, TF card mount
 
 When a USB flash drive or TF card is inserted, the storage device will be recognized as a node similar to `/dev/sdb1` or `/dev/mmcblkp1`, which is the same as in the desktop PC Linux environment.

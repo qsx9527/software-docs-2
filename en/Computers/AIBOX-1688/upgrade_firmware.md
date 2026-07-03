@@ -1,3 +1,8 @@
+---
+title: "Firmware Update"
+description: "AIBOX-1688 Firmware Update documentation."
+---
+
 # Firmware Update
 
 ## Update SDK

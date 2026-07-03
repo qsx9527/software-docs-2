@@ -1,3 +1,8 @@
+---
+title: "Memory Allocation Adjustment"
+description: "AIBOX-186 Memory Allocation Adjustment documentation."
+---
+
 # Memory Allocation Adjustment
 
 A portion of the memory in AIBOX-186 is allocated to NPU, VPP, and VPU devices, so the memory data obtained using commands like `free -h` may not match the actual memory of the machine.

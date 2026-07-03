@@ -1,3 +1,8 @@
+---
+title: "AI 教程"
+description: "AIBOX-9075 AI 教程文档。"
+---
+
 # AI 教程
 
 ## AidLux 介绍

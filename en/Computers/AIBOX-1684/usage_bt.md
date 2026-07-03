@@ -1,3 +1,8 @@
+---
+title: "Bluetooth"
+description: "AIBOX-1684 Bluetooth documentation."
+---
+
 # Bluetooth
 
 AIBOX-1684 supports wireless bluetooth, you can display the bluetooth device information through `hciconfig -a` command:

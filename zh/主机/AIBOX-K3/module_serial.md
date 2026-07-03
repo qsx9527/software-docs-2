@@ -1,3 +1,7 @@
+---
+title: "串口模块"
+description: "AIBOX-K3 串口模块文档。"
+---
 
 # 串口模块
 

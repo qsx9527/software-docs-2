@@ -1,3 +1,8 @@
+---
+title: "AIBOX-1684X"
+description: "AIBOX-1684X computer documentation navigation."
+---
+
 # AIBOX-1684X
 - [Preface](preface.md)
 # Introduction

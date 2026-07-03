@@ -1,3 +1,8 @@
+---
+title: "Serial Port Module"
+description: "AIBOX-186 Serial Port Module documentation."
+---
+
 # Serial Port Module
 
 ## [USB to TTL Serial Port Module](https://store.t-firefly.com/goods.php?id=24)

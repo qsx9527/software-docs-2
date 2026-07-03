@@ -1,3 +1,8 @@
+---
+title: "AIBOX-3588S"
+description: "AIBOX-3588S 主机产品文档导航。"
+---
+
 # AIBOX-3588S
 - [前言](preface.md)
 # 使用手册

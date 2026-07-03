@@ -1,3 +1,8 @@
+---
+title: "硬件烧录模式"
+description: "AIBOX-3588 硬件烧录模式文档。"
+---
+
 # 硬件烧录模式
 
 ***有关启动模式的介绍，请参阅[《升级固件介绍》](upgrade_bootmode_spacemit.md)一章***

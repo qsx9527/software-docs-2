@@ -1,3 +1,8 @@
+---
+title: "NETWORK 使用"
+description: "AIBOX-3576 NETWORK 使用文档。"
+---
+
 # NETWORK 使用
 AIBOX-3576  一共有 三种网络：
 * 蜂窝网络（4G/5G）

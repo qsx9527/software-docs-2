@@ -1,3 +1,8 @@
+---
+title: "Interface definition"
+description: "AIBOX-3576 Interface definition documentation."
+---
+
 # Interface definition
 
 AIBOX-3576 has rich interfaces, mainly including:

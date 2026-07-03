@@ -1,3 +1,8 @@
+---
+title: "WIFI"
+description: "AIBOX-186 WIFI documentation."
+---
+
 # WIFI
 
 AIBOX-186 supports wireless WIFI, and the default name of the network card in the system is `wlanx` or `wlPxp1s0` (depending on different wifi modules). Taking `wlan0` as an example:

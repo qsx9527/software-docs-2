@@ -1,3 +1,8 @@
+---
+title: "AIBOX-186"
+description: "AIBOX-186 主机产品文档导航。"
+---
+
 # AIBOX-186
 - [前言](preface.md)
 - [接口介绍](interface_definition.md)

@@ -1,3 +1,8 @@
+---
+title: "Fan working strategy"
+description: "AIBOX-3588S Fan working strategy documentation."
+---
+
 # Fan working strategy
 
 AIBOX-3588S fans work in 4 levels:

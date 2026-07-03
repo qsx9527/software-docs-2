@@ -1,3 +1,8 @@
+---
+title: "Audio"
+description: "AIBOX-1688 Audio documentation."
+---
+
 # Audio
 AIBOX-1688 has two audio outputs and one audio input.
 

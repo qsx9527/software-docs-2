@@ -1,3 +1,8 @@
+---
+title: "Firmware upgrade"
+description: "AIBOX-3588 Firmware upgrade documentation."
+---
+
 # Firmware upgrade
 
 AIBOX-3588 uses TF card to upgrade firmware, users need to strictly follow the steps below.

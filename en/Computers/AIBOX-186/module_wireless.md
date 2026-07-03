@@ -1,3 +1,8 @@
+---
+title: "Wireless Modules"
+description: "AIBOX-186 Wireless Modules documentation."
+---
+
 # Wireless Modules
 The communication modules supported by Firefly are as follows:
 - [WXT14R2201 WiFi/BT Module](https://wiki.t-firefly.com/RTL8852BE/wxt14r2201.html)

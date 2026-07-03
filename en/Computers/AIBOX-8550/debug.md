@@ -1,3 +1,8 @@
+---
+title: "Debug Console"
+description: "AIBOX-8550 Debug Console documentation."
+---
+
 # Debug Console
 
 Debug serial port is very useful during debugging and troubleshooting, especially when the GUI is unavailable.

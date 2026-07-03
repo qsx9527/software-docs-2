@@ -1,3 +1,8 @@
+---
+title: "Interface Definition"
+description: "AIBOX-1688 Interface Definition documentation."
+---
+
 # Interface Definition
 
 AIBOX-1688 features rich interfaces.

@@ -1,3 +1,8 @@
+---
+title: "前言"
+description: "AIBOX-K3 前言文档。"
+---
+
 # 前言
 
 ## 概述

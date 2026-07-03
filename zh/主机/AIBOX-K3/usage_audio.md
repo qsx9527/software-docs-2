@@ -1,3 +1,8 @@
+---
+title: "Audio"
+description: "AIBOX-K3 Audio 文档。"
+---
+
 # Audio 
 AIBOX-K3 拥有两路音频输出以及一路音频输入。
 

@@ -1,3 +1,8 @@
+---
+title: "LED Usage"
+description: "AIBOX-1688 LED Usage documentation."
+---
+
 # LED Usage
 
 There are 2 LEDs on the AIBOX-1688 board:

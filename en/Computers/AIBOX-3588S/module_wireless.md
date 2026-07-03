@@ -1,3 +1,8 @@
+---
+title: "Communication Module"
+description: "AIBOX-3588S Communication Module documentation."
+---
+
 # Communication Module
 
 

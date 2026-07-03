@@ -1,3 +1,8 @@
+---
+title: "AIBOX-K3"
+description: "AIBOX-K3 computer documentation navigation."
+---
+
 # AIBOX-K3
 - [Preface](preface.md)
 # User Manual

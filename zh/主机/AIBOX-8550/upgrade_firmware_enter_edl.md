@@ -1,3 +1,8 @@
+---
+title: "进入 EDL 模式"
+description: "AIBOX-8550 进入 EDL 模式文档。"
+---
+
 1. 首先确认设备完全断开电源。
 
 2. 使用 Type-A 转 C USB 数据线 连接设备的 TypeC 口和电脑。

@@ -1,3 +1,8 @@
+---
+title: "升级分区镜像"
+description: "AIBOX-8550 升级分区镜像文档。"
+---
+
 # 升级分区镜像
 
 ## 进入 Bootloader 升级模式

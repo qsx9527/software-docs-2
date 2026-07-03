@@ -1,3 +1,8 @@
+---
+title: "GPIO Usage"
+description: "AIBOX-1688 GPIO Usage documentation."
+---
+
 # GPIO Usage
 
 The BM1684 chip contains 3 groups of GPIO controllers, each of which controls 32 GPIOs, which correspond to the Linux device nodes as follows:

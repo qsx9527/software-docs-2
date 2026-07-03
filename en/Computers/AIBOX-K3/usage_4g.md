@@ -1,3 +1,8 @@
+---
+title: "Cellular Network"
+description: "AIBOX-K3 Cellular Network documentation."
+---
+
 # Cellular Network
 
 AIBOX-K3 supports 4G LTE. In system settings, there are multiple network options. You can enable mobile data here:

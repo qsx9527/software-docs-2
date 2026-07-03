@@ -1,3 +1,8 @@
+---
+title: "使用USB线缆升级固件"
+description: "AIBOX-3576 使用USB线缆升级固件文档。"
+---
+
 # 使用USB线缆升级固件
 
 ## 前言

@@ -1,3 +1,8 @@
+---
+title: "固件更新"
+description: "AIBOX-186 固件更新文档。"
+---
+
 # 固件更新
 
 ## 更新 SDK

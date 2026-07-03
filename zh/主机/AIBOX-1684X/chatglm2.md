@@ -1,3 +1,8 @@
+---
+title: "ChatGLM2"
+description: "AIBOX-1684X ChatGLM2 文档。"
+---
+
 # ChatGLM2
 
 AIBOX-1684X 可部署 int4 或 int8 量化的 ChatGLM2 大语言模型。

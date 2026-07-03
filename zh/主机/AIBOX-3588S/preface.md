@@ -1,3 +1,8 @@
+---
+title: "前言"
+description: "AIBOX-3588S 前言文档。"
+---
+
 # 前言
 
 ## 概述

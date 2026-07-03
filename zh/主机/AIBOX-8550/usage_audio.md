@@ -1,3 +1,8 @@
+---
+title: "音频教程"
+description: "AIBOX-8550 音频教程文档。"
+---
+
 # 音频教程
 
 AIBOX-8550 有 1 路 I2S 接入了 HDMI 用于音频播放。

@@ -1,3 +1,8 @@
+---
+title: "Extract"
+description: "AIBOX-K3 Extract documentation."
+---
+
 ### rootfs
 * Download root filesystem: [Debian Rootfs(64-bit) Kernel6.1](https://en.t-firefly.com/doc/download/333.html), please use the filesystem from the `kernel-6.1` directory.
 * Extract rootfs and link it

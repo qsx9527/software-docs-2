@@ -1,3 +1,7 @@
+---
+title: "12V power adapter"
+description: "AIBOX-3588 12V power adapter documentation."
+---
 
 # [12V power adapter](https://www.firefly.store/products/12v-2a-power-adapter)
 

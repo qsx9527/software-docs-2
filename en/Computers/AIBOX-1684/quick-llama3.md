@@ -1,3 +1,8 @@
+---
+title: "Quickly deploy Llama3"
+description: "AIBOX-1684 Quickly deploy Llama3 documentation."
+---
+
 # Quickly deploy Llama3
 
 To facilitate a quick experience with Llama3, Firefly team has provided an out-of-the-box rapid deployment package, which can be obtained from [Download Center].

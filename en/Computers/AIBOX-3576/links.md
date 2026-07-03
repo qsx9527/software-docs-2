@@ -1,1 +1,6 @@
+---
+title: "Resources"
+description: "AIBOX-3576 Resources documentation."
+---
+
 [Download Center]: https://en.t-firefly.com/doc/download/page/id/241.html

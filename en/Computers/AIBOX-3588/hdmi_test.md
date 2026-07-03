@@ -1,3 +1,8 @@
+---
+title: "HDMI display test"
+description: "AIBOX-3588 HDMI display test documentation."
+---
+
 # HDMI display test
 
 AIBOX-3588 does not have a graphics card chip, and the HDMI output part of the main control does not use the standard framebuffer driver. When it is shipped from the factory, it is not displayed when it is connected to HDMI.

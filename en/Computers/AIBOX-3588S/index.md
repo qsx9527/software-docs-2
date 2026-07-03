@@ -1,3 +1,8 @@
+---
+title: "AIBOX-3588S"
+description: "AIBOX-3588S computer documentation navigation."
+---
+
 # AIBOX-3588S
 - [Preface](preface.md)
 # User Manual

@@ -1,3 +1,8 @@
+---
+title: "Start"
+description: "AIBOX-9075 Start documentation."
+---
+
 # Start
 
 ## Power On

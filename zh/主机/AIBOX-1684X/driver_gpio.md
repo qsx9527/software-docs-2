@@ -1,3 +1,8 @@
+---
+title: "GPIO 使用"
+description: "AIBOX-1684X GPIO 使用文档。"
+---
+
 # GPIO 使用
 
 BM1684X 芯片包含 3 组 GPIO 控制器，每个控制 32 根 GPIO，与 Linux 的设备节点对应如下：

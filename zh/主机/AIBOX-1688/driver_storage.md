@@ -1,3 +1,8 @@
+---
+title: "STORAGE 使用"
+description: "AIBOX-1688 STORAGE 使用文档。"
+---
+
 # STORAGE 使用
 
 AIO-1688JD4 开发板上有 1 个 PCIE3.0 x 1  接口，1 个 SATA 3.0 接口以及一个 TF-Card 接口。

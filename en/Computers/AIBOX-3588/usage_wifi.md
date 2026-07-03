@@ -1,3 +1,8 @@
+---
+title: "WIFI"
+description: "AIBOX-3588 WIFI documentation."
+---
+
 # WIFI
 
 AIBOX-3588 supports wireless WIFI, and the network card name in the system defaults to `wlan0`:

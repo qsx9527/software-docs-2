@@ -1,3 +1,7 @@
+---
+title: "UART"
+description: "AIBOX-3576 UART documentation."
+---
 
 # UART
 

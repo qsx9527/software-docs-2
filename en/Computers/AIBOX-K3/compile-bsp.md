@@ -1,3 +1,8 @@
+---
+title: "Compile BSP"
+description: "AIBOX-K3 Compile BSP documentation."
+---
+
 # Compile BSP
 
 ## Introduction

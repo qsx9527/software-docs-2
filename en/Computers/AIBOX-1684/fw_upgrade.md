@@ -1,3 +1,8 @@
+---
+title: "Firmware upgrade"
+description: "AIBOX-1684 Firmware upgrade documentation."
+---
+
 # Firmware upgrade
 
 AIBOX-1684 uses TF card to upgrade firmware, users need to strictly follow the steps below.

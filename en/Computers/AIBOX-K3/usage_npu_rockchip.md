@@ -1,3 +1,8 @@
+---
+title: "Artificial Intelligence Algorithm Deployment"
+description: "AIBOX-K3 Artificial Intelligence Algorithm Deployment documentation."
+---
+
 # Artificial Intelligence Algorithm Deployment
 AIBOX-K3 supports the deployment of a range of mainstream artificial intelligence algorithms, including but not limited to the following categories of algorithms:
 

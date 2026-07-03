@@ -1,3 +1,8 @@
+---
+title: "Development Board wiki"
+description: "AIBOX-1684 Development Board wiki documentation."
+---
+
 # Development Board wiki
 
 

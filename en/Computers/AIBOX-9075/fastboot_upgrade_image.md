@@ -1,3 +1,8 @@
+---
+title: "Upgrade Partition Image"
+description: "AIBOX-9075 Upgrade Partition Image documentation."
+---
+
 # Upgrade Partition Image
 
 ## Enter Bootloader Mode

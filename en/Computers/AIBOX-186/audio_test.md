@@ -1,3 +1,8 @@
+---
+title: "Audio Interface Testing"
+description: "AIBOX-186 Audio Interface Testing documentation."
+---
+
 # Audio Interface Testing
 
 AIBOX-186 supports the American standard headphone interface.

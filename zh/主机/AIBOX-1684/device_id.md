@@ -1,3 +1,8 @@
+---
+title: "设备 ID"
+description: "AIBOX-1684 设备 ID文档。"
+---
+
 # 设备 ID
 ## 查看设备 ID
 

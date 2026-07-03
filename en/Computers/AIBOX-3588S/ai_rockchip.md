@@ -1,3 +1,8 @@
+---
+title: "ROCKCHIP"
+description: "AIBOX-3588S ROCKCHIP documentation."
+---
+
 # ROCKCHIP 
 
 ## Large Language Model

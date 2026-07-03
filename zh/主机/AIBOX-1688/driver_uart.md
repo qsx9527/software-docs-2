@@ -1,3 +1,7 @@
+---
+title: "UART 使用"
+description: "AIBOX-1688 UART 使用文档。"
+---
 
 # UART 使用
 

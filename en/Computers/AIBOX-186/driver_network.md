@@ -1,3 +1,8 @@
+---
+title: "NETWORK Usage"
+description: "AIBOX-186 NETWORK Usage documentation."
+---
+
 # NETWORK Usage
 AIBOX-186 has three types of networks:
 * Cellular Network (4G/5G)

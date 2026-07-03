@@ -1,3 +1,8 @@
+---
+title: "WIFI"
+description: "AIBOX-3576 WIFI documentation."
+---
+
 # WIFI
 
 AIBOX-3576 supports wireless WIFI, and the network card name in the system defaults to `wlan0`:

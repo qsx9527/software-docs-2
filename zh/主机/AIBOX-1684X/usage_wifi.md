@@ -1,3 +1,8 @@
+---
+title: "WIFI"
+description: "AIBOX-1684X WIFI 文档。"
+---
+
 # WIFI
 
 AIBOX-1684X 支持无线 WIFI，在系统中网卡名默认为 `wlan0`：

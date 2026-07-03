@@ -1,3 +1,7 @@
+---
+title: "12V电源适配器"
+description: "AIBOX-1688 12V电源适配器文档。"
+---
 
 # [12V电源适配器](https://store.t-firefly.com/goods.php?id=31)
 

@@ -1,3 +1,8 @@
+---
+title: "Network IP configuration"
+description: "AIBOX-3576 Network IP configuration documentation."
+---
+
 # Network IP configuration
 
 ## Ubuntu System Configuration

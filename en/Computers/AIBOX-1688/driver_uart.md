@@ -1,3 +1,8 @@
+---
+title: "UART Usage"
+description: "AIBOX-1688 UART Usage documentation."
+---
+
 # UART Usage
 
 AIO-1688JD4 Serial Port [location as shown in the figure](interface_definition.html#zheng-ji-jie-kou-ding-yi)  

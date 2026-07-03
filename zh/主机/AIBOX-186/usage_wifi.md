@@ -1,3 +1,8 @@
+---
+title: "WIFI"
+description: "AIBOX-186 WIFI 文档。"
+---
+
 # WIFI
 
 AIBOX-186 支持无线 WIFI，在系统中网卡名默认为 `wlanx` 或者是 `wlPxp1s0`（根据不同的 wifi 模块，有所不同），以 `wlan0` 为例：

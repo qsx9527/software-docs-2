@@ -1,3 +1,8 @@
+---
+title: "音频接口测试"
+description: "AIBOX-K3 音频接口测试文档。"
+---
+
 # 音频接口测试
 
 AIBOX-K3  支持美标耳机接口。

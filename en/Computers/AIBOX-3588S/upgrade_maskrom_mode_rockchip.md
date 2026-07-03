@@ -1,3 +1,8 @@
+---
+title: "MaskRom Mode"
+description: "AIBOX-3588S MaskRom Mode documentation."
+---
+
 # MaskRom Mode
 
 ***See startup mode for an introduction [startup mode](upgrade_bootmode_rockchip.md)***

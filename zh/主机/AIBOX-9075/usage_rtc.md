@@ -1,3 +1,8 @@
+---
+title: "RTC 教程"
+description: "AIBOX-9075 RTC 教程文档。"
+---
+
 # RTC 教程
 
 AIBOX-9075 搭载有 RTC (Real Time Clock) 芯片。

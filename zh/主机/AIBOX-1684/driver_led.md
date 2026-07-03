@@ -1,3 +1,8 @@
+---
+title: "LED 使用"
+description: "AIBOX-1684 LED 使用文档。"
+---
+
 # LED 使用
 
 AIBOX-1684 开发板上有 2 个 LED 灯:

@@ -1,3 +1,8 @@
+---
+title: "RS485/RS232"
+description: "AIBOX-K3 RS485/RS232 文档。"
+---
+
 # RS485/RS232
 AIBOX-K3 有一个 RS485 接口，设备名称为 `/dev/ttyS4`，支持半双工，默认波特率为 `9600`。
 

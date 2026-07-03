@@ -1,3 +1,8 @@
+---
+title: "Sophon Sail"
+description: "AIBOX-1684X Sophon Sail documentation."
+---
+
 # Sophon Sail
 
 Sophon Sail encapsulated BMLib, BMDecoder, BMCV and BMRuntime in SophonSDK. The original functions of SophonSDK such as "loading bmodel and driving TPU inference", "driving TPU to do image processing", "driving VPU to do image and video decoding" are abstracted into a simpler C++ interface. It is also repackaged with pybind11 to provide a simple and easy-to-use python interface.

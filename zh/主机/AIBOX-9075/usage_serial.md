@@ -1,3 +1,8 @@
+---
+title: "串口教程"
+description: "AIBOX-9075 串口教程文档。"
+---
+
 # 串口教程
 
 AIBOX-9075 有 2 个 RS485 接口。

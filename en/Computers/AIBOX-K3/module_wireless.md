@@ -1,3 +1,8 @@
+---
+title: "Communication Module"
+description: "AIBOX-K3 Communication Module documentation."
+---
+
 # Communication Module
 
 

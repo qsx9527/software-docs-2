@@ -1,3 +1,8 @@
+---
+title: "AI Tutorial"
+description: "AIBOX-8550 AI Tutorial documentation."
+---
+
 # AI Tutorial
 
 QCS8550 has Hexagon Digital Signal Processor (DSP), which contains Neural Processing Unit (NPU) for AI computing.

@@ -1,3 +1,8 @@
+---
+title: "Audio Interface Testing"
+description: "AIBOX-1688 Audio Interface Testing documentation."
+---
+
 # Audio Interface Testing
 
 AIBOX-1688 supports the American standard headphone interface.

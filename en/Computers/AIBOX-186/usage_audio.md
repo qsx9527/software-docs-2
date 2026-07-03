@@ -1,3 +1,8 @@
+---
+title: "Audio"
+description: "AIBOX-186 Audio documentation."
+---
+
 # Audio
 AIBOX-186 has two audio outputs and one audio input.
 

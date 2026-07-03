@@ -1,3 +1,8 @@
+---
+title: "Video Usage"
+description: "AIBOX-9075 Video Usage documentation."
+---
+
 # Video Usage
 
 AIBOX-9075 default video framework is Gstreamer.

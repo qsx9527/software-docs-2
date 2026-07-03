@@ -3,6 +3,7 @@
   "description": "Validate category order, description, and icon from software-docs-2 root meta.json.",
   "icon": "FolderTree",
   "pages": [
+    "Computers",
     "Chip-Docs"
   ],
   "defaultOpen": true,

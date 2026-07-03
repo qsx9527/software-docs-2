@@ -1,3 +1,8 @@
+---
+title: "DISPLAY 使用"
+description: "AIBOX-1688 DISPLAY 使用文档。"
+---
+
 # DISPLAY 使用
 
 AIBOX-1688 引出了一路 HDMI 接口（支持 4K@60fps）以及 MIPS DSI 接口（最大输出能力 1440P (2560 * 1440)@60fps，[接口位置如图所示](interface_definition.html#zheng-ji-jie-kou-ding-yi)  。

@@ -1,3 +1,8 @@
+---
+title: "Image content retrieval"
+description: "AIBOX-1684 Image content retrieval documentation."
+---
+
 # Image content retrieval
 
 ## CLIP-TPU project introduction

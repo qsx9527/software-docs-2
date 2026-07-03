@@ -1,3 +1,8 @@
+---
+title: "Sophon SDK 开发"
+description: "AIBOX-1684 Sophon SDK 开发文档。"
+---
+
 # Sophon SDK 开发
 
 目前存在两套 Sophon SDK，其中 **SophonSDK3** 是属于旧版本的 SDK，而 **Sophon SDK** 属于新版本的 SDK。

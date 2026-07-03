@@ -1,3 +1,8 @@
+---
+title: "网络 IP 配置"
+description: "AIBOX-1684X 网络 IP 配置文档。"
+---
+
 # 网络 IP 配置
 
 

@@ -1,3 +1,8 @@
+---
+title: "介绍"
+description: "AIBOX-3588S 介绍文档。"
+---
+
 # 介绍
 
 ## 前言

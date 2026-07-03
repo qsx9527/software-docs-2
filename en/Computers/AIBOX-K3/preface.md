@@ -1,3 +1,8 @@
+---
+title: "Preface"
+description: "AIBOX-K3 Preface documentation."
+---
+
 # Preface
 
 ## Overview

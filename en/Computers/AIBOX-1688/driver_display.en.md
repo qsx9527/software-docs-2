@@ -1,3 +1,8 @@
+---
+title: "DISPLAY usage"
+description: "AIBOX-1688 DISPLAY usage documentation."
+---
+
 # DISPLAY usage
 
 The AIBOX-1688 features an HDMI interface (supports 4K\@60fps) and a MIPS DSI interface (maximum output capability of 1440P (2560 \* 1440)@60fps,[The interface location is shown in the figure](interface_definition.html#zheng-ji-jie-kou-ding-yi)  。

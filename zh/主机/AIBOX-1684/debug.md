@@ -1,3 +1,8 @@
+---
+title: "串口调试"
+description: "AIBOX-1684 串口调试文档。"
+---
+
 # 串口调试
 
 USB 转串口适配器，是 USB 转串口 TTL 适配器的简称。

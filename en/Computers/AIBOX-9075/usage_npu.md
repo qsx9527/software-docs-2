@@ -1,3 +1,8 @@
+---
+title: "AI Tutorial"
+description: "AIBOX-9075 AI Tutorial documentation."
+---
+
 # AI Tutorial
 
 ## AidLux Introduction

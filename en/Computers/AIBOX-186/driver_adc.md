@@ -1,3 +1,8 @@
+---
+title: "ADC Usage"
+description: "AIBOX-186 ADC Usage documentation."
+---
+
 # ADC Usage
 The AIO-186JD4 development board does not expose an external ADC, but the AIBOX-186's gold fingers expose multiple ADCs. By running ADC read and write commands in the console or writing ADC read and write programs in kernel mode or user mode, input and output operations on the ADC can be performed.
 

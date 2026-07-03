@@ -1,3 +1,8 @@
+---
+title: "Firmware upgrade"
+description: "AIBOX-3576 Firmware upgrade documentation."
+---
+
 # Firmware upgrade
 
 AIBOX-3576 uses TF card to upgrade firmware, users need to strictly follow the steps below.

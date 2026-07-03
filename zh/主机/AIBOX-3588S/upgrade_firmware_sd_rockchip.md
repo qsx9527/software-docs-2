@@ -1,3 +1,8 @@
+---
+title: "使用SD卡升级固件"
+description: "AIBOX-3588S 使用SD卡升级固件文档。"
+---
+
 # 使用SD卡升级固件
 本文主要介绍如何通过MicroSD卡，升级主板上的固件。
 

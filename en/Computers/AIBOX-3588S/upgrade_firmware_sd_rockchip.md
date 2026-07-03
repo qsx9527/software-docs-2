@@ -1,3 +1,8 @@
+---
+title: "Upgrade the firmware via SD card"
+description: "AIBOX-3588S Upgrade the firmware via SD card documentation."
+---
+
 # Upgrade the firmware via SD card
 
 ## Introduction

@@ -1,3 +1,8 @@
+---
+title: "Check if miniforge3 and conda are installed, and if they are, you can skip this section."
+description: "AIBOX-3588 Check if miniforge3 and conda are installed, and if they are, you can skip this section. documentation."
+---
+
 ### 1.RKLLM Introduction
 The RKLLM SDK helps users quickly deploy large language models onto AIBOX-3588.
 [SDK Download](https://github.com/airockchip/rknn-llm)

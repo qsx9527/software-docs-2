@@ -1,3 +1,8 @@
+---
+title: "AIBOX-1688"
+description: "AIBOX-1688 computer documentation navigation."
+---
+
 # AIBOX-1688
 - [Preface](preface.md)
 - [Interface Definition](interface_definition.md)

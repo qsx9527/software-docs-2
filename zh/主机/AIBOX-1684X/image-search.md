@@ -1,3 +1,8 @@
+---
+title: "图片内容检索"
+description: "AIBOX-1684X 图片内容检索文档。"
+---
+
 # 图片内容检索
 
 ## CLIP-TPU 项目简介

@@ -1,3 +1,8 @@
+---
+title: "Hardware Flashing Mode"
+description: "AIBOX-K3 Hardware Flashing Mode documentation."
+---
+
 # Hardware Flashing Mode
 
 ***For an introduction to boot modes, please refer to the chapter [《Firmware Upgrade Introduction》](upgrade_bootmode_spacemit.md)***

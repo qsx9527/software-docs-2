@@ -1,3 +1,8 @@
+---
+title: "Sophon SDK development"
+description: "AIBOX-1684 Sophon SDK development documentation."
+---
+
 # Sophon SDK development
 There are currently two sets of Sophon SDKs: Sophon SDK and SophonSDK3. Among them, Sophon SDK is the new version of the SDK, while SophonSDK3 is the old version.
 

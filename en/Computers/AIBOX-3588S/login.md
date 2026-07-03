@@ -1,3 +1,8 @@
+---
+title: "Login"
+description: "AIBOX-3588S Login documentation."
+---
+
 # Login
 
 There are two ways to login to AIBOX-3588S, one is via Console (Debug serial), the other is via HDMI.

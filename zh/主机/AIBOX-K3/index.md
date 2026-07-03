@@ -1,3 +1,8 @@
+---
+title: "AIBOX-K3"
+description: "AIBOX-K3 主机产品文档导航。"
+---
+
 # AIBOX-K3
 - [前言](preface.md)
 # 使用手册

@@ -1,3 +1,8 @@
+---
+title: "Cellular Network"
+description: "AIBOX-3576 Cellular Network documentation."
+---
+
 # Cellular Network
 
 AIBOX-3576 supports 4G LTE. In system settings, there are multiple network options. You can enable mobile data here:

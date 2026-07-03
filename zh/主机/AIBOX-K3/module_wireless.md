@@ -1,3 +1,8 @@
+---
+title: "通信模组"
+description: "AIBOX-K3 通信模组文档。"
+---
+
 # 通信模组
 
 

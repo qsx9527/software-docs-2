@@ -1,3 +1,8 @@
+---
+title: "U 盘、TF 卡、SSD 挂载"
+description: "AIBOX-3588S U 盘、TF 卡、SSD 挂载文档。"
+---
+
 # U 盘、TF 卡、SSD 挂载
 AIBOX-3588S  支持一系列的存储设备接口（PCIE，SATA，USB，TF卡）。
 

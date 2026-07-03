@@ -1,3 +1,8 @@
+---
+title: "Linux 6.1 RK182X 编译"
+description: "AIBOX-3588S Linux 6.1 RK182X 编译文档。"
+---
+
 ## 获取 SDK
 
 请联系销售 (sales@t-firefly.com) 获取 **RK182X SDK** 下载链接。

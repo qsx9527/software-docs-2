@@ -1,3 +1,8 @@
+---
+title: "RTC 使用"
+description: "AIBOX-K3 RTC 使用文档。"
+---
+
 # RTC 使用
 
 AIBOX-K3 开发板上有 `TT8563RH` 的 RTC (Real Time Clock) 芯片，可通过该芯片去设置系统时钟。

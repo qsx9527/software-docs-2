@@ -1,3 +1,8 @@
+---
+title: "Serial debug"
+description: "AIBOX-1684X Serial debug documentation."
+---
+
 # Serial debug
 
 USB-to-serial adapter is the abbreviation of USB-to-serial TTL adapter.

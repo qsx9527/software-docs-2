@@ -1,3 +1,8 @@
+---
+title: "AIBOX-186"
+description: "AIBOX-186 computer documentation navigation."
+---
+
 # AIBOX-186
 - [Preface](preface.md)
 - [Interface Definition](interface_definition.md)

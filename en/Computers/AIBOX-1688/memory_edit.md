@@ -1,3 +1,8 @@
+---
+title: "Memory Allocation Adjustment"
+description: "AIBOX-1688 Memory Allocation Adjustment documentation."
+---
+
 # Memory Allocation Adjustment
 
 A portion of the memory in AIBOX-1688 is allocated to NPU, VPP, and VPU devices, so the memory data obtained using commands like `free -h` may not match the actual memory of the machine.

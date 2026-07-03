@@ -1,3 +1,8 @@
+---
+title: "Update Firmware"
+description: "AIBOX-186 Update Firmware documentation."
+---
+
 # Update Firmware
 
 ## Preparation before upgrading

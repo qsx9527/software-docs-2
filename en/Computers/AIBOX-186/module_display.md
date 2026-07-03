@@ -1,3 +1,8 @@
+---
+title: "Display Module"
+description: "AIBOX-186 Display Module documentation."
+---
+
 # Display Module
 The displays supported by Firefly are as follows:
 

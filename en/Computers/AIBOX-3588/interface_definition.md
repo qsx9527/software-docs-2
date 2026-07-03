@@ -1,3 +1,8 @@
+---
+title: "Interface definition"
+description: "AIBOX-3588 Interface definition documentation."
+---
+
 # Interface definition
 
 AIBOX-3588 has rich interfaces, mainly including:

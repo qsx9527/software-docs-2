@@ -1,3 +1,7 @@
+---
+title: "Serial port module"
+description: "AIBOX-K3 Serial port module documentation."
+---
 
 # Serial port module
 

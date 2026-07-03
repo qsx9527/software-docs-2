@@ -1,3 +1,8 @@
+---
+title: "Introduction"
+description: "AIBOX-K3 Introduction documentation."
+---
+
 # Introduction
 
 ## Preface

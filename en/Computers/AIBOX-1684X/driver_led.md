@@ -1,3 +1,8 @@
+---
+title: "LED"
+description: "AIBOX-1684X LED documentation."
+---
+
 # LED
 
 There are 2 LEDs on the AIBOX-1684X board:

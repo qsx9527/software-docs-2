@@ -1,3 +1,8 @@
+---
+title: "AIBOX-1684X"
+description: "AIBOX-1684X 主机产品文档导航。"
+---
+
 # AIBOX-1684X
 - [前言](preface.md)
 # 产品介绍

@@ -1,3 +1,8 @@
+---
+title: "CAMERA 使用"
+description: "AIBOX-K3 CAMERA 使用文档。"
+---
+
 # CAMERA 使用
 
 AIBOX-K3 引出 3 个 `MIPI CSI` 接口（1*4 lanes / 2*2 lanes），单一 sensor 最大支持 8K@15fps 线性输入或 12M@60fps HDR 输入。

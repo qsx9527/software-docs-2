@@ -1,3 +1,8 @@
+---
+title: "视频教程"
+description: "AIBOX-9075 视频教程文档。"
+---
+
 # 视频教程
 
 AIBOX-9075 默认的视频框架为 Gstreamer.

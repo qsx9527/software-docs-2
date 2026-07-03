@@ -1,3 +1,8 @@
+---
+title: "Upgrade Complete Firmware"
+description: "AIBOX-9075 Upgrade Complete Firmware documentation."
+---
+
 # Upgrade Complete Firmware
 
 ## Enter EDL (Emergency Download) mode

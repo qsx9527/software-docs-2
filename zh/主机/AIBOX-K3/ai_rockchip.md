@@ -1,3 +1,8 @@
+---
+title: "ROCKCHIP 平台"
+description: "AIBOX-K3 ROCKCHIP 平台文档。"
+---
+
 # ROCKCHIP 平台
 
 ## 大语言模型

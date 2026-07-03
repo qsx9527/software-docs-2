@@ -1,3 +1,8 @@
+---
+title: "Firmware Upgrade"
+description: "AIBOX-1688 Firmware Upgrade documentation."
+---
+
 # Firmware Upgrade
 
 AIBOX-1688 uses a TF card to upgrade the firmware, and users must strictly follow the steps below.

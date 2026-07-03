@@ -1,3 +1,8 @@
+---
+title: "RS485/RS232"
+description: "AIBOX-1688 RS485/RS232 documentation."
+---
+
 # RS485/RS232
 
 

@@ -1,3 +1,8 @@
+---
+title: "Linux 编译"
+description: "AIBOX-9075 Linux 编译文档。"
+---
+
 # Linux 编译
 
 这篇教程介绍如何给 AIBOX-9075 编译应用程序。

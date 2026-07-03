@@ -1,3 +1,8 @@
+---
+title: "Linux Compile"
+description: "AIBOX-9075 Linux Compile documentation."
+---
+
 # Linux Compile
 
 This tutorial introduces how to compile programs for AIBOX-9075.

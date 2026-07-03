@@ -1,3 +1,8 @@
+---
+title: "Interface Definition"
+description: "AIBOX-8550 Interface Definition documentation."
+---
+
 # Interface Definition
 
 AIBOX-8550 provides these interfaces:

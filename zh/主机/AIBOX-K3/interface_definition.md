@@ -1,3 +1,8 @@
+---
+title: "接口介绍"
+description: "AIBOX-K3 接口介绍文档。"
+---
+
 # 接口介绍
 
 AIBOX-K3 接口丰富，主要包括：

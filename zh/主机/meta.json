@@ -1,0 +1,18 @@
+{
+  "title": "主机",
+  "description": "主机类产品文档。",
+  "pages": [
+    "AIBOX-1684",
+    "AIBOX-1684X",
+    "AIBOX-1688",
+    "AIBOX-186",
+    "AIBOX-3576",
+    "AIBOX-3588",
+    "AIBOX-3588S",
+    "AIBOX-8550",
+    "AIBOX-9075",
+    "AIBOX-K3"
+  ],
+  "defaultOpen": true,
+  "collapsible": true
+}

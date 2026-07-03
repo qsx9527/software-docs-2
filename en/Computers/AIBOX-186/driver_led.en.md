@@ -1,3 +1,8 @@
+---
+title: "LED Usage"
+description: "AIBOX-186 LED Usage documentation."
+---
+
 # LED Usage
 
 There are 2 LED lights on the AIO-186JD4 development board ([As shown in the figure](interface_definition.html#zheng-ji-jie-kou-ding-yi) ）:

@@ -1,3 +1,8 @@
+---
+title: "LED"
+description: "AIBOX-K3 LED documentation."
+---
+
 # LED
 
 There are 2 LEDs on the AIBOX-K3 board:

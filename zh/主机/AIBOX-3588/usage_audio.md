@@ -1,3 +1,8 @@
+---
+title: "Audio"
+description: "AIBOX-3588 Audio 文档。"
+---
+
 # Audio 
 AIBOX-3588 拥有两路音频输出以及一路音频输入。
 

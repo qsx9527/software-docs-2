@@ -1,3 +1,8 @@
+---
+title: "STORAGE Usage"
+description: "AIBOX-1688 STORAGE Usage documentation."
+---
+
 # STORAGE Usage
 
 The AIO-1688JD4 development board has 1 PCIE3.0 x 1 interface, 1 SATA 3.0 interface, and a TF-Card interface.

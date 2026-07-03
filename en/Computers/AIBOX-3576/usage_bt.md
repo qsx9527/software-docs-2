@@ -1,3 +1,8 @@
+---
+title: "Bluetooth"
+description: "AIBOX-3576 Bluetooth documentation."
+---
+
 # Bluetooth
 
 AIBOX-3576 supports wireless bluetooth, you can display the bluetooth device information through `hciconfig -a` command:

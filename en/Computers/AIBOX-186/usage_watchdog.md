@@ -1,3 +1,8 @@
+---
+title: "Watchdog"
+description: "AIBOX-186 Watchdog documentation."
+---
+
 # Watchdog
 
 The external watchdog device name is `/dev/wdt_crl`, and the usage is as follows:

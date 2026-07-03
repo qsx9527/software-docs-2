@@ -1,3 +1,8 @@
+---
+title: "Product Size"
+description: "AIBOX-9075 Product Size documentation."
+---
+
 # Product Size
 
 

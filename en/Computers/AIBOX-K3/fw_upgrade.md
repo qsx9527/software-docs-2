@@ -1,3 +1,8 @@
+---
+title: "Firmware upgrade"
+description: "AIBOX-K3 Firmware upgrade documentation."
+---
+
 # Firmware upgrade
 
 AIBOX-K3 uses TF card to upgrade firmware, users need to strictly follow the steps below.

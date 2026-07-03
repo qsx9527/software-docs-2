@@ -1,3 +1,8 @@
+---
+title: "Serial Usage"
+description: "AIBOX-9075 Serial Usage documentation."
+---
+
 # Serial Usage
 
 AIBOX-9075 has 2 RS485 serial.

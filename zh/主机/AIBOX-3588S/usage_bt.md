@@ -1,3 +1,8 @@
+---
+title: "蓝牙"
+description: "AIBOX-3588S 蓝牙文档。"
+---
+
 # 蓝牙
 
 AIBOX-3588S 支持无线蓝牙，可以通过 `hciconfig -a` 命令显示蓝牙设备信息：

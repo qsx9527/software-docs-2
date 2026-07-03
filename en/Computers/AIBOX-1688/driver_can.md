@@ -1,3 +1,8 @@
+---
+title: "CAN"
+description: "AIBOX-1688 CAN documentation."
+---
+
 ## CAN Usage
 
 ### Introduction to CAN

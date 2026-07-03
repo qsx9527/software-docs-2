@@ -1,3 +1,8 @@
+---
+title: "Fan working strategy"
+description: "AIBOX-K3 Fan working strategy documentation."
+---
+
 # Fan working strategy
 
 AIBOX-K3 fans work in 4 levels:

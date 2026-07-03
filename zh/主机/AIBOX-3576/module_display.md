@@ -1,3 +1,8 @@
+---
+title: "显示屏模组"
+description: "AIBOX-3576 显示屏模组文档。"
+---
+
 # 显示屏模组
 Firefly 支持的显示屏如下：
 

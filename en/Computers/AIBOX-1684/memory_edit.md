@@ -1,3 +1,8 @@
+---
+title: "Memory allocation settings"
+description: "AIBOX-1684 Memory allocation settings documentation."
+---
+
 # Memory allocation settings
 
 A portion of the memory of AIBOX-1684 is allocated to NPU, VPP, and VPU devices. So the memory data obtained using commands such as `free -h` is inconsistent with the actual memory of AIBOX-1684.

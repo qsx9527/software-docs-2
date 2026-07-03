@@ -1,3 +1,8 @@
+---
+title: "FireflyChat"
+description: "AIBOX-3576 FireflyChat 文档。"
+---
+
 # FireflyChat
 
 FireflyChat 是由 Firefly 开源团队开发的图形化大模型应用平台，用户可在 FireflyChat 提供的可视化 WebUI 中快速体验各种大模型的实际使用效果。
