@@ -1,3 +1,8 @@
+---
+title: "Linux SDK 获取"
+description: "AIO-1126BJD4V0 Linux SDK 获取文档。"
+---
+
 ## 获取 SDK
 
 请联系销售(sales@t-firefly.com)获取 SDK 下载链接, 并且阅读下载链接的 readme 文档。

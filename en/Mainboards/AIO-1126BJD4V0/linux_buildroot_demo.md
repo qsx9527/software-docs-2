@@ -1,4 +1,8 @@
-# Buildroot Manual
+---
+title: "Buildroot Manual"
+description: "AIO-1126BJD4V0 Buildroot Manual documentation."
+---
+
 ## Desktop application
 
 The officially released Buildroot firmware supports the Wayland desktop environment and some Qt applications by default, as shown below:
@@ -440,7 +444,7 @@ TF card mounting path: `/sdcard`
 
 ## Reset
 
-Buildroot supports restoring factory settings. 
+Buildroot supports restoring factory settings.
 
 **Note: This factory setting means that it is restored to the initial state after the last firmware upgrade of the device.**
 

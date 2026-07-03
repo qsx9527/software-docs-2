@@ -1,4 +1,7 @@
-# 无线模块
+---
+title: "无线模块"
+description: "AIO-3288C 无线模块文档。"
+---
 
 ## [EC20 4G模组套件](https://store.t-firefly.com/goods.php?id=49)
 
@@ -59,4 +62,3 @@
 ### 参考固件
 
 公版固件默认支持 EC20 4G 模组。
-

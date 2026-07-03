@@ -1,4 +1,8 @@
-# Buildroot 使用手册
+---
+title: "Buildroot 使用手册"
+description: "AIO-1126BJD4V0 Buildroot 使用手册文档。"
+---
+
 ## 桌面应用
 
 官方发布的 Buildroot 固件，默认已支持 Wayland 桌面环境以及一些 Qt 应用，如下图：

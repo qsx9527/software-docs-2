@@ -1,5 +1,8 @@
+---
+title: "Camera"
+description: "AIO-1126BQ38 Camera documentation."
+---
 
-# Camera
 
 
 
@@ -55,7 +58,7 @@ Since a motherboard may have multiple cameras, there are two scenarios:
 1. For cameras with a built-in ISP, such as the CAM-8MS1M, capture the video node corresponding to stream_cif_mipi_id0. From the output information above, stream_cif_mipi_id0 corresponds to video0 abd video11 nodes.
 
    If using the CAM-8MS1M camera, use v4l2-ctl to capture camera data frames and save them to /data/out.yuv.
-   
+
    ```
    v4l2-ctl --verbose -d /dev/video0 --set-fmt-video=width=1920,height=1080,pixelformat='NV12' --stream-mmap=3 --stream-skip=3 --stream-to=/data/out.yuv
    ```
@@ -77,7 +80,7 @@ Since a motherboard may have multiple cameras, there are two scenarios:
    ```
    If there is a screen, you can also use gst-launch to preview the camera.
    ```
-   gst-launch-1.0 v4l2src device=/dev/video22 ! queue ! video/x-raw,width=640,height=480 ! kmssink sync=false 
+   gst-launch-1.0 v4l2src device=/dev/video22 ! queue ! video/x-raw,width=640,height=480 ! kmssink sync=false
    ```
 
 
@@ -116,7 +119,7 @@ rv1126b-firefly-aio-1126bjd4-csi0-imx415.dtsi
 
 rv1126b-firefly-aio-1126bjd4-csi1-imx415.dtsi
 
-## Split Mode 
+## Split Mode
 
 The configuration link is as follows:
 
@@ -147,4 +150,3 @@ On your PC, use VLC media player to open the following RTSP stream link for prev
 ```
 rtsp://<device IP>:8554/live/test
 ```
-

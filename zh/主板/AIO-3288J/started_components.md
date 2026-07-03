@@ -1,4 +1,7 @@
-# 介绍
+---
+title: "介绍"
+description: "AIO-3288J 介绍文档。"
+---
 
 * AIO-3288J 核心板一块
 * AIO-3288J 底板一块
@@ -6,8 +9,8 @@
 
 另外可以选购的配件有：
 
-* [12V/2A 的直流电源适配器（支持 240V 和 100V 输入）](https://store.t-firefly.com/goods.php?id=31)  
-* [Firefly 串口模块](https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-12605442688.14.aa5e1e8srwECg&id=546045713700)  
+* [12V/2A 的直流电源适配器（支持 240V 和 100V 输入）](https://store.t-firefly.com/goods.php?id=31)
+* [Firefly 串口模块](https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-12605442688.14.aa5e1e8srwECg&id=546045713700)
 
 另外，在使用过程中，你可能需要以下配件：
 

@@ -1,4 +1,7 @@
-# Firefly Ubuntu 使用手册
+---
+title: "Firefly Ubuntu 使用手册"
+description: "AIO-1126BJD4V0 Firefly Ubuntu 使用手册文档。"
+---
 
 本使用手册适用与Firefly Ubuntu Desktop & Minimal 系统，部分与UI显示相关的介绍，只针对Desktop系统。
 

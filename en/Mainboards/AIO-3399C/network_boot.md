@@ -1,3 +1,8 @@
+---
+title: "Network Boot"
+description: "AIO-3399C Network Boot documentation."
+---
+
 ## Network booting
 
 Network booting is to use TFTP to download the kernel and dtb files from the server to the memory of the target machine. At the same time, you can use NFS to mount the network root file system to the target machine to achieve diskless booting of the target machine. The following is an example based on Firefly-RK3399 for user reference.

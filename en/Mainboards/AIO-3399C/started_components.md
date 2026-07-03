@@ -1,3 +1,8 @@
+---
+title: "Started Components"
+description: "AIO-3399C Started Components documentation."
+---
+
 *   AIO-3399C board (1pcs)
 *   Others
 

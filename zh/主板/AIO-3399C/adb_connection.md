@@ -1,3 +1,8 @@
+---
+title: "ADB Connection"
+description: "AIO-3399C ADB Connection文档。"
+---
+
 一般情况下`adb`是默认开启的，如果没有开启请执行以下步骤：
 * AIO-3399C用Type-C数据线连接设备和主机;
 * 根据当前Android版本勾选对应路径下的Connect to PC

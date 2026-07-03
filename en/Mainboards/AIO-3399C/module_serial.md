@@ -1,4 +1,7 @@
-# Conversion module
+---
+title: "Conversion module"
+description: "AIO-3399C Conversion module documentation."
+---
 
 ## [USB to TTL serial module](https://www.firefly.store/products/usb-to-uart-module-cp2104)
 
@@ -20,4 +23,3 @@ Download driver：[http://www.prolific.com.tw/US/ShowProduct.aspx?pcid=41](http:
 ### Connection Method
 
 ![](../../../rk3399_img/AIO-3399C/debug_connection.jpg)
-

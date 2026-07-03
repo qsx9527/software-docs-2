@@ -1,4 +1,7 @@
-# Use TF card to upgrade firmware
+---
+title: "Use TF card to upgrade firmware"
+description: "AIO-1684JD4 Use TF card to upgrade firmware documentation."
+---
 
 ## Preparation
 

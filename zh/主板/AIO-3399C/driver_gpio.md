@@ -1,4 +1,7 @@
-# GPIO 使用
+---
+title: "GPIO 使用"
+description: "AIO-3399C GPIO 使用文档。"
+---
 
 ## 简介
 

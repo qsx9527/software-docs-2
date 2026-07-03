@@ -1,3 +1,8 @@
+---
+title: "编译 Android10.0 产品"
+description: "AIO-3399C 编译 Android10.0 产品文档。"
+---
+
 ### 整体编译
 #### 公版编译
 ##### HDMI
@@ -63,7 +68,7 @@ make -j8
 ./mkimage.sh
 ```
 
-### 打包成统一固件 
+### 打包成统一固件
 
 编译完可以用Firefly官方的脚本打包成统一固件，执行如下命令：
 ```
@@ -91,7 +96,7 @@ AI  版：make ARCH=arm64 BOOT_IMG=../rockdev/Image-rk3399_firefly_aioc_ai/boot.
 
 ## 分区镜像
 * boot.img 包含ramdis、kernel、dtb
-* dtbo.img Device Tree Overlays 
+* dtbo.img Device Tree Overlays
 * kernel.img includekernel，目前无法单独烧写，需要打包到boot.img内烧写
 * MiniLoaderAll.bin 包含一级loader
 * misc.img 包含recovery-wipe开机标识信息，烧写后会进行recovery
@@ -111,4 +116,4 @@ AI  版：make ARCH=arm64 BOOT_IMG=../rockdev/Image-rk3399_firefly_aioc_ai/boot.
 
 ## 烧写固件
 
-参考：[《升级固件》](03-upgrade_firmware.md) 
+参考：[《升级固件》](03-upgrade_firmware.md)

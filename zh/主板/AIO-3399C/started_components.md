@@ -1,3 +1,8 @@
+---
+title: "产品介绍 配件"
+description: "AIO-3399C 产品介绍 配件文档。"
+---
+
 * Firefly-RK3399 主板一块
 * 12V-2A 电源适配器一个
 

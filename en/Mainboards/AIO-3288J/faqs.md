@@ -1,4 +1,7 @@
-# FAQ
+---
+title: "FAQ"
+description: "AIO-3288J FAQ documentation."
+---
 
 ## Abnormal boot and reboot cycle
 
@@ -46,4 +49,3 @@ AIO-3288J has two HDMI port,one of which is HDMI output(under the USB port) and 
 ## OTG port cannot use USB device
 
 AIO-3288J has a double-layer USB interface, the bottom of the USB interface is an OTG interface. When using ADB, you need to check the settings in the Settings->USB->Connect PC. If you use other USB devices, you need to remove the check, otherwise the USB device can not be used.
-

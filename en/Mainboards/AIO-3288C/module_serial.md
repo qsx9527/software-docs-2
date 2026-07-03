@@ -1,4 +1,7 @@
-# Conversion module
+---
+title: "Conversion module"
+description: "AIO-3288C Conversion module documentation."
+---
 
 ## [USB to TTL serial module](https://www.firefly.store/products/usb-to-uart-module-cp2104)
 

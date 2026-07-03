@@ -1,4 +1,7 @@
-# RS485/RS232 use
+---
+title: "RS485/RS232 use"
+description: "AIO-1684XJD4 RS485/RS232 use documentation."
+---
 
 ## RS485
 

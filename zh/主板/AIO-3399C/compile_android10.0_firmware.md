@@ -1,10 +1,13 @@
-# 编译 Android10.0 固件
+---
+title: "编译 Android10.0 固件"
+description: "AIO-3399C 编译 Android10.0 固件文档。"
+---
 
 ## 下载 Android SDK
 
 由于 SDK 较大，可以去下载页面选择云盘下载 **Firefly-RK3399_Android10.0_git_20211222.7z**：
 
-[下载链接](http://www.t-firefly.com/doc/download/page/id/54.html#other_399)  
+[下载链接](http://www.t-firefly.com/doc/download/page/id/54.html#other_399)
 
 注：源码与bundle压缩包均存放在云盘中
 
@@ -121,7 +124,7 @@ make -j8
 ./mkimage.sh
 ```
 
-### 打包成统一固件 
+### 打包成统一固件
 
 编译完可以用Firefly官方的脚本打包成统一固件，执行如下命令：
 ```
@@ -149,7 +152,7 @@ AI  版：make ARCH=arm64 BOOT_IMG=../rockdev/Image-rk3399_firefly_aioc_ai/boot.
 
 ## 分区镜像
 * boot.img 包含ramdis、kernel、dtb
-* dtbo.img Device Tree Overlays 
+* dtbo.img Device Tree Overlays
 * kernel.img includekernel，目前无法单独烧写，需要打包到boot.img内烧写
 * MiniLoaderAll.bin 包含一级loader
 * misc.img 包含recovery-wipe开机标识信息，烧写后会进行recovery
@@ -169,11 +172,11 @@ AI  版：make ARCH=arm64 BOOT_IMG=../rockdev/Image-rk3399_firefly_aioc_ai/boot.
 
 ## 烧写固件
 
-参考：[《升级固件》](03-upgrade_firmware.md) 
+参考：[《升级固件》](03-upgrade_firmware.md)
 ## 其他安卓版本
 * <font color=#ff0000 size=3>主要维护：</font>
 
-   [《编译 Android7.1 industry 固件》](compile_android7.1_industry_firmware.md)     [《编译 Android10. 固件》](compile_android10.0_firmware.md)  
+   [《编译 Android7.1 industry 固件》](compile_android7.1_industry_firmware.md)     [《编译 Android10. 固件》](compile_android10.0_firmware.md)
 * 支持但不维护：
 
-   [《编译 Android7.1 固件》](compile_android7.1_firmware.md)     [《编译 Android8.1 固件》](compile_android8.1_firmware.md)  
+   [《编译 Android7.1 固件》](compile_android7.1_firmware.md)     [《编译 Android8.1 固件》](compile_android8.1_firmware.md)

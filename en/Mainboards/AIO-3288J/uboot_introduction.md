@@ -1,4 +1,7 @@
-# U-Boot use
+---
+title: "U-Boot use"
+description: "AIO-3288J U-Boot use documentation."
+---
 
 ## Introduction
 
@@ -6,7 +9,7 @@ RK U-Boot is developed based on the open source U-Boot. It has two working modes
 
 ## Compilation
 
-U-Boot compilation is similar to kernel compilation: Write the default configuration to .config before compiling, and execute:  
+U-Boot compilation is similar to kernel compilation: Write the default configuration to .config before compiling, and execute:
 
 ```bash
 cd SDK/u-boot
@@ -35,7 +38,7 @@ RK3288Loader_uboot_Vx.xx.xx.bin
 
 Open the burn tool, connect the USB OTG cable to the board, press and hold the Recovery button when connecting to power supply, so that the development board enters the U-Boot download mode. Select the required Loader file in the burn tool and click Run, which is shown as below:
 
-![](../../../rk3288_img/uboot_download.jpg)  
+![](../../../rk3288_img/uboot_download.jpg)
 
 ## Confirm whether the new Loader is properly programmed
 

@@ -1,3 +1,8 @@
+---
+title: "AIO-3288J"
+description: "AIO-3288J 主板产品文档导航。"
+---
+
 # 上手教程
 - [](started.md)
 - [串口调试](debug.md)

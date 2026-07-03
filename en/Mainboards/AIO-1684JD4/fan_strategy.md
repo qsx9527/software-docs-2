@@ -1,4 +1,7 @@
-# Fan working strategy
+---
+title: "Fan working strategy"
+description: "AIO-1684JD4 Fan working strategy documentation."
+---
 
 AIO-1684JD4 fans work in 4 levels:
 

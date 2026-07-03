@@ -1,3 +1,8 @@
+---
+title: "使用 Wi-Fi"
+description: "AIO-1126BQ38 使用 Wi-Fi文档。"
+---
+
 ## WIFI 使用
 *` RV1109/RV1126` 平台默认使用 `connman` 管理 WiFi，而且 WiFi 的核心进程 `wpa_supplicant` 的启动方法由它启动：
 ```

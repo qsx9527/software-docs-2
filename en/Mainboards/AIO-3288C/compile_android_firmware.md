@@ -1,12 +1,15 @@
-# Compile the Android5.1 firmware
+---
+title: "Compile the Android5.1 firmware"
+description: "AIO-3288C Compile the Android5.1 firmware documentation."
+---
 
-## Download the Android SDK  
+## Download the Android SDK
 
 **The source code package of the Android SDK is large (approximately 6.3G), and the source code package can be obtained by:**
 
 * [[Download Link]](http://en.t-firefly.com/doc/download/47.html#other_35)
 
-verify the MD5 code when the download is complete:  
+verify the MD5 code when the download is complete:
 
 ```bash
 $md5sum ~/firefly_rk3288_rk3128_android5.1_git_20211216.7z.001
@@ -85,9 +88,9 @@ make -j8
 
 ### Build variation
 
-The default target build variation (TARGET_BUILD_VARIANT) is userdebug. There are three common variations, user, userdebug and eng, their differences are:  
+The default target build variation (TARGET_BUILD_VARIANT) is userdebug. There are three common variations, user, userdebug and eng, their differences are:
 
-* user  
+* user
     + Only install the modules whose label is user
     + Set the property ro.secure=1, and turn on the security check function
     + Set the property ro.debuggable=0, and turn off the application debugging function
@@ -110,10 +113,10 @@ The default target build variation (TARGET_BUILD_VARIANT) is userdebug. There ar
     + Set the property ro.kernel.android.checkjni=1, and enable the JNI call checking
     + Turn on the adb function by default
     + Turn off the Proguard obfuscator
-    + Turn off the DEXPREOPT pre-compilation optimization  
+    + Turn off the DEXPREOPT pre-compilation optimization
 
-If the target build variation is user, the adb cannot get the root privileges.  
-If you want to select a target build variation, you can add the parameters at the make command line, for example:  
+If the target build variation is user, the adb cannot get the root privileges.
+If you want to select a target build variation, you can add the parameters at the make command line, for example:
 
 ```bash
 make -j8 PRODUCT-rk3288_aio_3288c_box-user
@@ -132,7 +135,7 @@ The `./mkimage.sh` from the previous step will repack the `boot.img` and `system
 * resource.img ：resource image, which contains the boot image and the device tree blob information of the kernel.
 * system.img ：system partition image for Android, it is ext4 file system format.
 
-Please refer to [upgrade_firmware](upgrade_firmware.md) to flash the partition image file.  
+Please refer to [upgrade_firmware](upgrade_firmware.md) to flash the partition image file.
 If the Windows system is used, you can copy the image file above to the `rockdev\Image` directory of the AndroidTool (firmware upgrade tool under Windows), and then refer to the upgrade document to flash the partition image, the benefit is to use the default configuration without modifying the path of the file.
 
 ## Pack into a unified firmware update.img
@@ -145,6 +148,6 @@ After compiling, you can use the script of Firefly to pack into the unified firm
 
 The firmware is generated in the `rockdev/Image-rk3288_aio_3288c_box/` directory after packing.
 
-It is easy to pack the unified firmware update.img under Windows, you can copy the file to the `rockdev\Image` directory of the AndroidTool by following the previous steps, and then run the `mkupdate.bat` batch file in the `rockdev` directory to create the `update.img` and save it to the `rockdev\Image` directory.  
+It is easy to pack the unified firmware update.img under Windows, you can copy the file to the `rockdev\Image` directory of the AndroidTool by following the previous steps, and then run the `mkupdate.bat` batch file in the `rockdev` directory to create the `update.img` and save it to the `rockdev\Image` directory.
 
 The `update.img` is easy to release the firmware and is used for upgrading the system by the end user. It is convenient to use a partition image for general development.

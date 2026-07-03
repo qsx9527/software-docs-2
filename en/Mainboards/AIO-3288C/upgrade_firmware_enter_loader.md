@@ -1,3 +1,8 @@
+---
+title: "Upgrade Firmware Enter Loader"
+description: "AIO-3288C Upgrade Firmware Enter Loader documentation."
+---
+
 * One way, device is cut off all the power sources, such as power adapter and Dual male usb data cable connection:
    * 1.Use Dual male USB data cable to connect host and device together.
    * 2.Press and hold RECOVERY key.

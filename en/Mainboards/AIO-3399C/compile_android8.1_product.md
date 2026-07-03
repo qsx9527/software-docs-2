@@ -1,3 +1,8 @@
+---
+title: "Compile Android 8.1 Product"
+description: "AIO-3399C Compile Android 8.1 Product documentation."
+---
+
 ### HDMI + DP display compilation
 
 * Compile HDMI + DP by default
@@ -84,7 +89,7 @@ cd ~/proj/AIO-3399C/
 cd ~/proj/AIO-3399C/
 ./FFTools/make.sh -j8
 ```
-## Packaged into unified firmware 
+## Packaged into unified firmware
 
 After compiling, you can use Firefly's official script to package into unified firmware, execute the following command：
 

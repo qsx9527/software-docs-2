@@ -1,4 +1,7 @@
-# Firefly Ubuntu Minimal介绍
+---
+title: "Firefly Ubuntu Minimal介绍"
+description: "AIO-1126BQ38 Firefly Ubuntu Minimal介绍文档。"
+---
 
 AIO-1126BQ38 Ubuntu Minimal系统基于Ubuntu 64bit系统构建，目前发布有Ubuntu18.04这个版本。与Ubuntu Desktop 相比具有以下特性：
 

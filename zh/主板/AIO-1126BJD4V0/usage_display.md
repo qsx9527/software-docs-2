@@ -1,4 +1,7 @@
-# Display 使用
+---
+title: "Display 使用"
+description: "AIO-1126BJD4V0 Display 使用文档。"
+---
 
 * 底板与 MIPI 屏幕的硬件连接方式如图所示：
 

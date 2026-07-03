@@ -1,4 +1,7 @@
-# [红外遥控器](https://store.t-firefly.com/goods.php?id=17)
+---
+title: "红外遥控器"
+description: "AIO-3399C 红外遥控器文档。"
+---
 
 ## 产品参数
 
@@ -19,6 +22,3 @@
 * AIO-3399C 的 IR 接线位置如下图红框所示：
 
 ![](../../../rk3399_img/AIO-3399C/module_ir_connection.jpg)
-
-
-

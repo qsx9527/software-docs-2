@@ -1,4 +1,7 @@
-# PWM
+---
+title: "PWM"
+description: "AIO-3399C PWM documentation."
+---
 
 ## Introduction
 AIO-3399C development board has three PWM outputs:

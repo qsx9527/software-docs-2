@@ -1,4 +1,7 @@
-# SPI Use
+---
+title: "SPI Use"
+description: "AIO-3288C SPI Use documentation."
+---
 
 SPI is a kind of high-speed, full duplex, synchronous serial communication interface, and is used for connecting microcontroller, sensor and storage device. This text takes fingerprint identification module as the example to briefly introduce the use of SPI.
 
@@ -66,7 +69,7 @@ There is no help available for this option.
 │       -> SPI support (SPI [=y])
 │         -> ROCKCHIP SPI controller core support (SPI_ROCKCHIP_CORE [=y])
 │           -> ROCKCHIP SPI interface driver (SPI_ROCKCHIP [=y])
-│   Defined at drivers/spi/Kconfig:528  
+│   Defined at drivers/spi/Kconfig:528
 │   Depends on: SPI [=y] && SPI_MASTER [=y] && SPI_ROCKCHIP [=y]
 ```
 
@@ -119,7 +122,7 @@ static struct spi_driver spidev_spi_driver = {
         .owner =        THIS_MODULE,
         .of_match_table = of_match_ptr(spidev_dt_ids),
      },
-    .probe =        spi_gsl_probe,  
+    .probe =        spi_gsl_probe,
     .remove =       spi_gsl_remove,
 };
 ```
@@ -274,7 +277,7 @@ spidev_read(struct file *filp, char __user *buf, size_t count, loff_t *f_pos)
     spidev = filp->private_data;
     mutex_lock(&spidev->buf_lock);
     gsl_fp_write(spidev, 0x00, 0xf0);//before reading, firstly write read instruction and register address to the module
-    while(1){ 
+    while(1){
         for(i=0;i <= 110*118/128/read_pages;i++){
             status = gsl_fp_getOneFrame(spidev,0x00);//read data on Page 1
         }

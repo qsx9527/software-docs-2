@@ -1,4 +1,7 @@
-# Firefly Ubuntu User Manual
+---
+title: "Firefly Ubuntu User Manual"
+description: "AIO-1126BJD4V0 Firefly Ubuntu User Manual documentation."
+---
 
 This user manual is applicable to Firefly Ubuntu Desktop & Minimal system. Some introductions related to UI display are only for Desktop system.
 

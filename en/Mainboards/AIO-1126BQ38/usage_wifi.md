@@ -1,3 +1,8 @@
+---
+title: "Usage Wi-Fi"
+description: "AIO-1126BQ38 Usage Wi-Fi documentation."
+---
+
 ## WiFi
 * ` RV1109/RV1126` uses `connman` to manage WiFi by default and `wpa_supplicant` is the key process for WiFi:
 
@@ -7,7 +12,7 @@ ps -ef
 connmand			 #It uses dbus to communicate with wpa_supplicant
 wpa_supplicant -u  #Turns on support for dbus communication
 ```
-* Standard usage method: WiFi operation is carried out through the `RV1126/RV1109` web interface, refer 
+* Standard usage method: WiFi operation is carried out through the `RV1126/RV1109` web interface, refer
 to the relevant documents of `RV1109/RV1126` platform:
 * Terminal simple test method is as follows:
 ```

@@ -1,4 +1,7 @@
-# LED 使用
+---
+title: "LED 使用"
+description: "AIO-3288C LED 使用文档。"
+---
 
 ## 前言
 
@@ -18,7 +21,7 @@ Red         GPIO8_A6        262
 
 标准的 Linux 专门为 LED 设备定义了 LED 子系统。 在 AIO-3288C 开发板中的两个 LED 均以设备的形式被定义。
 
-用户可以通过 `/sys/class/leds/` 目录控制这两个 LED。  
+用户可以通过 `/sys/class/leds/` 目录控制这两个 LED。
 
 更详细的说明请参考 [leds-class.txt](https://www.kernel.org/doc/Documentation/leds/leds-class.txt) 。
 

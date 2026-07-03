@@ -1,3 +1,8 @@
+---
+title: "Started"
+description: "AIO-3399C Started documentation."
+---
+
 *   AIO-3399C main board ×1
 *   Brass antenna ×1
 *   12V-2A Power adapter ×1

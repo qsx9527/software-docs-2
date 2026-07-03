@@ -1,3 +1,8 @@
+---
+title: "Rockit AVS"
+description: "AIO-1126BQ38 Rockit AVS文档。"
+---
+
 ## Rockit AVS
 
 <font color=red>**平台限制：目前只在 3588 平台 Buildroot 系统下验证支持。如需使用请把 external/rockit 仓库切换到远程的 rk3588/avs 分支。**</font>
@@ -152,7 +157,7 @@ grp_id    proj_mode                center_x  center_y  fov_x     fov_y
                               ear/avs_calib/calib_                    ear/avs_mesh/
                               file.pto
 ---------------------- avs channel attr ----------------------------
-grp_id    chn_id    enable    width     height    is_compress    dym_range depth     src_rate  dst_rate  
+grp_id    chn_id    enable    width     height    is_compress    dym_range depth     src_rate  dst_rate
 0         0         Y         8192      2700      N              SDR8      3         -1        -1
 ---------------------- avs group work status ----------------------------
 grp_id    cost_time max_cost_time  false_count

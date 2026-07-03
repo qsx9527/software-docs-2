@@ -1,4 +1,7 @@
-# AI algorithm deployment
+---
+title: "AI algorithm deployment"
+description: "AIO-1684JD4 AI algorithm deployment documentation."
+---
 
 AIO-1684JD4 has a comprehensive local private deployment capability of AI algorithms, whether it is a novel large language model with high computing requirements, or a classic YOLOv5 object detection model, AIO-1684JD4 can be competent.
 
@@ -56,14 +59,14 @@ The examples provided by SOPHON-DEMO are divided into three modules from easy to
 | [BERT](https://github.com/sophgo/sophon-demo/blob/release/sample/BERT/README.md)                               | Language                           | C++/Python | FP32/FP16      |
 | [ChatGLM2](https://github.com/sophgo/sophon-demo/blob/release/sample/ChatGLM2/README.md)                       | Language                           | C++/Python | FP16/INT8/INT4 |
 | [Llama2](https://github.com/sophgo/sophon-demo/blob/release/sample/Llama2/README.md)                           | Language                           | C++        | FP16/INT8/INT4 |
-| [ChatGLM3](https://github.com/sophgo/sophon-demo/blob/release/sample/ChatGLM3/README.md)                       | Language                           | Python     | FP16/INT8/INT4 | 
-| [Qwen](https://github.com/sophgo/sophon-demo/blob/release/sample/Qwen/README.md)                               | Language                           | Python     | FP16/INT8/INT4 | 
-| [Qwen1_5](https://github.com/sophgo/sophon-demo/blob/release/sample/Qwen1_5/README.md)                         | Language                           | Python     | FP16/INT8/INT4 | 
+| [ChatGLM3](https://github.com/sophgo/sophon-demo/blob/release/sample/ChatGLM3/README.md)                       | Language                           | Python     | FP16/INT8/INT4 |
+| [Qwen](https://github.com/sophgo/sophon-demo/blob/release/sample/Qwen/README.md)                               | Language                           | Python     | FP16/INT8/INT4 |
+| [Qwen1_5](https://github.com/sophgo/sophon-demo/blob/release/sample/Qwen1_5/README.md)                         | Language                           | Python     | FP16/INT8/INT4 |
 | [StableDiffusionV1.5](https://github.com/sophgo/sophon-demo/blob/release/sample/StableDiffusionV1_5/README.md) | Image Generation                   | Python     | FP32/FP16      |
 | [GroundingDINO](https://github.com/sophgo/sophon-demo/blob/release/sample/GroundingDINO/README.md)             | MultiModal Object Detection        | Python     | FP16           |
 
-| application                                                    | scenarios                 | code    | 
-|---                                                             |---                       |---          | 
-| [VLPR](https://github.com/sophgo/sophon-demo/blob/release/application/VLPR/README.md)                           | Multi-streams Vehicle License Plate Recognition | C++/Python  | 
-| [YOLOv5_multi](https://github.com/sophgo/sophon-demo/blob/release/application/YOLOv5_multi/README.md)           | Multi-streams Object Detection       | C++         | 
-| [YOLOv5_multi_QT](https://github.com/sophgo/sophon-demo/blob/release/application/YOLOv5_multi_QT/README.md)     | Multi-streams Object Detection + QT_HDMI display    | C++         | 
+| application                                                    | scenarios                 | code    |
+|---                                                             |---                       |---          |
+| [VLPR](https://github.com/sophgo/sophon-demo/blob/release/application/VLPR/README.md)                           | Multi-streams Vehicle License Plate Recognition | C++/Python  |
+| [YOLOv5_multi](https://github.com/sophgo/sophon-demo/blob/release/application/YOLOv5_multi/README.md)           | Multi-streams Object Detection       | C++         |
+| [YOLOv5_multi_QT](https://github.com/sophgo/sophon-demo/blob/release/application/YOLOv5_multi_QT/README.md)     | Multi-streams Object Detection + QT_HDMI display    | C++         |

@@ -1,4 +1,8 @@
-# Wireless module
+---
+title: "Wireless module"
+description: "AIO-3399C Wireless module documentation."
+---
+
 ## [EC20 4G Module suite](https://www.firefly.store/products/4g-module-kit-eg25-g)
 ### Product parameters
 * **Model**
@@ -115,7 +119,7 @@ The official website of the public version of the default firmware support EC20 
 
 ### Connection
 
-Please refer to [EC20 4G module suite](#ec20-4g-module-suite). 
+Please refer to [EC20 4G module suite](#ec20-4g-module-suite).
 
 ### Reference firmware
 
@@ -242,5 +246,3 @@ Ensure that the firmware is the latest [public firmware](https://en.t-firefly.co
 
 * Modify serial port configuration (serial port node or baud rate)
     * Modify the `SERIAL_DEVICE` or `SERIAL_BAUD_RATE` in the SDK directory `device/rockchip/rk3399/gps/u-blox.conf`(The version above Android7.1 is `device/rockchip/rk3399/rk3399_firefly_aioc/gps/u-blox.conf`)  to the value of the corresponding module configuration. Then, recompile the SDK and upgrad the firmware to take effect.
-
-

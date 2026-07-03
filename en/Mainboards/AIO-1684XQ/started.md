@@ -1,4 +1,7 @@
-# First use
+---
+title: "First use"
+description: "AIO-1684XQ First use documentation."
+---
 
 ## Product Overview
 
@@ -48,7 +51,7 @@ Additionally, during usage, you might require the following:
 
 ![](../../../bm1684_img/AIO-1684XQ/ethernet_interfaces.png)
 
-Ethernet port 0 (located on the upper layer) is set up with a dynamic IP, which can be obtained automatically via DHCP.  
+Ethernet port 0 (located on the upper layer) is set up with a dynamic IP, which can be obtained automatically via DHCP.
 
 Ethernet port 1 (located on the lower layer) is configured with a static IP 192.168.150.1 and subnet mask 255.255.255.0. You can set your PC's IP address to 192.168.150.2/24 for initial access.
 

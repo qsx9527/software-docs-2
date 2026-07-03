@@ -1,4 +1,7 @@
-# 固件升级
+---
+title: "固件升级"
+description: "AIO-1126BJD4V0 固件升级 documentation."
+---
 
 Firefly 提供` Linux `和` Windows ` 升级工具，升级步骤非常简单。
 
@@ -14,7 +17,7 @@ Firefly 提供` Linux `和` Windows ` 升级工具，升级步骤非常简单。
 * 以管理员的方式运行` exe `文件
 * 完成安装
 
-### 升级 
+### 升级
 
 * 以管理员的方式打开 Windows 升级工具 [RKDevTool](http://www.t-firefly.com/doc/download/101.html)。
 

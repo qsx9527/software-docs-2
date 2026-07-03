@@ -1,3 +1,8 @@
+---
+title: "CAN"
+description: "AIO-1126BQ38 CAN documentation."
+---
+
 ## CAN
 ### Introduction
 Controller area network (can) is a kind of serial communication network which can effectively support distributed control or real-time control. Can bus is a bus protocol widely used in automobile, which is designed as the communication of microcontroller in automobile environment.
@@ -43,15 +48,15 @@ Use the "candump" and "cansend" tools directly to send and receive messages, pus
 ```
 #Close the can0 device at the transceiver
 ip link set can0 down
-#Set the bit rate to 250Kbps at the transceiver                    
+#Set the bit rate to 250Kbps at the transceiver
 ip link set can0 type can bitrate 250000
 #Show can0 details
 ip -details link show can0
-#Open the can0 device at the transceiver 
+#Open the can0 device at the transceiver
 ip link set can0 up
-#Perform candump on the receiving end, blocking waiting for messages               
+#Perform candump on the receiving end, blocking waiting for messages
 candump can0
-#Execute cansend at the sending end to send the message                         
+#Execute cansend at the sending end to send the message
 cansend can0 123#1122334455667788
 ```
 
@@ -81,4 +86,3 @@ The receiving end only successfully received the message once, and then no longe
 ##### CAN
 
 If the bitrate of CAN is 1M, it is recommended to modify the CAN clock rate to 300M to make the signal more stable. If the bitrate is lower than 1M, the clock rate can be set to 200M.
-

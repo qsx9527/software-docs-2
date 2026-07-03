@@ -1,5 +1,10 @@
+---
+title: "AIO-3288C"
+description: "AIO-3288C 主板产品文档导航。"
+---
+
 # 上手教程
-- [](started.md)
+- [初次使用](started.md)
 - [串口调试](debug.md)
 # 更新固件
 - [启动模式说明](bootmode.md)
@@ -24,7 +29,7 @@
 - [MIPI CSI 使用](driver_mipi_csi.md)
 - [PWM 使用](driver_pwm.md)
 - [SPI 使用](driver_spi.md)
-- [](driver_uart.md)
+- [UART 使用](driver_uart.md)
 # 配件
 - [串口模块](module_serial.md)
 - [屏幕模组](module_display.md)

@@ -1,4 +1,7 @@
-# Compile Linux firmware
+---
+title: "Compile Linux firmware"
+description: "AIO-3399C Compile Linux firmware documentation."
+---
 
 In order to facilitate the use and development of users, the official Linux development kit SDK is provided. This chapter explains the specific use of the SDK in detail.
 

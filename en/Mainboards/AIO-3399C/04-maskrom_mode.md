@@ -1,4 +1,7 @@
-# MaskRom mode
+---
+title: "MaskRom mode"
+description: "AIO-3399C MaskRom mode documentation."
+---
 
 ***See startup mode for an introduction [Boot mode description](01-bootmode.md)***
 

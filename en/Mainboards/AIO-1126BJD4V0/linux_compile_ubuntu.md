@@ -1,3 +1,8 @@
+---
+title: "Linux Compile Ubuntu"
+description: "AIO-1126BJD4V0 Linux Compile Ubuntu documentation."
+---
+
 ## Compile Ubuntu firmware
 
 This chapter introduces the compilation process of Ubuntu firmware. It is recommended to develop under Ubuntu 18.04 system environment. If you use other system versions, you may need to adjust the compilation environment accordingly.
@@ -27,7 +32,7 @@ device-tree-compiler ncurses-dev \
 There are configuration files for different board in `device/rockchip/rk3588/`, select the configuration file:
 
 ```bash
-./build.sh 
+./build.sh
 
 or
 

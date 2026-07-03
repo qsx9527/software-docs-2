@@ -1,3 +1,8 @@
+---
+title: "Linux Compile Buildroot"
+description: "AIO-1126BQ38 Linux Compile Buildroot documentation."
+---
+
 ## Compile Buildroot firmware
 
 ### Preparatory work

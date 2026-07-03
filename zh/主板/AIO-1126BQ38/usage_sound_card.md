@@ -1,3 +1,8 @@
+---
+title: "使用 声卡 卡"
+description: "AIO-1126BQ38 使用 声卡 卡文档。"
+---
+
 ## Sound Card 使用
 
 ### EarPhone && Speak

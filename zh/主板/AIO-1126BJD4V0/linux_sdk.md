@@ -1,3 +1,8 @@
+---
+title: "Linux SDK"
+description: "AIO-1126BJD4V0 Linux SDK文档。"
+---
+
 ## Linux SDK 配置介绍
 
 ### 目录介绍

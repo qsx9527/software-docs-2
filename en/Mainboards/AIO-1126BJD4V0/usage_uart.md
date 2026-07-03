@@ -1,4 +1,7 @@
-# UART
+---
+title: "UART"
+description: "AIO-1126BJD4V0 UART documentation."
+---
 
 ## Introduction
 

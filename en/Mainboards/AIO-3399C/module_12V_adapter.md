@@ -1,4 +1,7 @@
-# [Power adapter](https://www.firefly.store/products/12v-2a-power-adapter)
+---
+title: "Power adapter"
+description: "AIO-3399C Power adapter documentation."
+---
 
 ### Product parameter
 

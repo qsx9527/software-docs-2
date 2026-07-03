@@ -1,4 +1,7 @@
-# 串口模块
+---
+title: "串口模块"
+description: "AIO-3399C 串口模块文档。"
+---
 
 ## [USB转TTL串口模块](https://store.t-firefly.com/goods.php?id=24)
 
@@ -18,4 +21,3 @@
 ### 连接方法
 
 ![](../../../rk3399_img/AIO-3399C/debug_connection.jpg)
-

@@ -1,3 +1,8 @@
+---
+title: "OpenCV 支持"
+description: "AIO-3399C OpenCV 支持文档。"
+---
+
 
 ## OpenCV 编译和安装
 

@@ -1,4 +1,7 @@
-# Compile Android10.0
+---
+title: "Compile Android10.0"
+description: "AIO-3399C Compile Android10.0 documentation."
+---
 
 ### Download Android SDK
 
@@ -124,7 +127,7 @@ make -j8
 ./mkimage.sh
 ```
 
-### Packaged into unified firmware 
+### Packaged into unified firmware
 
 After compilation, you can use Firefly official scripts to package into unified firmware, execute the following command：
 ```
@@ -136,10 +139,10 @@ It is also very simple to package the unified firmware update.img under Windows.
 
 
 
-### Some Introduction about Compiling 
-####  Android 10.0 can't be written directly kernel.img and resource.img 
+### Some Introduction about Compiling
+####  Android 10.0 can't be written directly kernel.img and resource.img
 Android 10.0 kernel.img and resource.img Included in boot.img After the kernel is updated and compiled, it needs to be executed in the Android root directory mkimage.sh Repackage boot.img .After packing, download boot.img  in rockdev directory .You can compile the kernel separately by using the following instruction.
-####  Compiling kernel generation separately boot.img 
+####  Compiling kernel generation separately boot.img
 Principle of compilation: in the kernel directory, the generated kernel.img And resource.img Replace with old boot.img So you need to use boot when compiling  IMG = XXX parameter specification boot.img The command is as follows:
 ``` shell
 cd kernel
@@ -153,28 +156,28 @@ After compiling, you can directly download the boot.img To the machine.
 * dtbo.img  Device Tree Overlays
 * kernel.img  Currently, it cannot be burned separately, it needs to be packaged into boot.img to burn and write
 * MiniLoaderAll.bin include first loader
-* misc.img include recovery-wipe boot flag information ，enter recovery afte v 
-* odm.img include android odm，included in super.img partition ,upgrade alone by the fastboot tool 
+* misc.img include recovery-wipe boot flag information ，enter recovery afte v
+* odm.img include android odm，included in super.img partition ,upgrade alone by the fastboot tool
 * parameter.txt include partition information
-* pcba_small_misc.img  include pcba boot flag information，enter the simple pcba mode after upgrade 
+* pcba_small_misc.img  include pcba boot flag information，enter the simple pcba mode after upgrade
 * pcba_whole_misc.img  include pcba boot flag information，enter the full pcba mode after upgrade
 * recovery.img  include recovery-ramdis、kernel、dtb
 * resource.img  include dtb，kernel and  uboot phases log and the uboot charging  logo,it should be packed into boot.img,then upgrade it
 * super.img   include odm、vendor、system partition content
-* system.img  include android system，included in super.img partition ,upgrade alone by the fastboot tool 
+* system.img  include android system，included in super.img partition ,upgrade alone by the fastboot tool
 * trust.img include BL31、BL32
 * uboot.img  include uboot.img
 * vbmeta.img include avb，for AVB verify
-* vendor.img 包含android vendor，included in super.img partition ,upgrade alone by the fastboot tool 
-* update.img include all the img file above，use tools to upgrade the whole firmware package 
+* vendor.img 包含android vendor，included in super.img partition ,upgrade alone by the fastboot tool
+* update.img include all the img file above，use tools to upgrade the whole firmware package
 
-### Flash Image 
+### Flash Image
 
 Reference: [《Flash Image》](03-upgrade_firmware.md)
 ## Other Android versions
 * <font color=#ff0000 size=3>Main maintenance:</font>
 
-   ["Compile Android7.1 Industry firmware"](compile_android7.1_industry_firmware.md)     ["Compile Android10.0"](compile_android10.0_firmware.md)  
+   ["Compile Android7.1 Industry firmware"](compile_android7.1_industry_firmware.md)     ["Compile Android10.0"](compile_android10.0_firmware.md)
 * Support but not maintain:
 
-   ["Compile Android7.1 firmware"](compile_android7.1_firmware.md)     ["Compile Android8.1"](compile_android8.1_firmware.md)  
+   ["Compile Android7.1 firmware"](compile_android7.1_firmware.md)     ["Compile Android8.1"](compile_android8.1_firmware.md)

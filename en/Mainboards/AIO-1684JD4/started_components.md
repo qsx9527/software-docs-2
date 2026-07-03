@@ -1,4 +1,7 @@
-# First use
+---
+title: "First use"
+description: "AIO-1684JD4 First use documentation."
+---
 
 ## Product description
 

@@ -1,3 +1,8 @@
+---
+title: "Sound Card"
+description: "AIO-1126BJD4V0 Sound Card documentation."
+---
+
 ## Sound Card
 
 ### EarPhone && Speak

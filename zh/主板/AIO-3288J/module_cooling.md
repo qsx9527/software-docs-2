@@ -1,4 +1,7 @@
-# 散热套件
+---
+title: "散热套件"
+description: "AIO-3288J 散热套件文档。"
+---
 
 ## [铝制散热片](https://store.t-firefly.com/goods.php?id=54)
 

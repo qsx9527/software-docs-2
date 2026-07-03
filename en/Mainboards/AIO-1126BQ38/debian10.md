@@ -1,4 +1,7 @@
-# Firefly Debian Manual
+---
+title: "Firefly Debian Manual"
+description: "AIO-1126BQ38 Firefly Debian Manual documentation."
+---
 
 ## Firmware Download
 Download the `Debian10` firmware from the [Resource Download](https://www.t-firefly.com/doc/download/101.html) page.
@@ -56,7 +59,7 @@ make
 sudo ./rknn_ssd_demo model/ssd_inception_v2_rv1109_rv1126.rknn model/road.bmp
 
 # The effect is as follows:
-root@firefly:/home/firefly/rknn_ssd_demo# sudo ./rknn_ssd_demo model/ssd_inception_v2_rv1109_rv1126.rknn model/road.bmp 
+root@firefly:/home/firefly/rknn_ssd_demo# sudo ./rknn_ssd_demo model/ssd_inception_v2_rv1109_rv1126.rknn model/road.bmp
 Loading model ...
 model input num: 1, output num: 2
 input tensors:

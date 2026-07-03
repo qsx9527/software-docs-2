@@ -1,4 +1,7 @@
-# Firefly Linux 开发指南
+---
+title: "Firefly Linux 开发指南"
+description: "AIO-1126BQ38 Firefly Linux 开发指南文档。"
+---
 
 **加载中......**
 

@@ -1,4 +1,7 @@
-# Algorithm Adaptation
+---
+title: "Algorithm Adaptation"
+description: "AIO-1126BJD4V0 Algorithm Adaptation documentation."
+---
 
 This chapter is mainly aimed at two types of users:
 
@@ -77,8 +80,8 @@ Rockchip has added the code to the `buildroot` source code compilation. You only
 
 ```
 BR2_PACKAGE_QFACIALGATE=y
-BR2_PACKAGE_RKFACIAL_USE_WEB_SERVER=y 
-BR2_PACKAGE_ROCKFACE_FACE_DETECTION_V3_FAST=y   
+BR2_PACKAGE_RKFACIAL_USE_WEB_SERVER=y
+BR2_PACKAGE_ROCKFACE_FACE_DETECTION_V3_FAST=y
 BR2_PACKAGE_ROCKFACE_LIVING_DETECTION=y
 ```
 
@@ -115,7 +118,7 @@ if(ret) {
                 default:
                         display_set_color(set_yuv_color(COLOR_R));
                         break;
-        }   
+        }
 # You can add corresponding operations in the identification of registered, unregistered, and blacklist, and recompile to cover the board.
 # It is worth noting that the camera preview is not done with QT, but with Rkfacial. All frames,
 # Information drawing is achieved by configuring the Rkfacial callback function. After the modification is completed, you can directly make

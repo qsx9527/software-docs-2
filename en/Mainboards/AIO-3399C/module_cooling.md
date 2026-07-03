@@ -1,7 +1,10 @@
+---
+title: "Heat sink"
+description: "AIO-3399C Heat sink documentation."
+---
 
 
 
-# Heat sink
 
 
 ## [Aluminum heat sink](https://www.firefly.store/products/aluminum-heat-sink-d)
@@ -37,4 +40,3 @@
 ### Installation method
 
 ![](../../../rk3399_img/AIO-3399C/module_cooling_fan_install.png)
-

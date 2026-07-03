@@ -1,4 +1,9 @@
-## OTA Compilation 
+---
+title: "Android Compile OTA Package"
+description: "AIO-1126BJD4V0 Android Compile OTA Package documentation."
+---
+
+## OTA Compilation
 
 ### Firefly full OTA compilation and upgrade
 #### Add the -o parameter for OTA full compilation
@@ -8,7 +13,7 @@
 
 #### Generate the full package path
 ```
-out/target/product//-ota-eng.xxx.zip 
+out/target/product//-ota-eng.xxx.zip
 ```
 #### Generate the base material package path
 ```
@@ -16,17 +21,17 @@ out/target/product//obj/PACKAGING/target_files_intermediates/-target_files-eng.x
 ```
 Copy the base material package and rename it, mainly for subcontracting upgrades.
 ```
-cp out/target/product//obj/PACKAGING/target_files_intermediates/-target_files-eng.xxx.zip ~/ota/v1.zip 
+cp out/target/product//obj/PACKAGING/target_files_intermediates/-target_files-eng.xxx.zip ~/ota/v1.zip
 ```
 
 #### Package compiled firmware and upgrades
 ```
-./FFTools/mkupdate/mkupdate.sh -l 
+./FFTools/mkupdate/mkupdate.sh -l
 ```
 In the `rockdev/Image-/` directory, find the corresponding firmware and burn it to the machine, then the machine can carry out the full package upgrade and the difference package upgrade,put 'update.zip' into /sdcard/ and restart the full package as prompted.
 
 ### Generate the incremental OTA package
-#### Generate a new base material package 
+#### Generate a new base material package
 The v1.zip basic material package has been made, and another v2.zip material package needs to be made to generate the difference package. You need to modify the kernel DTS code or Android code, and then run the command again.
 
 ```

@@ -1,4 +1,7 @@
-# Sophon SDK development
+---
+title: "Sophon SDK development"
+description: "AIO-1684XQ Sophon SDK development documentation."
+---
 
 ## Sophon SDK
 
@@ -44,7 +47,7 @@ SophonSDK provides eleven folder modules, as shown in the following table:
 | sophon-demo     | Comprehensive routines for single models or scenarios                                                                           |
 | sophon-sail     | Interface library that encapsulates the underlying interface into C++/Python API                                                |
 | sophon-rpc      | Offload some computing tasks on PCIe card product to ARM CPU on the card                                                        |
-   
+
 ### Unzipped SDK Directory
 
 The structure of the unpacked SDK files is as follows:
@@ -169,7 +172,7 @@ The structure of the unpacked SDK files is as follows:
 * **Model Performance and Accuracy Verification Tool TPUPerf**: enables performance analysis and accuracy validation of models
 
 ### Details
-* [Get SDK（v23.05.01 version）](https://doc.sophgo.com/sdk-docs/v23.05.01/docs_latest_release/docs/SophonSDK_doc/en/html/sdk_intro/3_claim_sdk.html)  
+* [Get SDK（v23.05.01 version）](https://doc.sophgo.com/sdk-docs/v23.05.01/docs_latest_release/docs/SophonSDK_doc/en/html/sdk_intro/3_claim_sdk.html)
 * [Install SDK（v23.05.01 version）](https://doc.sophgo.com/sdk-docs/v23.05.01/docs_latest_release/docs/SophonSDK_doc/en/html/sdk_intro/4_install.html)
 
 For additional resources, please visit [here](https://developer.sophon.ai/site/index/material/all/all.html).

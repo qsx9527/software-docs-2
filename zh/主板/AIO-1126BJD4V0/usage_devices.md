@@ -1,4 +1,7 @@
-# 外设使用
+---
+title: "外设使用"
+description: "AIO-1126BJD4V0 外设使用文档。"
+---
 
 ## WiFi
 *` RV1109/RV1126` 平台默认使用 `connman` 管理 WiFi，而且 WiFi 的核心进程 `wpa_supplicant` 的启动方法由它启动：
@@ -85,8 +88,8 @@ Type  : tristate
 Prompt: USB driver for GSM and CDMA modems
 Location:
 	-> Device Drivers
-		-> USB support (USB_SUPPORT [=y]) 
-			-> USB Serial Converter support (USB_SERIAL [=y]) 
+		-> USB support (USB_SUPPORT [=y])
+			-> USB Serial Converter support (USB_SERIAL [=y])
 Defined at drivers/usb/serial/Kconfig:558
 Depends on: USB_SUPPORT [=y] && USB [=y] && USB_SERIAL [=y]
 Selects: USB_SERIAL_WWAN [=y]
@@ -136,7 +139,7 @@ Failed to kill daemon: No such file or directory
 [04-20_14:27:07:772] adding dns 221.179.38.7
 [04-20_14:27:07:772] adding dns 120.196.165.7
 [root@RV1126_RV1109:/userdata/ec20-armhf]#ifconfig wwan0
-wwan0     Link encap:UNSPEC  HWaddr 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00  
+wwan0     Link encap:UNSPEC  HWaddr 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00
           inet addr:10.154.101.71  P-t-P:10.154.101.71  Mask:255.255.255.240
           UP POINTOPOINT RUNNING NOARP MULTICAST  MTU:1500  Metric:1
           RX packets:2 errors:0 dropped:0 overruns:0 frame:0
@@ -309,9 +312,9 @@ echo 0 > /sys/class/leds/firefly:yellow:user/brightness # 灭
 ```
 ## POE
 * 可添加 `POE` 功能的网口是 `1000M` 网口，如下图所示
-![](../../../rv1126b_img/AIO-1126BJD4V0/POE-interface.png) 
+![](../../../rv1126b_img/AIO-1126BJD4V0/POE-interface.png)
 需要将 `POE` 模组接到底板的 `POE` 接口处
 ```
 #查看1000M POE网口是否存在
-ifconfig eth1 
+ifconfig eth1
 ```

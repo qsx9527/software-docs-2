@@ -1,3 +1,8 @@
+---
+title: "Camera Schematics"
+description: "AIO-3399C Camera Schematics documentation."
+---
+
 According to the schematic diagram below, you need to provide: `AF_VDD28`, `DOVDD18`, `AVDD28`, `DVDD12`, `PWDN1`, `RST` and `MCLK`.
 
 * MIPI interface

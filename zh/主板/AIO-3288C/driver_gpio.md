@@ -1,4 +1,7 @@
-# GPIO 使用
+---
+title: "GPIO 使用"
+description: "AIO-3288C GPIO 使用文档。"
+---
 
 ## 简介
 

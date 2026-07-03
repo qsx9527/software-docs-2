@@ -1,4 +1,7 @@
-# Hardware Information
+---
+title: "Hardware Information"
+description: "AIO-1126BJD4V0 Hardware Information documentation."
+---
 
 ## Hardware Resources
 
@@ -7,7 +10,7 @@
 * <font color=blue>**CPU**</font>:**Quad-Core ARM Cortex-A7，RISC-V MCU**
 * <font color=blue>**NPU**</font>:**2.0Tops, support INT8/ INT16**
 * <font color=blue>**DDR**</font>:**DDR4 1GB/2GB**
-* <font color=blue>**Flash**</font>:**eMMC 8GB/16GB, SD Card** 
+* <font color=blue>**Flash**</font>:**eMMC 8GB/16GB, SD Card**
 * <font color=blue>**Display**</font>:**MIPI-DSI interface, 1080P@60fps**
 * <font color=blue>**Camera**</font>:**Double MIPI-CSI interface**
 * <font color=blue>**ISP**</font>:**14M ISP 2.0 with 3 frame HDR(Line-based/Frame-based/DCG)**
@@ -25,7 +28,7 @@
 * <font color=blue>**CPU**</font>: **Dual-core ARM Cortex-A7，RISC-V MCU**
 * <font color=blue>**NPU**</font>: **1.2Tops, support INT8/ INT16**
 * <font color=blue>**DDR**</font>:**DDR3 1GB/2GB**
-* <font color=blue>**Flash**</font>:**eMMC 8GB/16GB, SD Card** 
+* <font color=blue>**Flash**</font>:**eMMC 8GB/16GB, SD Card**
 * <font color=blue>**Display**</font>: **MIPI-DSI interface，1080P@60fps**
 * <font color=blue>**Camera**</font>:**Double MIPI-CSI interface**
 * <font color=blue>**ISP**</font>: **5 million ISP 2.0 with 3 frame HDR (Line-based/Frame-based/DCG)**

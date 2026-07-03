@@ -1,3 +1,8 @@
+---
+title: "Linux 编译 Buildroot"
+description: "AIO-1126BQ38 Linux 编译 Buildroot文档。"
+---
+
 ## 编译 Buildroot 固件
 
 ### 准备工作

@@ -1,4 +1,7 @@
-# Serial debug
+---
+title: "Serial debug"
+description: "AIO-3288C Serial debug documentation."
+---
 
 If you are doing U-Boot or kernel development, the USB serial adapter (short for USB to serial TTL adapter) is very useful for checking the system startup log, especially when there is no graphical desktop display.
 

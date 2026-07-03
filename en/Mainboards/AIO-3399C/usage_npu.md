@@ -1,4 +1,7 @@
-# NPU use
+---
+title: "NPU use"
+description: "AIO-3399C NPU use documentation."
+---
 
 AIO-3399C(AI) has a built-in GTI 2801S NPU module.
 

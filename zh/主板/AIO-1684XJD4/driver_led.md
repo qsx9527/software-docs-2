@@ -1,4 +1,7 @@
-# LED 使用
+---
+title: "LED 使用"
+description: "AIO-1684XJD4 LED 使用文档。"
+---
 
 AIO-1684XJD4 开发板上有 2 个 LED 灯:
 
@@ -19,4 +22,3 @@ echo 1 >/sys/class/leds/WORK_LED/brightness
 # 绿灯灭
 echo 0 >/sys/class/leds/WORK_LED/brightness
 ```
-

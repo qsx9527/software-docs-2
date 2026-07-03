@@ -1,3 +1,8 @@
+---
+title: "Linux Compile Yocto"
+description: "AIO-1126BJD4V0 Linux Compile Yocto documentation."
+---
+
 ## Compile Yocto firmware
 
 ### Compile
@@ -79,16 +84,16 @@ If you want to compile some recipes separately, you can refer to the following:
 ```bash
 # kernel
 MACHINE=aio-1126bjd4v0 bitbake linux-rockchip
-        
+
 # u-boot
 MACHINE=aio-1126bjd4v0 bitbake u-boot-rockchip
-        
+
 # rkmpp
 MACHINE=aio-1126bjd4v0 bitbake rockchip-mpp
-        
+
 # rockchip-librga
 MACHINE=aio-1126bjd4v0 bitbake rockchip-librga
-        
+
 # See more compilation objects
 MACHINE=aio-1126bjd4v0 bitbake -s
 ```
@@ -152,7 +157,7 @@ $ sudo upgrade_tool wl 0 <IMAGE NAME>.wic
 $ sudo upgrade_tool uf update.img
 ```
 
-* **The default login account of the firmware is: root, password: firefly. The firmware contains a common user account named firefly, and the password is firefly.** 
+* **The default login account of the firmware is: root, password: firefly. The firmware contains a common user account named firefly, and the password is firefly.**
 
 Note: If you are developing on a Windows PC, you can use RKdevtool to directly burn update.img, **no need to burn `<IMAGE NAME>.wic`**. However, please note that update.img is a link file, so you must select the actual file that the link file points to.
 

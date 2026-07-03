@@ -1,11 +1,14 @@
-# RELAY 使用
+---
+title: "RELAY 使用"
+description: "AIO-1684XQ RELAY 使用文档。"
+---
 
 
 AIO-1684XQ 开发板上有 2 个 RELAY 控制单元:
 
-![](../../../bm1684_img/AIO-1684XQ/relay.png)    
+![](../../../bm1684_img/AIO-1684XQ/relay.png)
 
-每个 RELAY 单元的参数为：  
+每个 RELAY 单元的参数为：
 
 ![](../../../bm1684_img/AIO-1684XQ/relay_parameter.png)
 ```

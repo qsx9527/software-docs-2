@@ -1,3 +1,8 @@
+---
+title: "Upgrade Firmware Enter Loader"
+description: "AIO-1126BJD4V0 Upgrade Firmware Enter Loader documentation."
+---
+
 * Disconnect the power adapter first
 * Use USB 数据线 to connect one end to the host and the other end to the development board
 
@@ -7,4 +12,3 @@
 * The button position may vary slightly depending on the hardware version, please refer to the actual silk screen
 * Connect the power
 * After about two seconds, release the RECOVERY button
-

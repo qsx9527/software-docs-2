@@ -1,4 +1,7 @@
-# [12V电源适配器](https://store.t-firefly.com/goods.php?id=31)
+---
+title: "12V电源适配器"
+description: "AIO-3399C 12V电源适配器文档。"
+---
 
 ## 产品参数
 
@@ -14,4 +17,3 @@
 ![](../../../rk3399_img/module_power_adapter1.png)
 
 ![](../../../rk3399_img/module_power_adapter2.png)
-

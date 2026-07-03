@@ -1,3 +1,8 @@
+---
+title: "Linux SDK 版本"
+description: "AIO-1126BQ38 Linux SDK 版本文档。"
+---
+
 <font color=red>**本教程的编译部分适用于 v2.2.5f 以上 SDK 版本**</font>
 
 ```

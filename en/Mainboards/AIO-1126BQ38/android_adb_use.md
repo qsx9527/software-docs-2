@@ -1,4 +1,7 @@
-# ADB use
+---
+title: "ADB use"
+description: "AIO-1126BQ38 ADB use documentation."
+---
 
 ## Preface
 

@@ -1,4 +1,7 @@
-# 无线模块
+---
+title: "无线模块"
+description: "AIO-3288J 无线模块文档。"
+---
 
 ## [EC20 4G模组套件](https://store.t-firefly.com/goods.php?id=49)
 
@@ -116,4 +119,3 @@
 ### 注意事项
 
 GPS功能会占用到UART3，若需要用UART3作为其他用途，需要将GPS的功能先禁止掉。
-

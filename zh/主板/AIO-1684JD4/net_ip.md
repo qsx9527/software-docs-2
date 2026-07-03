@@ -1,4 +1,7 @@
-# 网络 IP 配置
+---
+title: "网络 IP 配置"
+description: "AIO-1684JD4 网络 IP 配置文档。"
+---
 
 ## Debian 系统
 在 Debian 9 系统，双网口中的 `eth0` 默认是动态获取 IP 的（即 DHCP），`eth1` 是固定成了 `192.168.150.1`。
@@ -35,4 +38,3 @@ network:
 ```
 
 如果用户删掉这个文件，那么 `eth1` 会变成跟 `eth0` 一样的 DHCP 方式获取 IP；如果用户想要把 `eth0` 也固定 IP，就只需在 `/etc/netplan/01-netcfg.yaml` 文件中添加 `eth0` 节点（参考 `eth1`），重启生效即可。
-

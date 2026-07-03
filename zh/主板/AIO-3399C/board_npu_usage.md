@@ -1,4 +1,7 @@
-# NPU 使用
+---
+title: "NPU 使用"
+description: "AIO-3399C NPU 使用文档。"
+---
 
 AIO-3399C(AI) 内置 GTI 2801S NPU 模块。
 

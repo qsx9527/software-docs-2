@@ -1,4 +1,7 @@
-# Firefly Ubuntu Desktop Introduction
+---
+title: "Firefly Ubuntu Desktop Introduction"
+description: "AIO-1126BJD4V0 Firefly Ubuntu Desktop Introduction documentation."
+---
 
 AIO-1126BJD4V0 The Ubuntu Desktop system is based on the Ubuntu 64bit system. Currently, Ubuntu 18.04 has been released. Has the following characteristics:
 

@@ -1,4 +1,7 @@
-# 屏幕模组
+---
+title: "屏幕模组"
+description: "AIO-3288C 屏幕模组文档。"
+---
 
 ## [10.1寸LVDS屏幕模组](https://store.t-firefly.com/goods.php?id=80)
 

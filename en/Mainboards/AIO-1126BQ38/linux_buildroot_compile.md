@@ -1,4 +1,7 @@
-# Compile Buildroot firmware
+---
+title: "Compile Buildroot firmware"
+description: "AIO-1126BQ38 Compile Buildroot firmware documentation."
+---
 
 This chapter introduces the compilation process of Buildroot firmware. It is recommended to develop in the Ubuntu 18.04 system environment. If you use other system versions, you may need to adjust the compilation environment accordingly.
 
@@ -101,7 +104,7 @@ $ tree -L 1
 In the `device/rockchip/rk356x/` directory, there are configuration files of different board types, select the configuration file:
 
 ```bash
-./build.sh 
+./build.sh
 ```
 
 The configuration file will be linked to `device/rockchip/.BoardConfig.mk`, check the file to verify whether the configuration is successful.

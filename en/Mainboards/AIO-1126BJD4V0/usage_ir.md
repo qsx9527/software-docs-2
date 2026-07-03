@@ -1,4 +1,7 @@
-# IR
+---
+title: "IR"
+description: "AIO-1126BJD4V0 IR documentation."
+---
 
 AIO-1126BJD4V0 is equipped with an IR infrared mainboard. And it is equipped with a photosensitive sensor to identify daytime scenes and nighttime scenes. The following uses IPC firmware for testing.
 

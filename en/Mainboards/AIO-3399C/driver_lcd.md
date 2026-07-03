@@ -1,4 +1,8 @@
-# LCD
+---
+title: "LCD"
+description: "AIO-3399C LCD documentation."
+---
+
 ## Introduction
 
 The AIO-3399C development board supports two LCD screen interfaces by default, one is LVDS and the other is EDP. The position of the interface on the board is as follows:
@@ -336,11 +340,11 @@ static int rockchip_dw_mipi_dsi_enable(struct display_state *state)
 ```
 #### FAQs
 ##### 1. does the screen shake or flash?
-        
+
 Check whether the screen parameters exceed the limited cycle of the screen specification, and check the screen clock size. "Timing parameters_sync_event" all parameter changes must be adjusted synchronously with comment.
-    
+
 ##### 2. Abnormal color display
-        
+
 Try to adjust color mapping or LVDS timing synchronously.
 
 **Note * *: the page "how to use" has detailed steps. For other parameter descriptions, please refer to the document "page" menu.

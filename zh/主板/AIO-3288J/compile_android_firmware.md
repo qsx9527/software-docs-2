@@ -1,4 +1,7 @@
-# 编译 Android 5.1 固件
+---
+title: "编译 Android 5.1 固件"
+description: "AIO-3288J 编译 Android 5.1 固件文档。"
+---
 
 ## 下载 Android SDK
 
@@ -83,7 +86,7 @@ make -j8
 ./mkimage.sh
 ```
 
-### 构建变体说明  
+### 构建变体说明
 
 默认的目标构建变体(TARGET_BUILD_VARIANT)为 userdebug。常用变体有三种，分别是用户(user)、用户调试(userdebug)和工程模式(eng)，其区别如下：
 

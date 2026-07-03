@@ -1,3 +1,8 @@
+---
+title: "Yocto Develop"
+description: "AIO-3399C Yocto Develop文档。"
+---
+
 ## Yocto 开发
 
 firefly 目前发布支持的Yocto版本有:

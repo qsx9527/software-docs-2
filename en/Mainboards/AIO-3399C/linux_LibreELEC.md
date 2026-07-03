@@ -1,4 +1,7 @@
-# Compile LibreELEC firmware
+---
+title: "Compile LibreELEC firmware"
+description: "AIO-3399C Compile LibreELEC firmware documentation."
+---
 
 Use the SDK officially provided by LibreELEC and attach the patch file provided by firefly. This chapter describes the specific usage of the SDK in detail.
 

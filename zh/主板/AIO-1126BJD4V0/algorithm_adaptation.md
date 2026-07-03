@@ -1,4 +1,7 @@
-# 算法适配
+---
+title: "算法适配"
+description: "AIO-1126BJD4V0 算法适配文档。"
+---
 
 这一章主要针对两种用户：
 
@@ -66,7 +69,7 @@ Rockchip 自主研发了一套人脸识别算法名为` rockface `。在` rockfa
 	* 路径：/path/to/sdk/external/rockface
 	* 说明：rockface 人脸 SDK 提供一系列人脸识别分析相关功能，充分利用了 NPU 对算法模型进行加速。开发者通过 SDK 提供的 API 接口能够快速构建人脸 AI 应用。
 2. rkfacial
-	* 路径：/path/to/sdk/external/rkfacial  
+	* 路径：/path/to/sdk/external/rkfacial
 	* 说明：rockface API 参考指南。
 3. QFacialGate
 	* 路径：/path/to/sdk/app/QFacialGate
@@ -78,8 +81,8 @@ Rockchip 已经把代码添加到` buildroot `源码编译中，只需要在` bu
 
 ```
 BR2_PACKAGE_QFACIALGATE=y
-BR2_PACKAGE_RKFACIAL_USE_WEB_SERVER=y 
-BR2_PACKAGE_ROCKFACE_FACE_DETECTION_V3_FAST=y   
+BR2_PACKAGE_RKFACIAL_USE_WEB_SERVER=y
+BR2_PACKAGE_ROCKFACE_FACE_DETECTION_V3_FAST=y
 BR2_PACKAGE_ROCKFACE_LIVING_DETECTION=y
 ```
 
@@ -92,7 +95,7 @@ BR2_PACKAGE_ROCKFACE_LIVING_DETECTION=y
 * 在完成一次 buildroot 完整编译后进入编译输出目录对 QFacialGate 二次开发。
 ```
 # 这里是使用默认配置编译后输出的路径
-cd sdk/buildroot/output/firefly_rv1126_rv1109_facial_gate/build/QFacialGate-1.0/ 
+cd sdk/buildroot/output/firefly_rv1126_rv1109_facial_gate/build/QFacialGate-1.0/
 
 # 执行编译
 make
@@ -116,10 +119,10 @@ if(ret) {
                 default:
                         display_set_color(set_yuv_color(COLOR_R));
                         break;
-        }   
-# 可以在识别注册、未注册、黑名单中添加对应操作，重新编译覆盖到板子上。       
+        }
+# 可以在识别注册、未注册、黑名单中添加对应操作，重新编译覆盖到板子上。
 # 值得注意的是，摄像头的预览并不是用 QT 完成的，是用 Rkfacial，所有画框、
-# 信息绘制通过配置 Rkfacial 回调函数实现。等修改完成后就可以直接 make 
+# 信息绘制通过配置 Rkfacial 回调函数实现。等修改完成后就可以直接 make
 # 编译。如果最终修改想固化到 buildroot 中，需要把修改添加到 sdk/app/QFacialGate
 ```
 

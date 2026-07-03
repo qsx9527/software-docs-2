@@ -1,4 +1,7 @@
-# Technical Case
+---
+title: "Technical Case"
+description: "AIO-1126BQ38 Technical Case documentation."
+---
 
 ## Virtual Hardware Technology
 

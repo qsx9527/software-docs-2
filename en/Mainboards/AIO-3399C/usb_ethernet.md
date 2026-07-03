@@ -1,3 +1,8 @@
+---
+title: "USB Ethernet"
+description: "AIO-3399C USB Ethernet documentation."
+---
+
 ## USB Ethernet
 
 USB Ethernet, the main realization is to use the OTG interface of the device as a peripheral mode and simulate it as a network interface, and then the host connects to the device via USB and accesses the Internet through the device. The following is the specific operation based on Firefly-RK3399 device.

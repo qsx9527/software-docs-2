@@ -1,4 +1,7 @@
-# Network IP configuration
+---
+title: "Network IP configuration"
+description: "AIO-1684JD4 Network IP configuration documentation."
+---
 
 ## Debian System Configuration
 In Debian 9, `eth0` in the dual network port defaults to obtain IP dynamically (that is, DHCP), and `eth1` is fixed to `192.168.150.1`.
@@ -34,4 +37,3 @@ network:
                         optional: yes
 ```
 If the user deletes this file, then eth1 will revert to acquiring an IP address through DHCP, similar to eth0. If the user wants to assign a fixed IP address to eth0 as well, they only need to add an eth0 node (similar to eth1) in the /etc/netplan/01-netcfg.yaml file and then restart for the changes to take effect.
-

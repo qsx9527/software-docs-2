@@ -1,4 +1,7 @@
-# U-Boot
+---
+title: "U-Boot"
+description: "AIO-3399C U-Boot documentation."
+---
 
 ## Introduction
 

@@ -1,3 +1,8 @@
+---
+title: "Customize Android Firmware Decompression"
+description: "AIO-3399C Customize Android Firmware Decompression documentation."
+---
+
 * Extract the `release_update.img`
 
 ```
@@ -53,6 +58,3 @@ $ tree
 
 1 directory, 12 files
 ```
-
-
-

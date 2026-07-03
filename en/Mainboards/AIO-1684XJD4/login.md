@@ -1,4 +1,7 @@
-# Login
+---
+title: "Login"
+description: "AIO-1684XJD4 Login documentation."
+---
 
 There are two ways to login to AIO-1684XJD4, one is via RS232, the other is via network SSH.
 
@@ -30,7 +33,7 @@ The following is how to add the same network segment IP on PC (using administrat
    Where `"Ethernet"` refers to the network interface, `192.168.150.101` is the IP address, and `255.255.255.0` is the subnet mask.
 
 - linux
-      
+
    ```shell
    ifconfig enp4s0:1 192.168.150.89
    ```

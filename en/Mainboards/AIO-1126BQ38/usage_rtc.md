@@ -1,4 +1,7 @@
-# RTC
+---
+title: "RTC"
+description: "AIO-1126BQ38 RTC documentation."
+---
 
 ## Introduction
 
@@ -79,4 +82,3 @@ Please refer to the document `rtc.txt` for detailed instructions.
 #### Q1: The time is out of sync after the development board is powered on ?
 
 **A1 :**  Check that the RTC battery is properly connected
-

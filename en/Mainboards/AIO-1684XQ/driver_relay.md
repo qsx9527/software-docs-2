@@ -1,9 +1,12 @@
-# RELAY
+---
+title: "RELAY"
+description: "AIO-1684XQ RELAY documentation."
+---
 
 
 AIO-1684XQ has 2 RELAY control units on the development board:
 
-![](../../../bm1684_img/AIO-1684XQ/relay.png)    
+![](../../../bm1684_img/AIO-1684XQ/relay.png)
 
 Parameters for each RELAY unit:
 

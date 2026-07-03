@@ -1,3 +1,8 @@
+---
+title: "Buildroot Compile"
+description: "AIO-3288J Buildroot Compile documentation."
+---
+
 ## Build Buildroot firmware
 
 This chapter introduces the compilation process of Buildroot firmware.

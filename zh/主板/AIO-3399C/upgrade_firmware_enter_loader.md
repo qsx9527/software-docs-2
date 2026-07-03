@@ -1,3 +1,8 @@
+---
+title: "升级 固件 进入 Loader"
+description: "AIO-3399C 升级 固件 进入 Loader文档。"
+---
+
 * 一种方法是设备先断开电源适配器和 Type-C 数据线的连接：
 
    * USB 一端连接主机，Type-C 一端连接开发板 Type-C 母口

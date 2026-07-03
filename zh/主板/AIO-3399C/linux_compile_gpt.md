@@ -1,4 +1,7 @@
-# 编译 Linux 固件
+---
+title: "编译 Linux 固件"
+description: "AIO-3399C 编译 Linux 固件文档。"
+---
 
 为了方便用户的使用与开发，官方提供了 Linux 开发的整套 SDK，本章详细的说明 SDK 的具体用法。
 

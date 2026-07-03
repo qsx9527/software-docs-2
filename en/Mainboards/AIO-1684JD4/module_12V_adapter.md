@@ -1,5 +1,8 @@
+---
+title: "12V power adapter"
+description: "AIO-1684JD4 12V power adapter documentation."
+---
 
-# [12V power adapter](https://www.firefly.store/products/12v-2a-power-adapter)
 
 ## Product parameters
 

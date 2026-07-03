@@ -1,4 +1,7 @@
-# MIPI DSI Use
+---
+title: "MIPI DSI Use"
+description: "AIO-3288C MIPI DSI Use documentation."
+---
 
 ## Kernel configuration
 

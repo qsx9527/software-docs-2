@@ -1,5 +1,8 @@
+---
+title: "Camera 使用"
+description: "AIO-1126BJD4V0 Camera 使用文档。"
+---
 
-# Camera 使用
 
 
 * 接口效果图
@@ -73,7 +76,7 @@ $ grep '' /sys/class/video4linux/video*/name
    ```
    ffplay -f rawvideo -video_size 1920x1080 -pix_fmt nv12 out.yuv
    ```
-   
+
 2. 对于使用 RKISP 的摄像头如 IMX415 需要抓取 rkisp_mainpath 对应的 video 节点。从上述的输出信息来看，rkisp_mainpath 对应 video11 节点。
 
    如果使用 IMX415 摄像头，则使用 v4l2-ctl 抓取 camera 数据帧并保存在 /data/out.yuv 。
@@ -152,4 +155,3 @@ PC 端使用 vlc 软件打开以下 rtsp 流媒体链接进行预览
 ```
 rtsp://<设备IP>:8554/live/test
 ```
-

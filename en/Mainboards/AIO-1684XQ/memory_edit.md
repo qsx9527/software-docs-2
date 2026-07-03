@@ -1,4 +1,7 @@
-# Memory allocation settings
+---
+title: "Memory allocation settings"
+description: "AIO-1684XQ Memory allocation settings documentation."
+---
 
 A portion of the memory of AIO-1684XQ is allocated to NPU, VPP, and VPU devices. So the memory data obtained using commands such as `free -h` is inconsistent with the actual memory of AIO-1684XQ.
 

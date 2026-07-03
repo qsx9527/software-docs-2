@@ -1,4 +1,7 @@
-# FAQS
+---
+title: "FAQS"
+description: "AIO-3399C FAQS documentation."
+---
 
 ## RK3399 HDMI 4K Resolution
 
@@ -7,21 +10,21 @@ However, some users need point-to-point 4K UI. 4K UI issue as follows:
 
 1.Is it necessary to use 4K UI?
 
-If you just want 4K video or 4K images, there is no need to configure 
+If you just want 4K video or 4K images, there is no need to configure
 4K UI, as the system's default video player and image browser can support.
 
 2.How to configure 4K UI?
 
 Configure the FrameBuffer to 4K, and then make sure the HDMI resolution is set to 4K, as follows:
 
-android7.1/android8.1 
+android7.1/android8.1
 ```
-persist.sys.framebuffer.main=3840x2160@60 
+persist.sys.framebuffer.main=3840x2160@60
 ```
 android9.0 and after
 ```
-persist.vendor.framebuffer.main=3840x2160@60 
-```  
+persist.vendor.framebuffer.main=3840x2160@60
+```
 
 3.Flicker appears after configuring the 4K UI
 

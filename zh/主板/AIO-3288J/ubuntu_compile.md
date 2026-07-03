@@ -1,3 +1,8 @@
+---
+title: "Ubuntu 编译"
+description: "AIO-3288J Ubuntu 编译文档。"
+---
+
 ## 编译 Ubuntu 固件
 
 本章介绍 Ubuntu 固件的编译流程。

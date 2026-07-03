@@ -1,4 +1,7 @@
-# WIFI
+---
+title: "WIFI"
+description: "AIO-1684XJD4 WIFI文档。"
+---
 
 AIO-1684XJD4 支持无线 WIFI，在系统中网卡名默认为 `wlan0`：
 

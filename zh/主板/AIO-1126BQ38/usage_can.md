@@ -1,3 +1,8 @@
+---
+title: "CAN 使用"
+description: "AIO-1126BQ38 CAN 使用文档。"
+---
+
 ## CAN 使用
 ### CAN 简介
 CAN(Controller Area Network)总线，即控制器局域网总线，是一种有效支持分布式控制或实时控制的串行通信网络。CAN总线是一种在汽车上广泛采用的总线协议，被设计作为汽车环境中的微控制器通讯。
@@ -49,20 +54,20 @@ CAN模块之间接线：CAN_H接CAN_H，CAN_L接CAN_L。
 由于系统根据上述dts节点创建的CAN设备只有一个，而第一个创建的设备为CAN0
 
 ### 通信测试
-#### CAN 通信测试    
+#### CAN 通信测试
 使用 candump 和 cansend 工具进行收发报文测试即可。工具内置在固件里面。也可以在 [github](https://github.com/linux-can/can-utils) 链接下载。
 
 ```
 #在收发端关闭can0设备
 ip link set can0 down
-#在收发端设置比特率为250Kbps                 
+#在收发端设置比特率为250Kbps
 ip link set can0 type can bitrate 250000
-#在收发端打开can0设备  	
+#在收发端打开can0设备
 ip link set can0 up
-#在接收端执行candump,阻塞等待报文                        	
+#在接收端执行candump,阻塞等待报文
 candump can0
-#在发送端执行cansend，发送报文        	
-cansend can0 123#1122334455667788  	
+#在发送端执行cansend，发送报文
+cansend can0 123#1122334455667788
 ```
 
 ### 更多指令
@@ -92,4 +97,3 @@ cansend can0 123#1122334455667788
 #### CAN时钟频率配置
 ##### CAN
 如果CAN的比特率1M建议修改CAN时钟到300M, 信号更稳定。低于1M比特率的, 时钟设置200M就可以。
-

@@ -1,3 +1,8 @@
+---
+title: "Linux SDK Version"
+description: "AIO-1126BJD4V0 Linux SDK Version documentation."
+---
+
 <font color=red>**The compilation portion of this tutorial works with SDK versions above v2.2.5f**</font>
 
 ```

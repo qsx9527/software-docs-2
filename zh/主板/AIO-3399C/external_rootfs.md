@@ -1,3 +1,8 @@
+---
+title: "外部 RootFS"
+description: "AIO-3399C 外部 RootFS文档。"
+---
+
 ## 外部存储设备 rootfs 挂载
 
 根文件系统除了可以使用在内部的 eMMC 中的，还可以使用外部存储设备的根文件系统，如 SD 卡，U 盘等。以下是以 SD 卡为例，在 Firefly-RK3399 设备上实现挂载外部存储设备的根文件系统。
@@ -93,7 +98,7 @@ sudo mkfs.ext4 /dev/sdb1
 
 ```
 
-格式化完成后，使用 `dd` 命令，将制作好的根文件系统烧写到 SD 卡刚新建的分区中。（根文件系统的定制可以参考：[《Ubuntu 根文件系统定制》](custom_ubuntu_rootfs.md)）
+格式化完成后，使用 `dd` 命令，将制作好的根文件系统烧写到 SD 卡刚新建的分区中。（根文件系统的创建可以参考：[《创建 Ubuntu 根文件系统》](linux_build_ubuntu_rootfs.md)）
 
 ```bash
 # 用户请根据实际情况填写根文件系统镜像的路径和 SD 卡对应分区设备名

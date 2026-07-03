@@ -1,4 +1,7 @@
-# GPIO Use
+---
+title: "GPIO Use"
+description: "AIO-3288C GPIO Use documentation."
+---
 
 ## Introduction
 

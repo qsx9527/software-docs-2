@@ -1,4 +1,7 @@
-# Interface definition
+---
+title: "Interface definition"
+description: "AIO-3399C Interface definition documentation."
+---
 
 ## AIO-3399C interface definition
 

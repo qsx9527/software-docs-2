@@ -1,4 +1,7 @@
-# 编译 Android12.0 固件
+---
+title: "编译 Android12.0 固件"
+description: "AIO-1126BJD4V0 编译 Android12.0 固件文档。"
+---
 
 ## 下载 Android12.0 SDK
 
@@ -7,7 +10,7 @@ SDK 源码与 bundle 压缩包均存放在云盘中。
 
 
 ### 下载 SDK
-* SDK通过邮件的方式获取，把订单号发送到<font color=red>sales@t-firefly.com</font>邮箱并注明需要的SDK名称  
+* SDK通过邮件的方式获取，把订单号发送到<font color=red>sales@t-firefly.com</font>邮箱并注明需要的SDK名称
 [firefly_rk3588_android12_git_20240704]()
 
 * 下载完成后，在解压前先校验下 MD5 码：
@@ -28,7 +31,7 @@ SDK 源码与 bundle 压缩包均存放在云盘中。
     d154b39087bbf410a7973da97a6a9ecb  firefly_rk3588_android12_git_20240704.7z.005
     7cfc42443caa57cb4cf474bf3e78b5ce  firefly_rk3588_android12_git_20240704.7z.006
     9ad4374d89212a882dc00541769732f8  firefly_rk3588_android12_git_20240704.7z.007
-    
+
     ```
 
 * 然后解压：
@@ -67,15 +70,15 @@ git rebase FETCH_HEAD
 
 ### 整体编译
 
-#### HDMI 固件编译 
+#### HDMI 固件编译
 ```
-./FFTools/make.sh -d  -j8 -l 
-./FFTools/mkupdate/mkupdate.sh -l 
+./FFTools/make.sh -d  -j8 -l
+./FFTools/mkupdate/mkupdate.sh -l
 ```
 #### 显示屏 DM-M10R800 V2 固件编译：
 ```
-./FFTools/make.sh -d  -j8 -l 
-./FFTools/mkupdate/mkupdate.sh -l 
+./FFTools/make.sh -d  -j8 -l
+./FFTools/mkupdate/mkupdate.sh -l
 ```
 
 #### 双目摄像头 CAM-2MS2MF 编译：
@@ -85,7 +88,7 @@ git rebase FETCH_HEAD
 --- a/kernel-5.10/arch/arm64/boot/dts/rockchip/rk3588-firefly-itx-3588j.dts
 +++ b/kernel-5.10/arch/arm64/boot/dts/rockchip/rk3588-firefly-itx-3588j.dts
 @@ -8,8 +8,8 @@
- 
+
  #include "rk3588-firefly-itx-3588j.dtsi"
 -#include "rk3588-firefly-itx-cam-8ms1m.dtsi"
 -//#include "rk3588-firefly-itx-cam-2ms2mf.dtsi"
@@ -96,8 +99,8 @@ git rebase FETCH_HEAD
 
 * 编译
 ```
-./FFTools/make.sh -d  -j8 -l 
-./FFTools/mkupdate/mkupdate.sh -l 
+./FFTools/make.sh -d  -j8 -l
+./FFTools/mkupdate/mkupdate.sh -l
 ```
 
 #### HDMI TO MIPI_CSI(RK628D) 编译
@@ -107,7 +110,7 @@ git rebase FETCH_HEAD
 +++ b/kernel-5.10/arch/arm64/boot/dts/rockchip/rk3588-firefly-itx-3588j.dts
 @@ -7,9 +7,9 @@
  /dts-v1/;
- 
+
  #include "rk3588-firefly-itx-3588j.dtsi"
 -#include "rk3588-firefly-itx-cam-8ms1m.dtsi"
 +//#include "rk3588-firefly-itx-cam-8ms1m.dtsi"
@@ -118,8 +121,8 @@ git rebase FETCH_HEAD
 ```
 * 编译
 ```
-./FFTools/make.sh -d  -j8 -l 
-./FFTools/mkupdate/mkupdate.sh -l 
+./FFTools/make.sh -d  -j8 -l
+./FFTools/mkupdate/mkupdate.sh -l
 ```
 
 ### 分步编译
@@ -130,7 +133,7 @@ git rebase FETCH_HEAD
 cd ~/proj/RK3588_Android12.0/kernel-5.10
 export PATH=../prebuilts/clang/host/linux-x86/clang-r416183b/bin:$PATH
 alias msk='make CROSS_COMPILE=aarch64-linux-gnu- LLVM=1 LLVM_IAS=1'
-msk ARCH=arm64 
+msk ARCH=arm64
 msk ARCH=arm64   BOOT_IMG=../rockdev//boot.img .img -j8
 
 ```
@@ -147,7 +150,7 @@ cd ~/proj/RK3588_Android12.0/u-boot/
 ```
 cd ~/proj/RK3588_Android12.0/
 source build/envsetup.sh
-lunch 
+lunch
 make installclean
 make -j8
 ./mkimage.sh
@@ -157,7 +160,7 @@ make -j8
 
 编译完可以用Firefly官方的脚本打包成统一固件，执行如下命令：
 ```
-./FFTools/mkupdate/mkupdate.sh -l 
+./FFTools/mkupdate/mkupdate.sh -l
 ```
 打包完成后将在rockdev// 目录下生成统一固件： product名XXX_XXX_日期XXX.img
 
@@ -173,7 +176,7 @@ Android12.0的`kernel.img`和`resource.img`包含在`boot.img`中，编译kernel
 cd ~/proj/RK3588_Android12.0/kernel-5.10
 export PATH=../prebuilts/clang/host/linux-x86/clang-r416183b/bin:$PATH
 alias msk='make CROSS_COMPILE=aarch64-linux-gnu- LLVM=1 LLVM_IAS=1'
-msk ARCH=arm64 
+msk ARCH=arm64
 msk ARCH=arm64   BOOT_IMG=../rockdev//boot.img .img -j8
 ```
 编译后可以直接烧写kernel目录下的`boot.img`。

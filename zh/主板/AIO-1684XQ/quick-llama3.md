@@ -1,4 +1,7 @@
-# 快速部署 Llama3
+---
+title: "快速部署 Llama3"
+description: "AIO-1684XQ 快速部署 Llama3文档。"
+---
 
 为了便于用户快速体验 Llama3，Firefly 开源团队提供了开箱即用的快速部署包，请从[下载中心]获取快速部署包。
 

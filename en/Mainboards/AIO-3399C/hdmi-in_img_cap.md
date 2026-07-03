@@ -1,3 +1,8 @@
+---
+title: "HDMI In Img Cap"
+description: "AIO-3399C HDMI In Img Cap documentation."
+---
+
 ## HDMI_IN Image capture
 
 **Support AIO-3399J/AIO-3288J**

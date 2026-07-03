@@ -1,4 +1,7 @@
-# <font color="red">More Linux OS support</font>
+---
+title: "More Linux OS support"
+description: "AIO-1126BJD4V0 More Linux OS support documentation."
+---
 
 
 ## Buildroot
@@ -13,31 +16,3 @@ Buildroot is a framework for building embedded Linux systems on the Linux platfo
 - [《Firefly Buildroot Development Guide》](https://wiki.t-firefly.com/en/Firefly-Linux-Guide/development_buildroot.html)
 
 <hr />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

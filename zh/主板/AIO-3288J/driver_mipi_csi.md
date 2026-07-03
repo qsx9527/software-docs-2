@@ -1,4 +1,7 @@
-# MIPI CSI 使用
+---
+title: "MIPI CSI 使用"
+description: "AIO-3288J MIPI CSI 使用文档。"
+---
 
 ## 板载资源
 
@@ -75,7 +78,7 @@ Kernel：
                     <VCMGpioPwdn ioname="NC" active="0"></VCMGpioPwdn>
                     <VCMGpioPower ioname="NC" active="0"></VCMGpioPower>
                     <VCMCurrent start="20" rated="80" vcmmax="100" stepmode="13"  drivermax="100"></VCMCurrent>
-                </VCM> 
+                </VCM>
                 <Flash>
                      <FlashName name="Internal"></FlashName>
                      <FlashI2cBusNum busnum="0"></FlashI2cBusNum>
@@ -215,7 +218,7 @@ CAMSYS_DEVID_MARVIN
 * Sensor 所连接的主控 I2C 通道号
 
 ```xml
-<SensorI2cBusNum busnum="3"></SensorI2cBusNum>  
+<SensorI2cBusNum busnum="3"></SensorI2cBusNum>
 ```
 
 具体通道号请参考摄像头原理图连接主控的 I2C 通道号。

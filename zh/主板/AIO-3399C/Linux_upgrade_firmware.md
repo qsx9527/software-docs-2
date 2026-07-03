@@ -1,4 +1,7 @@
-# Linux 上升级固件
+---
+title: "Linux 上升级固件"
+description: "AIO-3399C Linux 上升级固件文档。"
+---
 
 ## 前言
 

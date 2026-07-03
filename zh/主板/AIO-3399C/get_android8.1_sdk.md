@@ -1,3 +1,8 @@
+---
+title: "获取 Android8.1 SDK"
+description: "AIO-3399C 获取 Android8.1 SDK文档。"
+---
+
 ### 下载 Android SDK
 
 由于 SDK 较大，可以取下载页面选择云盘下载 Firefly-RK3399_Android8.1_xxx.7za(可以直接使用Firefly-RK3399源码包)：

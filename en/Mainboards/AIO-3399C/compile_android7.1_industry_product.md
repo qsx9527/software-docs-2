@@ -1,3 +1,8 @@
+---
+title: "Compile Android 7.1 Industry Product"
+description: "AIO-3399C Compile Android 7.1 Industry Product documentation."
+---
+
 ### Overall Compilation
 #### Public Compile
 ##### HDMI+DP
@@ -38,7 +43,7 @@ make -j8
 ./mkimage.sh
 ```
 
-### Packaged into unified firmware 
+### Packaged into unified firmware
 
 After compilation, you can use Firefly official scripts to package into unified firmware, execute the following command：
 ```

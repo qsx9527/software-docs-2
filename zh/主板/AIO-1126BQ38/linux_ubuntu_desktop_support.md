@@ -1,4 +1,7 @@
-# Firefly Ubuntu Desktop介绍
+---
+title: "Firefly Ubuntu Desktop介绍"
+description: "AIO-1126BQ38 Firefly Ubuntu Desktop介绍文档。"
+---
 
 AIO-1126BQ38 Ubuntu Desktop系统基于Ubuntu 64bit系统构建，目前支持Ubuntu18.04版本。具有以下特性：
 

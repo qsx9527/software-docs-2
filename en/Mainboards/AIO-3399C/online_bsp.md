@@ -1,3 +1,8 @@
+---
+title: "Online BSP"
+description: "AIO-3399C Online BSP documentation."
+---
+
 ## Update kernel and U-Boot online
 
 This section introduces a simple process of online update. Pack the kernel, U-Boot or other files that need to be updated into a deb installation package, and then import it to the local package warehouse to download and update automatically on the device. For user reference only.

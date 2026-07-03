@@ -1,4 +1,7 @@
-# RKMedia
+---
+title: "RKMedia"
+description: "AIO-1126BQ38 RKMedia documentation."
+---
 
 ## Module Introduction
 `RKMedia` is a set of `API` interfaces that integrate and encapsulate all media resource calls in `RV1126/RV1109`. It can greatly reduce the development cost of users who just contact `RV1126/RV1109` chip platform, and all media resources on SoC can be called quickly and simply with a small amount of code. At the same time, `RKMedia` also provides joint call DEMO of hardware resources other than media resources, such as: `RKAIQ, RKNN, RTSP` and so on. The core idea of `RKMedia` is to separate each hardware resource into a module, and the input and output ends of the module are open to control the flow from one module to another module by binding. Each module is described here.
@@ -302,7 +305,7 @@ ao_attr.pcAudioNode 						# Sampling format
 ao_attr.enSampleFormat 								# Number of Samples per frame
 ao_attr.u32NbSamples							# Sampling rate
 ao_attr.u32SampleRate 								# Number of channels
-ao_attr.u32Channels 	
+ao_attr.u32Channels
 
 RK_S32 s32CurrentVolmue = 0;
 RK_S32 s32Volmue = 50;

@@ -1,4 +1,7 @@
-# Introduction
+---
+title: "Introduction"
+description: "AIO-3288J Introduction documentation."
+---
 
 * AIO-3288J floor x 1
 * Core-3288J core board × 1

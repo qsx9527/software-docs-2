@@ -1,3 +1,8 @@
+---
+title: "LCD DTS Conf"
+description: "AIO-3399C LCD DTS Conf文档。"
+---
+
 ```
 / {
     model = "AIO Board lvds (Android)";

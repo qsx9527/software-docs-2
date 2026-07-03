@@ -1,3 +1,8 @@
+---
+title: "AIO-1684JD4"
+description: "AIO-1684JD4 mainboard product documentation navigation."
+---
+
 # AIO-1684JD4
 - [Preface](preface.md)
 # Quick Start
@@ -14,7 +19,7 @@
 - [UART](driver_uart.md)
 # Accessories
 - [Serial port module](module_serial.md)
-- [module_12V_5A_adapter](module_12V_5A_adapter.md)
+- [12V power adapter](module_12V_adapter.md)
 # Questions and answers
 - [FAQs](faqs.md)
 # Hardware resources

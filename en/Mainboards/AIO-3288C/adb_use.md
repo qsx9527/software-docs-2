@@ -1,4 +1,7 @@
-# ADB use
+---
+title: "ADB use"
+description: "AIO-3288C ADB use documentation."
+---
 
 ## Preface
 

@@ -1,4 +1,7 @@
-# Compile BSP
+---
+title: "Compile BSP"
+description: "AIO-1684XJD4 Compile BSP documentation."
+---
 
 ## Introduction
 

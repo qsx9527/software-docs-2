@@ -1,4 +1,7 @@
-# GPIO 使用
+---
+title: "GPIO 使用"
+description: "AIO-1126BQ38 GPIO 使用文档。"
+---
 
 ## 简介
 
@@ -276,7 +279,7 @@ gpiochip6: GPIOs 192-223, parent: platform/21a00000.gpio, gpio6:
 
 ### 查看 pinmux-pins
 
-使用命令 
+使用命令
 ```
 $ cat /sys/kernel/debug/pinctrl/pinctrl-rockchip-pinctrl/pinmux-pins
 ```

@@ -1,4 +1,7 @@
-# 电源适配器
+---
+title: "电源适配器"
+description: "AIO-3288J 电源适配器文档。"
+---
 
 ## [12V电源适配器](https://store.t-firefly.com/goods.php?id=4)
 

@@ -1,4 +1,7 @@
-# Upgrade Linux to RTLinux
+---
+title: "Upgrade Linux to RTLinux"
+description: "AIO-1126BQ38 Upgrade Linux to RTLinux documentation."
+---
 
 In order to meet real-time requirements, we upgraded Linux to RTLinux based on the kernel of SDK source code.
 
@@ -22,7 +25,7 @@ git clone git://git.kernel.org/pub/scm/utils/rt-tests/rt-tests.git
 #Switch branch：
 git checkout v1.7
 ```
-Compile directly on board make;You need to specify the cross-compilation tool path when compiling on other platforms. The following. 
+Compile directly on board make;You need to specify the cross-compilation tool path when compiling on other platforms. The following.
 ```
 export CC=/home/dengkx/project/rk356x/prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc
 ```
@@ -152,7 +155,7 @@ If you must use CANFD, you need to ensure that the last five digits of the sent 
 
 ```
 #Close the can0 device at the transceiver
-ip link set can0 down    
+ip link set can0 down
 
 #Set 1Mbps bit rate of arbitration section and 3Mbps dbit rate of data section t the transceiver
 ip link set can0 type can bitrate 1000000 dbitrate 3000000 fd on

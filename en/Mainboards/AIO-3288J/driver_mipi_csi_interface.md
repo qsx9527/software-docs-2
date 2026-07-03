@@ -1,3 +1,8 @@
+---
+title: "Driver MIPI CSI Interface"
+description: "AIO-3288J Driver MIPI CSI Interface documentation."
+---
+
 ## Configuration principles
 
 Set camera-related pin and clock to complete the configuration process.

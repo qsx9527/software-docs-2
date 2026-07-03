@@ -1,4 +1,7 @@
-# Sophon SDK 开发
+---
+title: "Sophon SDK 开发"
+description: "AIO-1684XJD4 Sophon SDK 开发文档。"
+---
 
 ## Sophon SDK
 
@@ -171,9 +174,9 @@ Sophon SDK 提供了十一个文件夹模块，具体如下表所示：
 
 ### 详细资料
 
-* [获取 SDK（v23.05.01 版本）](https://doc.sophgo.com/sdk-docs/v23.05.01/docs_latest_release/docs/SophonSDK_doc/zh/html/sdk_intro/3_claim_sdk.html)  
+* [获取 SDK（v23.05.01 版本）](https://doc.sophgo.com/sdk-docs/v23.05.01/docs_latest_release/docs/SophonSDK_doc/zh/html/sdk_intro/3_claim_sdk.html)
 * [安装 SDK（v23.05.01 版本）](https://doc.sophgo.com/sdk-docs/v23.05.01/docs_latest_release/docs/SophonSDK_doc/zh/html/sdk_intro/4_install.html#id12)
-  
-更多资料的，请参考：[https://developer.sophgo.com/site/index/document/all/all.html](https://developer.sophgo.com/site/index/document/all/all.html)    
+
+更多资料的，请参考：[https://developer.sophgo.com/site/index/document/all/all.html](https://developer.sophgo.com/site/index/document/all/all.html)
 
 [下载中心]: https://www.t-firefly.com/doc/download/207.html

@@ -1,4 +1,7 @@
-# I2C 使用
+---
+title: "I2C 使用"
+description: "AIO-3288C I2C 使用文档。"
+---
 
 ## 前言
 
@@ -62,7 +65,7 @@ static struct i2c_driver lt8641ex_device_driver = {
     .driver     = {
         .name   = "lt8641ex",
         .owner  = THIS_MODULE,.of_match_table = of_rk_lt8641ex_match,
-    },  
+    },
     .probe          = lt8641ex_probe,
     .remove         = lt8641ex_remove,
     .suspend        = lt8641ex_suspend,

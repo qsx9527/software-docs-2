@@ -1,3 +1,8 @@
+---
+title: "Usage Sound Card"
+description: "AIO-1126BQ38 Usage Sound Card documentation."
+---
+
 ## Sound Card
 
 ### EarPhone && Speak

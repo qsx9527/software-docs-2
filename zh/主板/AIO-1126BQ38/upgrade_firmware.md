@@ -1,4 +1,7 @@
-# 使用USB线缆升级固件
+---
+title: "使用USB线缆升级固件"
+description: "AIO-1126BQ38 使用USB线缆升级固件文档。"
+---
 
 ## 前言
 
@@ -86,10 +89,10 @@ sudo chmod a+x /usr/local/bin/fastboot
 
 * 先断开电源适配器连接
 * 使用 USB 数据线一端连接主机，一端连接开发板
-  
+
 
 ![](../../../rv1126b_img/AIO-1126BQ38/upgrade_otg_interface.jpg)
-  
+
 
 * 按住设备上的 MASKROM 键并保持
 * 硬件版本不同，按键位置可能略有不同，请以实际丝印为准

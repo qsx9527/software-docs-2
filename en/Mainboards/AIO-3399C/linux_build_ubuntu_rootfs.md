@@ -1,4 +1,7 @@
-# Create Ubuntu root file system
+---
+title: "Create Ubuntu root file system"
+description: "AIO-3399C Create Ubuntu root file system documentation."
+---
 
 ## Preparatory work
 

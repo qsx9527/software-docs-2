@@ -1,4 +1,8 @@
-# Device ID
+---
+title: "Device ID"
+description: "AIO-1684JD4 Device ID documentation."
+---
+
 ## View Device ID
 
 If you need to check the device ID, you can read the serial number of the core board. After reading successfully, it will return a string in json format:

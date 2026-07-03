@@ -1,4 +1,7 @@
-# Boot mode description
+---
+title: "Boot mode description"
+description: "AIO-1126BJD4V0 Boot mode description documentation."
+---
 
 ## Preface
 

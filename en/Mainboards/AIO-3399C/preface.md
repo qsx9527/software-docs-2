@@ -1,4 +1,7 @@
-# Preface
+---
+title: "Preface"
+description: "AIO-3399C Preface documentation."
+---
 
 ## Overview
 This document mainly introduces the development method based on **AIO-3399C** platform.

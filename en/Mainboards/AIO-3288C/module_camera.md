@@ -1,4 +1,7 @@
-# Camera module
+---
+title: "Camera module"
+description: "AIO-3288C Camera module documentation."
+---
 
 ## [OV13850 camera module](https://www.firefly.store/products)
 

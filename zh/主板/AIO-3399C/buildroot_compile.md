@@ -1,4 +1,7 @@
-# 编译 Buildroot 固件
+---
+title: "编译 Buildroot 固件"
+description: "AIO-3399C 编译 Buildroot 固件文档。"
+---
 
 本章介绍 Buildroot 固件的编译流程，推荐在 Ubuntu 16.04 系统环境下进行开发，若使用其它系统版本，可能需要对编译环境做相应调整。
 

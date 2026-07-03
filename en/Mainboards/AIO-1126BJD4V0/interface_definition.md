@@ -1,4 +1,7 @@
-# Interface Definition
+---
+title: "Interface Definition"
+description: "AIO-1126BJD4V0 Interface Definition documentation."
+---
 
 ## Overall Machine Interface Definition
 

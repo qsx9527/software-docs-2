@@ -1,3 +1,8 @@
+---
+title: "Android Prepare Compile Android"
+description: "AIO-1126BJD4V0 Android Prepare Compile Android documentation."
+---
+
 ## Compile environment to build
 
 ### Ready to compile
@@ -6,9 +11,9 @@ Compiling Android requires high machine configuration:
 
 * 64-bit CPU
 * 16GB physical memory + swap memory
-*  of free disk space 
+*  of free disk space
 
-The official recommendation is the Ubuntu 18.04 operating system. 
+The official recommendation is the Ubuntu 18.04 operating system.
 The initialization of the compilation environment can refer to [http://source.android.com/source/initializing.html](http://source.android.com/source/initializing.html) 。
 
 
@@ -22,11 +27,11 @@ libesd-java libwxgtk3.0-dev squashfs-tools build-essential zip curl \
 libncurses5-dev zlib1g-dev pngcrush schedtool libxml2 libxml2-utils \
 xsltproc lzop libc6-dev schedtool g++-multilib lib32z1-dev lib32ncurses5-dev \
 lib32readline-dev gcc-multilib libswitch-perl libssl-dev unzip zip device-tree-compiler \
-liblz4-tool python-pyelftools python3-pyelftools -y 
+liblz4-tool python-pyelftools python3-pyelftools -y
 ```
 
 ### Compilation FAQ
-Because everyone's PC system version and environment configuration are different, the compilation after installing the software package is not necessarily successful, and it is inevitable that there will be some errors caused by the lack of some software packages, such as: 
+Because everyone's PC system version and environment configuration are different, the compilation after installing the software package is not necessarily successful, and it is inevitable that there will be some errors caused by the lack of some software packages, such as:
 
 #### Q1
 

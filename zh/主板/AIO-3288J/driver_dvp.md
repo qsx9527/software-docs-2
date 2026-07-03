@@ -1,4 +1,7 @@
-# DVP 使用
+---
+title: "DVP 使用"
+description: "AIO-3288J DVP 使用文档。"
+---
 
 ## 板载资源
 
@@ -331,8 +334,8 @@ SMIA
 ```
 
 1. phyMode： Sensor 接口硬件连接方式，DVP Sensor 接口则为：CamSys_Phy_Cif
-2. sensor_d0_to_cif_d：Sensor DVP 输出数据位 D0 对应连接的主控 DVP 接口的数据位号码  
-3. cif_num：Sensor DVP 连接到主控 DVP 接口编号  
+2. sensor_d0_to_cif_d：Sensor DVP 输出数据位 D0 对应连接的主控 DVP 接口的数据位号码
+3. cif_num：Sensor DVP 连接到主控 DVP 接口编号
 4. sensorFmt：Sensor 输出的数据格式,目前版本仅支持填写 CamSys_Fmt_Raw_10b
 
 ### 编译
@@ -358,7 +361,7 @@ Device Drivers  --->
 最后执行：
 
 ```bash
-make firefly-rk3288-reload.img  
+make firefly-rk3288-reload.img
 ```
 
 即可完成内核的编译。

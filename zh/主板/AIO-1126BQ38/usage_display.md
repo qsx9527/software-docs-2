@@ -1,4 +1,7 @@
-# Display 使用
+---
+title: "Display 使用"
+description: "AIO-1126BQ38 Display 使用文档。"
+---
 
 Debian 固件默认开机会进入到 xfce 桌面系统。由于 RV1126B 芯片没有 GPU 做硬件加速渲染，桌面环境使用 CPU 来渲染，所以在高负载作业情况下，显示可能会有卡顿的现象。
 

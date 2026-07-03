@@ -1,4 +1,7 @@
-# 使用 SD 卡升级固件
+---
+title: "使用 SD 卡升级固件"
+description: "AIO-3399C 使用 SD 卡升级固件文档。"
+---
 
 本文主要介绍了如何将实现使用MicroSD卡，更新主板上的固件。<font color = "red">但也仅限于固件小于4G大小的情况下</font>，否则请查看[《若固件大于4G的SD升级卡制作教程》](05-upgrade_firmware_sd_morethan_4g.md)。
 

@@ -1,3 +1,8 @@
+---
+title: "ADB Connection"
+description: "AIO-3399C ADB Connection documentation."
+---
+
 Under normal circumstances, `adb` is enabled by default. If it is not enabled, please perform the following steps:
 * AIO-3399C Connect the device and host with Type-C data cable;
 * Check connect to PC in the corresponding path according to the current Android version

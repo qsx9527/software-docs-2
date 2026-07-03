@@ -1,3 +1,8 @@
+---
+title: "准备 编译 Linux"
+description: "AIO-3288J 准备 编译 Linux文档。"
+---
+
 ## 编译环境搭建
 
 本章介绍 Linux SDK 的编译环境搭建。

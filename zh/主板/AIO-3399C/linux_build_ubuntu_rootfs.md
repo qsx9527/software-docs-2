@@ -1,4 +1,7 @@
-# 创建 Ubuntu 根文件系统
+---
+title: "创建 Ubuntu 根文件系统"
+description: "AIO-3399C 创建 Ubuntu 根文件系统文档。"
+---
 
 ## 准备工作
 

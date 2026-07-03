@@ -1,4 +1,7 @@
-# <font color="red">More Linux OS support</font>
+---
+title: "More Linux OS support"
+description: "AIO-3399C More Linux OS support documentation."
+---
 
 
 ## Buildroot
@@ -62,5 +65,3 @@ CentOS (Community Enterprise Operating System) is one of the Linux distributions
 [![](../../../rk3399_img/logo/centos8_logo.png "Shiprock")](http://en.t-firefly.com/doc/download/52.html#other_117)
 
 <hr />
-
-

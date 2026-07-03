@@ -1,4 +1,7 @@
-# Firefly Ubuntu Desktop介绍
+---
+title: "Firefly Ubuntu Desktop介绍"
+description: "AIO-3399C Firefly Ubuntu Desktop介绍文档。"
+---
 
 AIO-3399C Ubuntu Desktop系统基于Ubuntu 64bit系统构建，目前有发布Ubuntu16.04和Ubuntu18.04两个版本。具有以下特性：
 

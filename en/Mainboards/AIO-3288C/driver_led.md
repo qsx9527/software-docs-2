@@ -1,4 +1,7 @@
-# LED Use
+---
+title: "LED Use"
+description: "AIO-3288C LED Use documentation."
+---
 
 ## Foreword
 

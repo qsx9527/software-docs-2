@@ -1,4 +1,7 @@
-# 远程桌面 X11VNC
+---
+title: "远程桌面 X11VNC"
+description: "AIO-1684JD4 远程桌面 X11VNC文档。"
+---
 
 x11vnc 是一个可以让管理员直接通过 VNC Viewer 来连接服务器的真实 X 桌面的工具。
 
@@ -98,5 +101,3 @@ sudo x11vnc -display :0 -auth /var/lib/lightdm/.Xauthority &
 （5）成功进入 xfce4 桌面：
 
 ![](../../../bm1684_img/AIO-1684JD4/ubuntu-vnc-04.png)
-
-

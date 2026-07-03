@@ -1,3 +1,8 @@
+---
+title: "GPIO 接口 Msg"
+description: "AIO-3399C GPIO 接口 Msg文档。"
+---
+
 ```
 # cat /sys/kernel/debug/gpio
 GPIOs 0-31, platform/pinctrl, gpio0:
@@ -30,5 +35,3 @@ GPIOs 128-159, platform/pinctrl, gpio4:
 ```
 
 从读取到的信息中可以知道，内核把 GPIO 当前的状态都列出来了，以 GPIO0 组为例，gpio-2(GPIO0_A2) 作为 3G 模块的电源控制脚 (vcc3v3_3g)，输出高电平 (out hi)。
-
-

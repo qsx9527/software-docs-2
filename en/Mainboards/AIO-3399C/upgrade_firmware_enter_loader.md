@@ -1,3 +1,8 @@
+---
+title: "Upgrade Firmware Enter Loader"
+description: "AIO-3399C Upgrade Firmware Enter Loader documentation."
+---
+
 * The first one, device is cut off all the power sources, such as power adapter and Dual male usb data cable connection:
    * 1.Keep Type-A cable connected with host PC.
    * 2.Press and hold RECOVERY key.

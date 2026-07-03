@@ -1,8 +1,13 @@
+---
+title: "POE 使用"
+description: "AIO-1126BJD4V0 POE 使用文档。"
+---
+
 ## POE 使用
 * 可添加 `POE` 功能的网口是 `1000M` 网口，如下图所示
-![](../../../rv1126b_img/AIO-1126BJD4V0/POE-interface.png) 
+![](../../../rv1126b_img/AIO-1126BJD4V0/POE-interface.png)
 需要将 `POE` 模组接到底板的 `POE` 接口处
 ```
 #查看1000M POE网口是否存在
-ifconfig eth1 
+ifconfig eth1
 ```

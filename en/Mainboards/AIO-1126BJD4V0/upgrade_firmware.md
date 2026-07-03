@@ -1,4 +1,7 @@
-# Upgrade the firmware via USB cable
+---
+title: "Upgrade the firmware via USB cable"
+description: "AIO-1126BJD4V0 Upgrade the firmware via USB cable documentation."
+---
 
 ## Introduction
 
@@ -30,7 +33,7 @@ The firmware can be obtained by compiling the SDK, or you can download the publi
 
 * Install RK USB driver
 
-Download [Release_DriverAssistant.zip](https://en.t-firefly.com/doc/download/346.html#other_11), extract, and then run the DriverInstall.exe inside . 
+Download [Release_DriverAssistant.zip](https://en.t-firefly.com/doc/download/346.html#other_11), extract, and then run the DriverInstall.exe inside .
 In order for all devices to use the updated driver, first select Driver uninstall(驱动卸载) and then select Driver install(驱动安装).
 
 <center>
@@ -192,7 +195,7 @@ Tips for using the flashing tool:
 sudo upgrade_tool uf update.img
 ```
 
-If the upgrade fails, try erasing before upgrading. 
+If the upgrade fails, try erasing before upgrading.
 
 ```
 # erase flash : Using the ef parameter requires the loader file or the corresponding update.img to be specified.

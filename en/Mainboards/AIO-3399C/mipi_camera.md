@@ -1,3 +1,8 @@
+---
+title: "MIPI Camera"
+description: "AIO-3399C MIPI Camera documentation."
+---
+
 ## MIPI camera
 
 The RK3399 board with `MIPI CSI` interface has added the support of dual MIPI camera `OV13850`, and the camera example is also added in the application. The following describes the relevant configuration.

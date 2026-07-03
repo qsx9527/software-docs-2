@@ -1,3 +1,8 @@
+---
+title: "Introduction"
+description: "AIO-1126BJD4V0 Introduction documentation."
+---
+
 ## Introduction
 
 The **AIO-1126BJD4V0** development board utilizes the Rockchip quad-core AI vision processor RV1126B, integrating a 3-tops NPU to support lightweight AI large models and deep learning frameworks. It features a built-in 12M ISP, an 8MP AI-ISP, and integrated accelerators for various algorithms. It supports 12M video encoding, 4K video decoding, and simultaneous input from up to three cameras. It uses a 260P gold-finger interface and is compact in size. It is widely applicable in industries such as face recognition, turnstile access control, smart security, and smart network cameras.

@@ -1,4 +1,7 @@
-# 编译 Linux 固件
+---
+title: "编译 Linux 固件"
+description: "AIO-1126BJD4V0 编译 Linux 固件文档。"
+---
 
 ## 获取 SDK
 
@@ -181,16 +184,16 @@ MACHINE=aio-1126bjd4v0 bitbake core-image-sato
 ```bash
 # kernel
 MACHINE=aio-1126bjd4v0 bitbake linux-rockchip
-        
+
 # u-boot
 MACHINE=aio-1126bjd4v0 bitbake u-boot-rockchip
-        
+
 # rkmpp
 MACHINE=aio-1126bjd4v0 bitbake rockchip-mpp
-        
+
 # rockchip-librga
 MACHINE=aio-1126bjd4v0 bitbake rockchip-librga
-        
+
 # 参看更多编译对象
 MACHINE=aio-1126bjd4v0 bitbake -s
 ```

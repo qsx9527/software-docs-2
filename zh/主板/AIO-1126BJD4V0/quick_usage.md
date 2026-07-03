@@ -1,4 +1,7 @@
-# 快速使用
+---
+title: "快速使用"
+description: "AIO-1126BJD4V0 快速使用文档。"
+---
 
 本章讲述讲述` CORE-1126-JD4/CORE-1109-JD4 `配套官方底板的使用方法，不包含具体应用开发。
 
@@ -41,7 +44,7 @@ Windows版本下载链接：https://dl.google.com/android/repository/platform-to
 	![](../../../rv1126b_img/AIO-1126BJD4V0/set_path.png)
 4. 注：路径需要改成你解压的自定义目录
 
-5. 以管理员权限打开命令提示符，此时电脑 USB 接口连接了 RV1126 的 USB 调试口。命令提示符终端输入 `adb devices` 
+5. 以管理员权限打开命令提示符，此时电脑 USB 接口连接了 RV1126 的 USB 调试口。命令提示符终端输入 `adb devices`
 ```
 C:\Users\lvsx>adb devices
 * daemon not running; starting now at tcp:5037

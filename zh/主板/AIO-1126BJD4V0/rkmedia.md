@@ -1,4 +1,7 @@
-# RKMedia
+---
+title: "RKMedia"
+description: "AIO-1126BJD4V0 RKMedia文档。"
+---
 
 ## 模块介绍
 `RKMedia` 是对 `RV1126/RV1109` 内所有媒体资源调用进行了整合封装的一套 `API` 接口，它可以大大降低刚接触 `RV1126/RV1109` 芯片平台用户的开发成本，以少量代码就可以很快速、简单地调用 Soc 上所有媒体资源。同时 `RKMedia` 还提供了媒体资源以外的硬件资源联合调用 DEMO，如：`RKAIQ、RKNN、RTSP` 等等。`RKMedia` 的核心思想是把各个硬件资源独立成模块，模块开放出输入和输出端通过绑定的方式控制流从某个模块流出并且流入另外一个模块。这里会对每个模块进行相关介绍。
@@ -65,7 +68,7 @@ media-ctl -d /dev/media3 --set-v4l2 '"rkisppsubdev":2[fmt:YUYV8_2X8/1920x1080]'
 * 解码通道属性设置
 ```
 MPP_CHN_S stVdecChn;					#定义模块设备通道结构体
-stVdecChn.enModId = RK_ID_VDEC;		#模块号为 RK_ID_VDEC 
+stVdecChn.enModId = RK_ID_VDEC;		#模块号为 RK_ID_VDEC
 stVdecChn.s32ChnId						#设置解码通道号
 
 VDEC_CHN_ATTR_S stVdecAttr;			#定义解码通道属性结构体
@@ -136,7 +139,7 @@ stRgaAttr.stImgOut.u32VirStride = CELING_2_POWER(u32Height,16);
 ```
 MPP_CHN_S VoChn;						#定义模块设备通道结构体
 VO_CHN_ATTR_S stVoAttr = {0};			#定义视频输出属性结构体并初始化为 0
-memset(&stVoAttr, 0, sizeof(stVoAttr));		
+memset(&stVoAttr, 0, sizeof(stVoAttr));
 
 stVoAttr.pcDevNode = "/dev/dri/card0";	#视频 VO 输出设备节点设置为"/dev/dri/card0"
 stVoAttr.emPlaneType						#视频输出图层类型
@@ -190,7 +193,7 @@ venc_chn_attr.stVencAttr.u32Profile				#用于H264编码器的 Profile IDC 值
 ```
 venc_chn_attr.stRcAttr.enRcMode									#编码协议类型 根据具体使用编码格式配置
 venc_chn_attr.stRcAttr.stH264Cbr.u32Gop = fps;					# I 帧间隔，取值范围：[1, 65536]
-venc_chn_attr.stRcAttr.stH264Cbr.u32BitRate =               
+venc_chn_attr.stRcAttr.stH264Cbr.u32BitRate =
     u32Width * u32Height * fps / 14;									#平均比特率，取值范围：[2000, 98000000]，单位：bps
 venc_chn_attr.stRcAttr.stH264Cbr.fr32DstFrameRateDen = 1;		#目标帧率分子
 venc_chn_attr.stRcAttr.stH264Cbr.fr32DstFrameRateNum = fps;	#目标帧率分母
@@ -290,7 +293,7 @@ ai_attr.enAiLayout						#输入布局类型
 RK_S32 s32CurrentVolmue = 0;
 RK_S32 s32Volmue = 50;
 RK_MPI_AI_SetChnAttr(0, &ai_attr); 				#设置 AI_CHN_ATTR_S 参数
-RK_MPI_AI_EnableChn(0);							#使能通道 0 
+RK_MPI_AI_EnableChn(0);							#使能通道 0
 RK_MPI_AI_GetVolume(0, &s32CurrentVolmue); 	#获取通道 0 设备的输入音量
 RK_MPI_AI_SetVolume(0, s32Volume); 			#设置通道 0 设备输入音量
 RK_MPI_AI_StartStream(0); 						#启动通道 0 的音频流
@@ -309,7 +312,7 @@ ao_attr.u32Channels 				#通道数
 RK_S32 s32CurrentVolmue = 0;
 RK_S32 s32Volmue = 50;
 RK_MPI_AO_SetChnAttr(0, &ao_attr); 				#设置 AO_CHN_ATTR_S 参数
-RK_MPI_AO_EnableChn(0);						#使能通道 0 
+RK_MPI_AO_EnableChn(0);						#使能通道 0
 RK_MPI_AO_GetVolume(0, &s32CurrentVolmue); 	#获取通道 0 设备的输出音量
 RK_MPI_AO_SetVolume(0, s32Volume); 			#设置通道 0 设备输出音量
 ```
@@ -333,7 +336,7 @@ typedef struct rkAENC_CHN_ATTR_S {
 
 MPP_CHN_S mpp_chn_aenc; 									#定义模块设备通道结构体
 mpp_chn_aenc.enModId = RK_ID_AENC; 						#模块号为 RK_ID_AENC
-mpp_chn_aenc.s32ChnId = 0; 									#通道号为 0 
+mpp_chn_aenc.s32ChnId = 0; 									#通道号为 0
 
 AENC_CHN_ATTR_S aenc_attr; 										#定义音频编码属性结构体
 aenc_attr.enCodecType 												#编码协议类型

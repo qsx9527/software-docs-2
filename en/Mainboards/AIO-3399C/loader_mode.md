@@ -1,4 +1,7 @@
-# Upgrade the firmware via USB cable
+---
+title: "Upgrade the firmware via USB cable"
+description: "AIO-3399C Upgrade the firmware via USB cable documentation."
+---
 
 ## Introduction
 
@@ -136,7 +139,7 @@ Each firmware partition may be different, please note the following some points:
 
 1. When upgrading `ubuntu(MBR)` and `Android7.1` firmware with `Androidtool_2.38`, the default configuration can be used.
 2. When upgrading `ubuntu(GPT)` with `Androidtool_2.58`, the default configuration can be used. Please first perform the following actions to upgrade `Android8.1` firmware:<br />
-<font color=#ff0000 >Switch to `Download Image` page; Right click on the table and select `import configuration`; Select the `rk3399-Android81.cfg`.</font><br />       
+<font color=#ff0000 >Switch to `Download Image` page; Right click on the table and select `import configuration`; Select the `rk3399-Android81.cfg`.</font><br />
 3. When upgrading `Android9.0` and `Android10.0` firmware with `Androidtool_2.71`, the default configuration can be used.
 
 The steps to upgrade the partition image are as follows:
@@ -175,7 +178,7 @@ Android7.1, Android8.1 use the following methods:
 ```
 sudo upgrade_tool di -b boot.img
 sudo upgrade_tool di -k kernel.img
-sudo upgrade_tool di -s system.img                                                                                                                                      
+sudo upgrade_tool di -s system.img
 sudo upgrade_tool di -r recovery.img
 sudo upgrade_tool di -m misc.img
 sudo upgrade_tool di -re resource.img

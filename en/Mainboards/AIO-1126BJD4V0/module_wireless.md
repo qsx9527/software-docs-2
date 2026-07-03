@@ -1,4 +1,7 @@
-# Wireless module
+---
+title: "Wireless module"
+description: "AIO-1126BJD4V0 Wireless module documentation."
+---
 
 
 Firefly supports the following Wireless modules:
@@ -10,5 +13,3 @@ Firefly supports the following Wireless modules:
 - [RM500Q-GL 5G module](https://wiki.t-firefly.com/en/RM500Q-GL-5G/rm500q-gl.html)
 
 - [GPS & GLONASS & RG4538](https://wiki.t-firefly.com/en/GNSS/gnss.html)
-
-

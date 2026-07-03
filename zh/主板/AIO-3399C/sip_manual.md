@@ -1,3 +1,8 @@
+---
+title: "SIP 手册"
+description: "AIO-3399C SIP 手册文档。"
+---
+
 ## OpenSIP搭建
 
 SIP（Session Initiation Protocol，会话初始协议）的开发目的是用来帮助提供跨越因特网的高级电话业务。因特网电话（IP电话）正在向一种正式的商业电话模式演进，SIP就是用来确保这种演进实现而需要的NGN(下一代网络）系列协议中重要的一员。支持H.264协议。

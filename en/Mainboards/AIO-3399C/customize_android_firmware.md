@@ -1,5 +1,8 @@
+---
+title: "Customized Android firmware"
+description: "AIO-3399C Customized Android firmware documentation."
+---
 
-# Customized Android firmware
 
 ## preface
 

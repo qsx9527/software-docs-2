@@ -1,4 +1,7 @@
-# Customized Android firmware
+---
+title: "Customized Android firmware"
+description: "AIO-3288J Customized Android firmware documentation."
+---
 
 ## preface
 

@@ -1,3 +1,8 @@
+---
+title: "Compile Android 7.1 Firmware Method"
+description: "AIO-3399C Compile Android 7.1 Firmware Method documentation."
+---
+
 ### HDMI display compilation
 
 1. Compile HDMI+DP by default
@@ -84,7 +89,7 @@ cd ~/proj/AIO-3399C/
 cd ~/proj/AIO-3399C/
 ./FFTools/make.sh -j8
 ```
-## Package into a unified firmware 
+## Package into a unified firmware
 
 After compiling, execute the following command first, then use Firefly official script to package into a unified SD card firmware, execute the following command:
 

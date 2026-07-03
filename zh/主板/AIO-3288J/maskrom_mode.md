@@ -1,4 +1,7 @@
-# MaskRom模式
+---
+title: "MaskRom模式"
+description: "AIO-3288J MaskRom模式文档。"
+---
 
 ***有关启动模式的介绍，请参阅[《启动模式说明》](bootmode.md)一章***
 

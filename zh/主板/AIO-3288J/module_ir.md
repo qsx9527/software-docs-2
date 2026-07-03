@@ -1,4 +1,7 @@
-# [红外遥控器](https://store.t-firefly.com/goods.php?id=17)
+---
+title: "红外遥控器"
+description: "AIO-3288J 红外遥控器文档。"
+---
 
 ## 产品参数
 
@@ -20,4 +23,3 @@
 * AIO-3288J 的 IR 接线位置如下图红框所示：
 
 ![](../../../rk3288_img/AIO-3288J/module_ir_connection.png)
-

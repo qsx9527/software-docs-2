@@ -1,4 +1,7 @@
-# 固件更新日志
+---
+title: "固件更新日志"
+description: "AIO-3399C 固件更新日志文档。"
+---
 
 [固件下载页面](http://www.t-firefly.com/doc/download/page/id/54.html)
 

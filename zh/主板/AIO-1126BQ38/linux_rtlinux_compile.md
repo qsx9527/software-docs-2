@@ -1,4 +1,7 @@
-# 升级Linux为RTLinux
+---
+title: "升级Linux为RTLinux"
+description: "AIO-1126BQ38 升级Linux为RTLinux文档。"
+---
 
 为了满足实时需求，我们在SDK源码的内核基础上升级Linux到RTLinux。
 
@@ -87,7 +90,7 @@ time ./cyclictest -t50 -p 80 -i 10000 -n -l 100000000000 -d 86400  -a 3
 你还可以制造相应的压力环境来进行测试CPU延时，例如：
 使用stress制造四个核心100%CPU负载。
 ```
-#stress -c 4& 
+#stress -c 4&
 #还可以固定到CPU上，如下：
 taskset -c 0 stress -c 1&
 taskset -c 1 stress -c 1&
@@ -132,7 +135,7 @@ echo 1 > /proc/sys/kernel/printk
 
 #禁用内存过度使用以避免 Out-of-Memory Killer产生的延迟
 echo 2 > /proc/sys/vm/overcommit_memory
-``` 
+```
 
 ### 不使用桌面或者使用轻量级桌面
 
@@ -154,7 +157,7 @@ echo 2 > /proc/sys/vm/overcommit_memory
 #在收发端关闭can0设备
 ip link set can0 down
 
-#在收发端设置仲裁段1M波特率,数据段3M波特率                                          
+#在收发端设置仲裁段1M波特率,数据段3M波特率
 ip link set can0 type can bitrate 1000000 dbitrate 3000000 fd on
 
 #打印can0信息
@@ -163,12 +166,12 @@ ip -details link show can0
 #在收发端打开can0设备
 ip link set can0 up
 
-#在接收端执行candump,阻塞等待报文                          	                 
+#在接收端执行candump,阻塞等待报文
 candump can0
 
 #canfd格式,在发送端执行cansend,发送报文
 cansend can0 123##112345678
 
-#can格式,在发送端执行cansend,发送报文                                     
-cansend can0 123#1122334455667788                          
+#can格式,在发送端执行cansend,发送报文
+cansend can0 123#1122334455667788
 ```

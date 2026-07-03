@@ -1,4 +1,7 @@
-# 图片内容检索
+---
+title: "图片内容检索"
+description: "AIO-1684JD4 图片内容检索文档。"
+---
 
 ## CLIP-TPU 项目简介
 

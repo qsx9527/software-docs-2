@@ -1,4 +1,7 @@
-# 通信模组
+---
+title: "通信模组"
+description: "AIO-1126BJD4V0 通信模组文档。"
+---
 
 
 Firefly 支持的通信模组如下：
@@ -10,5 +13,3 @@ Firefly 支持的通信模组如下：
 - [RM500Q-GL 5G 模组](https://wiki.t-firefly.com/RM500Q-GL-5G/rm500q-gl.html)
 
 - [GPS & GLONASS & RG4538](https://wiki.t-firefly.com/GNSS/gnss.html)
-
-

@@ -1,5 +1,8 @@
+---
+title: "Camera 使用"
+description: "AIO-1126BQ38 Camera 使用文档。"
+---
 
-# Camera 使用
 
 
 
@@ -62,7 +65,7 @@ $ grep '' /sys/class/video4linux/video*/name
    ```
    ffplay -f rawvideo -video_size 1920x1080 -pix_fmt nv12 out.yuv
    ```
-   
+
 2. 对于使用 RKISP 的摄像头如 IMX415 需要抓取 rkisp_mainpath 对应的 video 节点。从上述的输出信息来看，rkisp_mainpath 对应 video22和video30节点，22对应csi0,30对应csi1。s
 
    如果使用 IMX415 摄像头，则使用 v4l2-ctl 抓取 camera 数据帧并保存在 /data/out.yuv 。
@@ -75,7 +78,7 @@ $ grep '' /sys/class/video4linux/video*/name
    ```
    如果带有屏幕的话，也可以使用gst-launch预览摄像头
    ```
-   gst-launch-1.0 v4l2src device=/dev/video22 ! queue ! video/x-raw,width=640,height=480 ! kmssink sync=false 
+   gst-launch-1.0 v4l2src device=/dev/video22 ! queue ! video/x-raw,width=640,height=480 ! kmssink sync=false
    ```
 
 
@@ -143,4 +146,3 @@ PC 端使用 vlc 软件打开以下 rtsp 流媒体链接进行预览
 ```
 rtsp://<设备IP>:8554/live/test
 ```
-

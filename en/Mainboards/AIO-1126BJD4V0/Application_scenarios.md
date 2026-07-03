@@ -1,3 +1,8 @@
+---
+title: "Application Scenarios"
+description: "AIO-1126BJD4V0 Application Scenarios documentation."
+---
+
 Due to its compact size, rich expansion functions and high cost performance, `CAM-C1126S2U/CAM-C1109S2U` has a wide range of application scenarios. Such as: face recognition gate, smart door lock, gesture recognition, smart travel, etc. Here are some mainstream application scenarios of `CAM-C1126S2U/CAM-C1109S2U`.
 
 ## Face Recognition Gate

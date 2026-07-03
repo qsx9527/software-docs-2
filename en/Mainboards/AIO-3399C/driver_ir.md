@@ -1,4 +1,7 @@
-# IR
+---
+title: "IR"
+description: "AIO-3399C IR documentation."
+---
 
 ## Infrared remote control configuration
 

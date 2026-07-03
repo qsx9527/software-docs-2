@@ -1,4 +1,7 @@
-# Linux Device Tree (DTS) Manual
+---
+title: "Linux Device Tree (DTS) Manual"
+description: "AIO-1126BJD4V0 Linux Device Tree (DTS) Manual documentation."
+---
 
 Sometimes it's necessary to configure the device tree to adjust board functionality, such as modifying the CAN interface clock. This tutorial will show you how to find the corresponding device tree file for your board in the SDK and some important points to note when making modifications.
 

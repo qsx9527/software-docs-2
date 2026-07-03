@@ -1,4 +1,7 @@
-# 屏幕模组
+---
+title: "屏幕模组"
+description: "AIO-1126BQ38 屏幕模组文档。"
+---
 
 ## [DM-M10R800 V2 MIPI屏模组](https://item.taobao.com/item.htm?ft=t&id=655100190974)
 
@@ -62,4 +65,3 @@ index 20f1c1af636..4730a4e8dce 100755
 ![](../../../rv1126b_img/AIO-1126BQ38/module_display_mipi_DSI0_front.jpg)
 #### MIPI_DSI0 背面
 ![](../../../rv1126b_img/AIO-1126BQ38/module_display_mipi_DSI0_back.jpg)
-

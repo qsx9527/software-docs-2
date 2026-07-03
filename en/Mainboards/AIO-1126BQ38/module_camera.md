@@ -1,4 +1,7 @@
-# Camera module
+---
+title: "Camera module"
+description: "AIO-1126BQ38 Camera module documentation."
+---
 
 Firefly AIO-1126BQ38 supports the following cameras：
 
@@ -7,4 +10,3 @@ Firefly AIO-1126BQ38 supports the following cameras：
 
 
 - [8Mega Pixel HD Camera CAM-8MS1M(IMX415)](https://wiki.t-firefly.com/en/IMX415/imx415.html)
-

@@ -1,4 +1,7 @@
-# SPI 使用
+---
+title: "SPI 使用"
+description: "AIO-3288C SPI 使用文档。"
+---
 
 SPI 是一种高速的，全双工，同步串行通信接口，用于连接微控制器、传感器、存储设备等，本文以指纹识别模块为例简单介绍 SPI 使用。
 
@@ -22,9 +25,9 @@ CPOL＝1，CPHA＝0       SPI_MODE_2
 CPOL＝1，CPHA＝1       SPI_MODE_3
 ```
 
-CPOL：表示时钟信号的初始电平的状态，０ 为低电平，１ 为高电平。  
+CPOL：表示时钟信号的初始电平的状态，０ 为低电平，１ 为高电平。
 
-CPHA：表示在哪个时钟沿采样，０ 为第一个时钟沿采样，１ 为第二个时钟沿采样。  
+CPHA：表示在哪个时钟沿采样，０ 为第一个时钟沿采样，１ 为第二个时钟沿采样。
 
 SPI的四种工作模式波形图如下：
 
@@ -66,7 +69,7 @@ There is no help available for this option.
 │       -> SPI support (SPI [=y])
 │         -> ROCKCHIP SPI controller core support (SPI_ROCKCHIP_CORE [=y])
 │           -> ROCKCHIP SPI interface driver (SPI_ROCKCHIP [=y])
-│   Defined at drivers/spi/Kconfig:528  
+│   Defined at drivers/spi/Kconfig:528
 │   Depends on: SPI [=y] && SPI_MASTER [=y] && SPI_ROCKCHIP [=y]
 ```
 
@@ -88,9 +91,9 @@ There is no help available for this option.
 };
 ```
 
-* status：如果要启用 SPI，则设为 okay，如不启用，设为 disable。  
-* spidev@00：由于本例子使用的是 SPI0，且使用 CS0，故此处设为 00，如果使用 CS1，则设为 01。  
-* compatible：这里的属性必须与驱动中的结构体 of_device_id 中的成员 compatible 保持一致。  
+* status：如果要启用 SPI，则设为 okay，如不启用，设为 disable。
+* spidev@00：由于本例子使用的是 SPI0，且使用 CS0，故此处设为 00，如果使用 CS1，则设为 01。
+* compatible：这里的属性必须与驱动中的结构体 of_device_id 中的成员 compatible 保持一致。
 * reg：此处与 spidev@00 保持一致，本例设为：0x00；
 * spi-max-frequency：此处设置 spi 使用的最高频率。
 * spi-cpha，spi-cpol：SPI 的工作模式在此设置，本例所用的模块 SPI 工作模式为 SPI_MODE_1，故设：spi-cpha = <1>，如果您所用设备工作模式为 SPI_MODE0，则需在此把这两个注释掉，如果用 SPI_MODE3，则设：spi-cpha = <1>;spi-cpol = <1>。
@@ -119,7 +122,7 @@ static struct spi_driver spidev_spi_driver = {
         .owner =        THIS_MODULE,
         .of_match_table = of_match_ptr(spidev_dt_ids),
      },
-    .probe =        spi_gsl_probe,  
+    .probe =        spi_gsl_probe,
     .remove =       spi_gsl_remove,
 };
 ```
@@ -256,7 +259,7 @@ spidev_sync_write(struct spidev_data *spidev, size_t len)
 
 ### SPI 读数据
 
-在本例所用的模块中，读数据的过程为：  
+在本例所用的模块中，读数据的过程为：
 
 * 主机向模块写寄存器的地址及读的指令（如：地址为 0xf0，读指令为 0x00)
 * 模块收到读的指令后，数据以页的形式发送

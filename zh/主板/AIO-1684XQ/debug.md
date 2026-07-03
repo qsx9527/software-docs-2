@@ -1,4 +1,7 @@
-# 串口调试
+---
+title: "串口调试"
+description: "AIO-1684XQ 串口调试文档。"
+---
 
 USB 转串口适配器，是 USB 转串口 TTL 适配器的简称。
 ## 使用 DEBUG 口调试

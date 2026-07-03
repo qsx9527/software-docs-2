@@ -1,4 +1,7 @@
-# Serial debug
+---
+title: "Serial debug"
+description: "AIO-1684XQ Serial debug documentation."
+---
 
 USB-to-serial adapter is the abbreviation of USB-to-serial TTL adapter.
 

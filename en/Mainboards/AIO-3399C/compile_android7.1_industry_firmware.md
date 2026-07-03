@@ -1,4 +1,7 @@
-# Compile Android7.1 Industry firmware
+---
+title: "Compile Android7.1 Industry firmware"
+description: "AIO-3399C Compile Android7.1 Industry firmware documentation."
+---
 
 
 ## Download compilation instructions:
@@ -142,7 +145,7 @@ make -j8
 ./mkimage.sh
 ```
 
-### Packaged into unified firmware 
+### Packaged into unified firmware
 
 After compilation, you can use Firefly official scripts to package into unified firmware, execute the following command：
 ```
@@ -186,9 +189,9 @@ Please refer to [Instructions for writing with USB cable (important)](02-upgrade
 ## Other Android versions
 * <font color=#ff0000 size=3>Main maintenance:</font>
 
-   ["Compile Android7.1 Industry firmware"](compile_android7.1_industry_firmware.md)     ["Compile Android10.0"](compile_android10.0_firmware.md)  
+   ["Compile Android7.1 Industry firmware"](compile_android7.1_industry_firmware.md)     ["Compile Android10.0"](compile_android10.0_firmware.md)
 * Support but not maintain:
 
-   ["Compile Android7.1 firmware"](compile_android7.1_firmware.md)     ["Compile Android8.1"](compile_android8.1_firmware.md)  
+   ["Compile Android7.1 firmware"](compile_android7.1_firmware.md)     ["Compile Android8.1"](compile_android8.1_firmware.md)
 
 [Android7.1 industry SDK]: http://en.t-firefly.com/doc/download/52.html#other_230

@@ -1,3 +1,8 @@
+---
+title: "Linux 编译 快速 启动"
+description: "AIO-1126BJD4V0 Linux 编译 快速 启动文档。"
+---
+
 ## 编译 Thunder-boot 固件
 目前 CORE-1126-JD4 最新的 SDK 已适配快速启动。编译快速启动固件选项：
 ```

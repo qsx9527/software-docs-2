@@ -1,4 +1,7 @@
-# Ubuntu application layer support
+---
+title: "Ubuntu application layer support"
+description: "AIO-3288J Ubuntu application layer support documentation."
+---
 
 The Firefly-RK3288 Ubuntu Desktop system is based on the Ubuntu 32bit system and currently maintains the Ubuntu 18.04 version. Has the following characteristics:
 

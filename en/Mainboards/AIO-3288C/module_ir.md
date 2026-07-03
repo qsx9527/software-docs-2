@@ -1,5 +1,8 @@
+---
+title: "Remote control"
+description: "AIO-3288C Remote control documentation."
+---
 
-# [Remote control](http://item.taobao.com/item.htm?spm=a1z10.1-c.w4004-10068918835.20.iovlJA&id=43749228031)
 
 ## Product Parameter
 
@@ -21,4 +24,3 @@
 * The IR wiring position of the AIO-3288C is shown in the red box below:
 
 ![](../../../rk3288_img/AIO-3288C/module_ir_connection.png)
-

@@ -1,4 +1,7 @@
-# Power adaptor
+---
+title: "Power adaptor"
+description: "AIO-3288J Power adaptor documentation."
+---
 
 ## [5V-3A Power Adapter](https://www.firefly.store/products/5v-3a-power-adapter)
 

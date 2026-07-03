@@ -1,4 +1,7 @@
-# Create  Ubuntu root file system
+---
+title: "Create Ubuntu root file system"
+description: "AIO-1126BQ38 Create Ubuntu root file system documentation."
+---
 
 ## Preparatory work
 

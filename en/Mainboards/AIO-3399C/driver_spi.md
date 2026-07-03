@@ -1,4 +1,7 @@
-# SPI
+---
+title: "SPI"
+description: "AIO-3399C SPI documentation."
+---
 
 ## Introduction
 SPI is a high-speed, full-duplex, synchronous serial communication interface for connecting microcontrollers, sensors, storage devices, etc. AIO-3399C SPI leads to a SPI2(reusable GPIO) for external use. The AIO-3399C development board provides the SPI2 (single chip optional) interface, and the specific position is as follows:

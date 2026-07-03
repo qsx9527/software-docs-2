@@ -1,4 +1,7 @@
-# DVP Use
+---
+title: "DVP Use"
+description: "AIO-3288J DVP Use documentation."
+---
 
 ## Board Resource
 

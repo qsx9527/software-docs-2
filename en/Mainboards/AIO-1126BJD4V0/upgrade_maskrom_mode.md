@@ -1,4 +1,7 @@
-# MaskRom mode
+---
+title: "MaskRom mode"
+description: "AIO-1126BJD4V0 MaskRom mode documentation."
+---
 
 ***See startup mode for an introduction [startup mode](upgrade_bootmode.md)***
 

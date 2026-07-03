@@ -1,4 +1,7 @@
-# Buildroot development
+---
+title: "Buildroot development"
+description: "AIO-3288C Buildroot development documentation."
+---
 
 Buildroot is a framework for building embedded Linux systems on the Linux platform. The entire Buildroot is composed of a Makefile (*.mk) script and a Kconfig (Config.in) configuration file. You can compile a complete Linux system software (including boot, kernel, rootfs, and various libraries and applications in rootfs) that can be directly flashed to the machine through the buildroot configuration and menuconfig modification, just like compiling the Linux kernel.
 

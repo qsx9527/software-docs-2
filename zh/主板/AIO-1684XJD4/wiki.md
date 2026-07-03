@@ -1,4 +1,6 @@
-# 开发板 wiki
+---
+title: "开发板 wiki"
+description: "AIO-1684XJD4 开发板 wiki文档。"
+---
 
-* [AIO-1684XJD4](https://wiki.t-firefly.com/AIO-1684JD4/)
-
+* [AIO-1684XJD4](/docs/products/mainboards/AIO-1684XJD4/started)

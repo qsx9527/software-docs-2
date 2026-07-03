@@ -1,7 +1,12 @@
+---
+title: "Android 获取 Android12.0 SDK"
+description: "AIO-1126BJD4V0 Android 获取 Android12.0 SDK文档。"
+---
+
 
 
 ### 下载 SDK
-* SDK通过邮件的方式获取，把订单号发送到<font color=red>sales@t-firefly.com</font>邮箱并注明需要的SDK名称  
+* SDK通过邮件的方式获取，把订单号发送到<font color=red>sales@t-firefly.com</font>邮箱并注明需要的SDK名称
 [firefly_rk3588_android12_git_20240704]()
 
 * 下载完成后，在解压前先校验下 MD5 码：
@@ -22,7 +27,7 @@
     d154b39087bbf410a7973da97a6a9ecb  firefly_rk3588_android12_git_20240704.7z.005
     7cfc42443caa57cb4cf474bf3e78b5ce  firefly_rk3588_android12_git_20240704.7z.006
     9ad4374d89212a882dc00541769732f8  firefly_rk3588_android12_git_20240704.7z.007
-    
+
     ```
 
 * 然后解压：

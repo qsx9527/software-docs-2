@@ -1,4 +1,7 @@
-# Firmware upgrade
+---
+title: "Firmware upgrade"
+description: "AIO-1684XQ Firmware upgrade documentation."
+---
 
 AIO-1684XQ uses TF card to upgrade firmware, users need to strictly follow the steps below.
 

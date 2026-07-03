@@ -1,4 +1,7 @@
-# Technical Case
+---
+title: "Technical Case"
+description: "AIO-1126BJD4V0 Technical Case documentation."
+---
 
 
 ## PaddlePaddle FastDeploy
@@ -371,7 +374,7 @@ grp_id    proj_mode                center_x  center_y  fov_x     fov_y
                               ear/avs_calib/calib_                    ear/avs_mesh/
                               file.pto
 ---------------------- avs channel attr ----------------------------
-grp_id    chn_id    enable    width     height    is_compress    dym_range depth     src_rate  dst_rate  
+grp_id    chn_id    enable    width     height    is_compress    dym_range depth     src_rate  dst_rate
 0         0         Y         8192      2700      N              SDR8      3         -1        -1
 ---------------------- avs group work status ----------------------------
 grp_id    cost_time max_cost_time  false_count

@@ -1,3 +1,8 @@
+---
+title: "AIO-1684XQ"
+description: "AIO-1684XQ 主板产品文档导航。"
+---
+
 # AIO-1684XQ
 - [前言](preface.md)
 # 上手教程

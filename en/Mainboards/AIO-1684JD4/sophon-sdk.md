@@ -1,19 +1,23 @@
-# Sophon SDK development
+---
+title: "Sophon SDK development"
+description: "AIO-1684JD4 Sophon SDK development documentation."
+---
+
 There are currently two sets of Sophon SDKs: Sophon SDK and SophonSDK3. Among them, Sophon SDK is the new version of the SDK, while SophonSDK3 is the old version.
 
 The main differences between these two SDKs are as follows:
 
 
-| Difference                      | Sophon SDK                                                                                                                                                                | SophonSDK3                                                                    | 
+| Difference                      | Sophon SDK                                                                                                                                                                | SophonSDK3                                                                    |
 | --------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |  --------------------------------- |
-| Adaptor Chip                    | BM1684, BM1684X                                                                                                                                                           | BM1684, BM1684X                                                               | 
-| Release Mode                    | Decouple each module and provide tar and deb packages respectively.                                                                                                       | Provides a unified tar development package that includes Compiler and Library | 
-| Driver Installation             | Install the sophon-driver_x.y.z_amd64.deb package                                                                                                                         | Install using ‘install_driver_{target}.sh’                                  | 
-| NNToolchain, Quantization-Tools | Provide tpu-nntc_vx.y.z- < hash >-< data > .tar.gz installation                                                                                                           | Included in SophonSDK3                                                        | 
-| BMCV,BMRuntime, BMLib           | Provide sophon-libsophon_x.x.x_amd64.deb package, located at /opt/sophon/libsophon-current after installation                                                             | Included in SophonSDK3                                                        | 
-| Multimedia Library              | Provide sophon-mw-x.x.x_amd64.deb package,located at /opt/sophon/sophon-ffmpeg-latest,/opt/sophon/sophon-opencv-latest,/opt/sophon/opencv-bmcpu-latest after installation | Included in SophonSDK3                                                        | 
-| pipeline Routine                | Open source to github repository, sophon-pipeline                                                                                                                         | [https://github.com/sophon-ai-algo/sophon-inference](https://github.com/sophon-ai-algo/sophon-inference)                                                                              | 
-| Algorithm Routine               | Open source to github repository (not released yet)                                                                                                                       |                                                                               | 
+| Adaptor Chip                    | BM1684, BM1684X                                                                                                                                                           | BM1684, BM1684X                                                               |
+| Release Mode                    | Decouple each module and provide tar and deb packages respectively.                                                                                                       | Provides a unified tar development package that includes Compiler and Library |
+| Driver Installation             | Install the sophon-driver_x.y.z_amd64.deb package                                                                                                                         | Install using ‘install_driver_{target}.sh’                                  |
+| NNToolchain, Quantization-Tools | Provide tpu-nntc_vx.y.z- < hash >-< data > .tar.gz installation                                                                                                           | Included in SophonSDK3                                                        |
+| BMCV,BMRuntime, BMLib           | Provide sophon-libsophon_x.x.x_amd64.deb package, located at /opt/sophon/libsophon-current after installation                                                             | Included in SophonSDK3                                                        |
+| Multimedia Library              | Provide sophon-mw-x.x.x_amd64.deb package,located at /opt/sophon/sophon-ffmpeg-latest,/opt/sophon/sophon-opencv-latest,/opt/sophon/opencv-bmcpu-latest after installation | Included in SophonSDK3                                                        |
+| pipeline Routine                | Open source to github repository, sophon-pipeline                                                                                                                         | [https://github.com/sophon-ai-algo/sophon-inference](https://github.com/sophon-ai-algo/sophon-inference)                                                                              |
+| Algorithm Routine               | Open source to github repository (not released yet)                                                                                                                       |                                                                               |
 
 ## SophonSDK3
 
@@ -66,11 +70,11 @@ SophonSDK3
 ├── bin                    # Related tools for each platform
 │   ├── arm                # soc platform, corresponding to SE5/SM5 devices
 │   ├── arm_pcie           # ARM instruction set CPU server host
-│   ├── fib.bin            # 
+│   ├── fib.bin            #
 │   ├── firmware           # MCU firmware in BM1684
 │   ├── loongarch64        # The server host of the loongarch instruction set CPU
 │   ├── mips64             # MIPS instruction set CPU server host
-│   ├── ramboot_rootfs.itb # 
+│   ├── ramboot_rootfs.itb #
 │   ├── spi_flash.bin      #
 │   ├── sw64               # SW64 instruction set CPU server host
 │   └── x86                # intel x86 host
@@ -84,7 +88,7 @@ SophonSDK3
 │   ├── bmnetp             # Pytorch Compiler
 │   ├── bmnett             # TensorFlow Compiler
 │   ├── bmnetu             # int8 Umodel compiler
-│   ├── bmpaddle           # PaddlePaddle Compiler 
+│   ├── bmpaddle           # PaddlePaddle Compiler
 │   ├── bmprofile          # Performance analysis tool
 │   ├── bmtflite           # TFLite Compiler
 │   ├── bmusercpu          # Use source files related to A53 arm cpu
@@ -216,7 +220,7 @@ SophonSDK provides eleven folder modules, as shown in the following table:
 | sophon-demo     | Comprehensive routines for single models or scenarios                                                                           |
 | sophon-sail     | Interface library that encapsulates the underlying interface into C++/Python API                                                |
 | sophon-rpc      | Offload some computing tasks on PCIe card product to ARM CPU on the card                                                        |
-   
+
 ### Unzipped SDK Directory
 
 The structure of the unpacked SDK files is as follows:
@@ -341,7 +345,7 @@ The structure of the unpacked SDK files is as follows:
 * **Model Performance and Accuracy Verification Tool TPUPerf**: enables performance analysis and accuracy validation of models
 
 ### Details
-* [Get SDK（v23.05.01 version）](https://doc.sophgo.com/sdk-docs/v23.05.01/docs_latest_release/docs/SophonSDK_doc/en/html/sdk_intro/3_claim_sdk.html)  
+* [Get SDK（v23.05.01 version）](https://doc.sophgo.com/sdk-docs/v23.05.01/docs_latest_release/docs/SophonSDK_doc/en/html/sdk_intro/3_claim_sdk.html)
 * [Install SDK（v23.05.01 version）](https://doc.sophgo.com/sdk-docs/v23.05.01/docs_latest_release/docs/SophonSDK_doc/en/html/sdk_intro/4_install.html)
 
 For additional resources, please visit [here](https://developer.sophon.ai/site/index/material/all/all.html).

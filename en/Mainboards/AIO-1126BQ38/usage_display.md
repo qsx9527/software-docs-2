@@ -1,4 +1,7 @@
-# Display
+---
+title: "Display"
+description: "AIO-1126BQ38 Display documentation."
+---
 
 Debian firmware boots into the XFCE desktop environment by default. Since the RV1126B chip lacks a GPU for hardware-accelerated rendering, the desktop environment uses the CPU for rendering. Therefore, under heavy workloads, display stuttering may occur.
 

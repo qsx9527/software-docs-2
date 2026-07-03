@@ -1,4 +1,7 @@
-# GPIO
+---
+title: "GPIO"
+description: "AIO-3399C GPIO documentation."
+---
 
 ## Introduction
 

@@ -1,4 +1,7 @@
-# Compile the Buildroot firmware
+---
+title: "Compile the Buildroot firmware"
+description: "AIO-3399C Compile the Buildroot firmware documentation."
+---
 
 This chapter introduces the compilation process of Buildroot firmware. It is recommended to develop in the Ubuntu 16.04 system environment. If you use other system versions, you may need to adjust the compilation environment accordingly.
 

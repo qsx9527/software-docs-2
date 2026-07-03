@@ -1,3 +1,8 @@
+---
+title: "Usage 4G 5G"
+description: "AIO-1126BJD4V0 Usage 4G 5G documentation."
+---
+
 ## [4G Module](https://store.t-firefly.com/goods.php?id=49)
 Check if the EC20 4G module kit has been loaded.
 ```
@@ -12,8 +17,8 @@ Type  : tristate
 Prompt: USB driver for GSM and CDMA modems
 Location:
 	-> Device Drivers
-		-> USB support (USB_SUPPORT [=y]) 
-			-> USB Serial Converter support (USB_SERIAL [=y]) 
+		-> USB support (USB_SUPPORT [=y])
+			-> USB Serial Converter support (USB_SERIAL [=y])
 Defined at drivers/usb/serial/Kconfig:558
 Depends on: USB_SUPPORT [=y] && USB [=y] && USB_SERIAL [=y]
 Selects: USB_SERIAL_WWAN [=y]
@@ -63,7 +68,7 @@ Failed to kill daemon: No such file or directory
 [04-20_14:27:07:772] adding dns 221.179.38.7
 [04-20_14:27:07:772] adding dns 120.196.165.7
 [root@RV1126_RV1109:/userdata/ec20-armhf]#ifconfig wwan0
-wwan0     Link encap:UNSPEC  HWaddr 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00  
+wwan0     Link encap:UNSPEC  HWaddr 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00
           inet addr:10.154.101.71  P-t-P:10.154.101.71  Mask:255.255.255.240
           UP POINTOPOINT RUNNING NOARP MULTICAST  MTU:1500  Metric:1
           RX packets:2 errors:0 dropped:0 overruns:0 frame:0

@@ -1,4 +1,7 @@
-# Upgrade to SD card
+---
+title: "Upgrade to SD card"
+description: "AIO-3288J Upgrade to SD card documentation."
+---
 
 ## Introduction
 

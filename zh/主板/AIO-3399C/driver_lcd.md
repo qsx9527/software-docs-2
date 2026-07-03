@@ -1,4 +1,8 @@
-# LCD使用
+---
+title: "LCD使用"
+description: "AIO-3399C LCD使用文档。"
+---
+
 ## 简介
 
 AIO-3399C开发板默认外置支持了两个LCD屏接口，一个是LVDS，一个是EDP，接口对应板子上的位置如下图：
@@ -337,11 +341,11 @@ static int rockchip_dw_mipi_dsi_enable(struct display_state *state)
 #### 常见问题
 
 ##### 1. 画面抖动闪屏
-        
+
 排查屏参数是否超出屏规格书限定周期，排查屏时钟大小。"Timing Parameters_SYNC_EVENT"所有参数变动必须和comment同步调整。
-    
+
 ##### 2. 颜色显示异常
-        
+
 尝试同步调整color mapping或者lvds timing。
 
 **NOTE**: 页面"How to use"有详细步骤，其他参数说明可以参考文档"页面"菜单。

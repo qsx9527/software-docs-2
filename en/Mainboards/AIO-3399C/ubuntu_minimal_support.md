@@ -1,4 +1,7 @@
-# Firefly Ubuntu Minimal Introduction
+---
+title: "Firefly Ubuntu Minimal Introduction"
+description: "AIO-3399C Firefly Ubuntu Minimal Introduction documentation."
+---
 
 AIO-3399C The Ubuntu Minimal system is based on the Ubuntu 64bit system. Currently, Ubuntu 18.04 is released. Compared with Ubuntu Desktop, it has the following features:
 

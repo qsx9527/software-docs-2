@@ -1,3 +1,8 @@
+---
+title: "定制 Android 固件 解包"
+description: "AIO-3399C 定制 Android 固件 解包文档。"
+---
+
 * 解压 `release_update.img`
 
 ```
@@ -53,6 +58,3 @@ $ tree
 
 1 directory, 12 files
 ```
-
-
-

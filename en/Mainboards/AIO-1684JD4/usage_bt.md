@@ -1,4 +1,7 @@
-# Bluetooth
+---
+title: "Bluetooth"
+description: "AIO-1684JD4 Bluetooth documentation."
+---
 
 AIO-1684JD4 supports wireless bluetooth, you can display the bluetooth device information through `hciconfig -a` command:
 
@@ -6,17 +9,17 @@ AIO-1684JD4 supports wireless bluetooth, you can display the bluetooth device in
 linaro@bm1684:~$ hciconfig -a
 hci0:	Type: Primary  Bus: USB
 	BD Address: 20:57:9E:BA:7C:EC  ACL MTU: 1021:8  SCO MTU: 255:16
-	UP RUNNING 
+	UP RUNNING
 	RX bytes:650 acl:0 sco:0 events:41 errors:0
 	TX bytes:2170 acl:0 sco:0 commands:41 errors:0
 	Features: 0xff 0xff 0xff 0xfa 0xdb 0xbd 0x7b 0x87
-	Packet type: DM1 DM3 DM5 DH1 DH3 DH5 HV1 HV2 HV3 
-	Link policy: RSWITCH HOLD SNIFF PARK 
-	Link mode: SLAVE ACCEPT 
+	Packet type: DM1 DM3 DM5 DH1 DH3 DH5 HV1 HV2 HV3
+	Link policy: RSWITCH HOLD SNIFF PARK
+	Link mode: SLAVE ACCEPT
 	Name: 'bm1684'
 	Class: 0x000000
 	Service Classes: Unspecified
-	Device Class: Miscellaneous, 
+	Device Class: Miscellaneous,
 	HCI Version: 4.2 (0x8)  Revision: 0xaba8
 	LMP Version: 4.2 (0x8)  Subversion: 0xa0cd
 	Manufacturer: Realtek Semiconductor Corporation (93)
@@ -120,7 +123,7 @@ Attempting to connect to A4:90:CE:DF:64:4F
 [CHG] Device A4:90:CE:DF:64:4F Connected: yes
 Connection successful
 [CHG] Device A4:90:CE:DF:64:4F ServicesResolved: yes
-[iQOO Neo6 SE]# 
+[iQOO Neo6 SE]#
 ```
 
 (7) Set the mobile device to trust:
@@ -362,8 +365,8 @@ root@firefly:~# systemctl --user start obex
 (2) Enter the interactive command line:
 
 ```shell
-root@firefly:~# obexctl 
-[NEW] Client /org/bluez/obex 
+root@firefly:~# obexctl
+[NEW] Client /org/bluez/obex
 ```
 
 (3) Connect AIO-1684JD4 (master device):
@@ -373,7 +376,7 @@ root@firefly:~# obexctl
 Attempting to connect to 20:57:9E:BA:7C:EC
 ...
 [NEW] Session /org/bluez/obex/client/session2 [default]
-[NEW] ObjectPush /org/bluez/obex/client/session2 
+[NEW] ObjectPush /org/bluez/obex/client/session2
 ```
 
 (4) Send files:

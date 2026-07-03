@@ -1,3 +1,8 @@
+---
+title: "使用 AIC"
+description: "AIO-1126BQ38 使用 AIC文档。"
+---
+
 ## 容器虚拟安卓
 
 AIC (Android in Container) 是指在 Linux 系统中使用容器来运行安卓。RV1126B Linux 即可使用 docker 来运行安卓并支持多开。

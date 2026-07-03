@@ -1,4 +1,7 @@
-# Wireless module
+---
+title: "Wireless module"
+description: "AIO-3288J Wireless module documentation."
+---
 
 ## [EC20 4G module suit](https://www.firefly.store/products/4g-module-kit-eg25-g)
 
@@ -114,4 +117,3 @@ The public version firmware turns off GPS function by default, you can modify th
 ### Notice
 
 The GPS function may occupy UART3. If you need to use UART3 for other purposes, disable the GPS first.
-

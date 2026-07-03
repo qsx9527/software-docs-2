@@ -1,5 +1,8 @@
+---
+title: "12V电源适配器"
+description: "AIO-1684XJD4 12V电源适配器文档。"
+---
 
-# [12V电源适配器](https://store.t-firefly.com/goods.php?id=31)
 
 ## 产品参数
 

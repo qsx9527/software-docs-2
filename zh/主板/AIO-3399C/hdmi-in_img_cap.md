@@ -1,3 +1,8 @@
+---
+title: "HDMI In Img Cap"
+description: "AIO-3399C HDMI In Img Cap文档。"
+---
+
 ## HDMI_IN 图像抓取
 
 * 需要焊接 HDMI_IN 输入接口

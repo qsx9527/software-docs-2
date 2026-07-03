@@ -1,3 +1,8 @@
+---
+title: "AIO-3399C"
+description: "AIO-3399C mainboard product documentation navigation."
+---
+
 # AIO-3399C
 - [Preface](preface.md)
 # Quick Start

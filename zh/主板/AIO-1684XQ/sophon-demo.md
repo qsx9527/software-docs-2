@@ -1,4 +1,7 @@
-# 人工智能算法部署
+---
+title: "人工智能算法部署"
+description: "AIO-1684XQ 人工智能算法部署文档。"
+---
 
 AIO-1684XQ 具备全面的人工智能算法本地私有化部署能力，无论是新颖、高算力需求的大语言模型，还是经典的 YOLOv5 目标检测模型，AIO-1684XQ 均可胜任。
 
@@ -37,7 +40,7 @@ SOPHON-DEMO 提供的例子从易到难分为 `tutorial`、`sample`、`applicati
 | [SAM](https://github.com/sophgo/sophon-demo/blob/release/sample/SAM/README.md)                                 | 语义分割          | Python     | FP32/FP16      |
 | [yolact](https://github.com/sophgo/sophon-demo/blob/release/sample/yolact/README.md)                           | 实例分割          | C++/Python | FP32/FP16/INT8 |
 | [YOLOv8_seg](https://github.com/sophgo/sophon-demo/blob/release/sample/YOLOv8_seg/README.md)                   | 实例分割          | C++/Python | FP32/FP16/INT8 |
-| [PP-OCR](https://github.com/sophgo/sophon-demo/blob/release/sample/PP-OCR/README.md)                           | OCR              | C++/Python | FP32/FP16      | 
+| [PP-OCR](https://github.com/sophgo/sophon-demo/blob/release/sample/PP-OCR/README.md)                           | OCR              | C++/Python | FP32/FP16      |
 | [OpenPose](https://github.com/sophgo/sophon-demo/blob/release/sample/OpenPose/README.md)                       | 人体关键点检测    | C++/Python | FP32/FP16/INT8 |
 | [C3D](https://github.com/sophgo/sophon-demo/blob/release/sample/C3D/README.md)                                 | 视频动作识别      | C++/Python | FP32/FP16/INT8 |
 | [DeepSORT](https://github.com/sophgo/sophon-demo/blob/release/sample/DeepSORT/README.md)                       | 多目标跟踪        | C++/Python | FP32/FP16/INT8 |
@@ -52,18 +55,18 @@ SOPHON-DEMO 提供的例子从易到难分为 `tutorial`、`sample`、`applicati
 | [YOLOv5_opt](https://github.com/sophgo/sophon-demo/blob/release/sample/YOLOv5_opt/README.md)                   | 目标检测          | C++/Python | FP32/FP16/INT8 |
 | [ppYOLOv3](https://github.com/sophgo/sophon-demo/blob/release/sample/ppYOLOv3/README.md)                       | 目标检测          | C++/Python | FP32/FP16/INT8 |
 | [ppYoloe](https://github.com/sophgo/sophon-demo/blob/release/sample/ppYoloe/README.md)                         | 目标检测          | C++/Python | FP32/FP16      |
-| [WeNet](https://github.com/sophgo/sophon-demo/blob/release/sample/WeNet/README.md)                             | 语音识别          | C++/Python | FP32/FP16      | 
-| [BERT](https://github.com/sophgo/sophon-demo/blob/release/sample/BERT/README.md)                               | 语言模型          | C++/Python | FP32/FP16      | 
-| [ChatGLM2](https://github.com/sophgo/sophon-demo/blob/release/sample/ChatGLM2/README.md)                       | 语言模型          | C++/Python | FP16/INT8/INT4 | 
+| [WeNet](https://github.com/sophgo/sophon-demo/blob/release/sample/WeNet/README.md)                             | 语音识别          | C++/Python | FP32/FP16      |
+| [BERT](https://github.com/sophgo/sophon-demo/blob/release/sample/BERT/README.md)                               | 语言模型          | C++/Python | FP32/FP16      |
+| [ChatGLM2](https://github.com/sophgo/sophon-demo/blob/release/sample/ChatGLM2/README.md)                       | 语言模型          | C++/Python | FP16/INT8/INT4 |
 | [Llama2](https://github.com/sophgo/sophon-demo/blob/release/sample/Llama2/README.md)                           | 语言模型          | C++/Python | FP16/INT8/INT4 |
-| [ChatGLM3](https://github.com/sophgo/sophon-demo/blob/release/sample/ChatGLM3/README.md)                       | 语言模型          | Python     | FP16/INT8/INT4 | 
-| [Qwen](https://github.com/sophgo/sophon-demo/blob/release/sample/Qwen/README.md)                               | 语言模型          | Python     | FP16/INT8/INT4 | 
-| [Qwen1_5](https://github.com/sophgo/sophon-demo/blob/release/sample/Qwen1_5/README.md)                         | 语言模型          | Python     | FP16/INT8/INT4 | 
+| [ChatGLM3](https://github.com/sophgo/sophon-demo/blob/release/sample/ChatGLM3/README.md)                       | 语言模型          | Python     | FP16/INT8/INT4 |
+| [Qwen](https://github.com/sophgo/sophon-demo/blob/release/sample/Qwen/README.md)                               | 语言模型          | Python     | FP16/INT8/INT4 |
+| [Qwen1_5](https://github.com/sophgo/sophon-demo/blob/release/sample/Qwen1_5/README.md)                         | 语言模型          | Python     | FP16/INT8/INT4 |
 | [StableDiffusionV1.5](https://github.com/sophgo/sophon-demo/blob/release/sample/StableDiffusionV1_5/README.md) | 图像生成          | Python     | FP32/FP16      |
 | [GroundingDINO](https://github.com/sophgo/sophon-demo/blob/release/sample/GroundingDINO/README.md)             | 多模态目标检测     | Python     | FP16           |
 
-| application                                                    | 应用场景                  | 编程语言    | 
-|---                                                             |---                       |---          | 
-| [VLPR](https://github.com/sophgo/sophon-demo/blob/release/application/VLPR/README.md)                           | 多路车牌检测+识别          | C++/Python  | 
-| [YOLOv5_multi](https://github.com/sophgo/sophon-demo/blob/release/application/YOLOv5_multi/README.md)           | 多路目标检测               | C++         | 
-| [YOLOv5_multi_QT](https://github.com/sophgo/sophon-demo/blob/release/application/YOLOv5_multi_QT/README.md)     | 多路目标检测+QT_HDMI显示   | C++         | 
+| application                                                    | 应用场景                  | 编程语言    |
+|---                                                             |---                       |---          |
+| [VLPR](https://github.com/sophgo/sophon-demo/blob/release/application/VLPR/README.md)                           | 多路车牌检测+识别          | C++/Python  |
+| [YOLOv5_multi](https://github.com/sophgo/sophon-demo/blob/release/application/YOLOv5_multi/README.md)           | 多路目标检测               | C++         |
+| [YOLOv5_multi_QT](https://github.com/sophgo/sophon-demo/blob/release/application/YOLOv5_multi_QT/README.md)     | 多路目标检测+QT_HDMI显示   | C++         |

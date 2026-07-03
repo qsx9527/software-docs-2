@@ -1,4 +1,7 @@
-# How to use Firefly Ubuntu minimal
+---
+title: "How to use Firefly Ubuntu minimal"
+description: "AIO-1126BQ38 How to use Firefly Ubuntu minimal documentation."
+---
 
 AIO-1126BQ38 The Ubuntu MINIMAL system is based on the Ubuntu 64bit system. Currently, Ubuntu 18.04 is released. Compared with Ubuntu Desktop, it has the following features:
 

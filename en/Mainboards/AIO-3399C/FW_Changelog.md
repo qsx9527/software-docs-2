@@ -1,4 +1,7 @@
-# Firmware update log
+---
+title: "Firmware update log"
+description: "AIO-3399C Firmware update log documentation."
+---
 
 [Firmware download page](http://en.t-firefly.com/doc/download/52.html)
 

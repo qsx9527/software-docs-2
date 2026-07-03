@@ -1,4 +1,7 @@
-# Wireless module
+---
+title: "Wireless module"
+description: "AIO-3288C Wireless module documentation."
+---
 
 ## [EC20 4G module suit](https://www.firefly.store/products/4g-module-kit-eg25-g)
 
@@ -59,4 +62,3 @@
 ### Reference firmware
 
 The public-version firmware supports EC20 4G module by default.
-

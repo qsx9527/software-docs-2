@@ -1,8 +1,11 @@
+---
+title: "UART"
+description: "AIO-1684XJD4 UART documentation."
+---
 
-# UART
 
 ## Introduction
- 
+
 AIO-1684XJD4 supports 3 UART devices:
 
 | Device name | Interface function | Baud rate | Full duplex | Level |
@@ -21,9 +24,9 @@ The RS232 and RS485 interface diagram of AIO-1684XJD4 board is as follows:
 
 Users can use different host's USB-to-serial adapters to send and receive data to the serial port of the development board according to different interfaces. For example, the debugging steps of RS485 are as follows:
 
-(1) Connecting the hardware  
+(1) Connecting the hardware
 
- 
+
 Connect the A, B and GND pins of the RS485 of the development board to the A, B and GND pins of the host serial adapter (USB to 485 to serial port module) respectively.
 (2) Open the serial terminal of the host
 
@@ -61,7 +64,7 @@ cat /dev/ttyS2
 ```
 
 Then enter the string "Firefly RS485 test..." in the serial terminal of the host, and the same string can be seen on the device side.
- 
+
 ## How to restore RS232 to normal communication serial port function?
 
 Open a terminal and enter the following command:

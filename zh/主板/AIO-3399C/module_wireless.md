@@ -1,5 +1,9 @@
+---
+title: "无线模块"
+description: "AIO-3399C 无线模块文档。"
+---
 
-# 无线模块
+
 ## [EC20 4G模组套件](https://store.t-firefly.com/goods.php?id=49)
 ### 产品参数
 * **型号**
@@ -240,4 +244,3 @@ EC20模组根据[EC20 4G模组套件](#ec20-4g-mo-zu-tao-jian)章节的说明连
 
 * 修改串口配置(串口节点或者波特率)
     * 将SDK目录下`device/rockchip/rk3399/gps/u-blox.conf`(Android7.1以上的版本为`device/rockchip/rk3399/rk3399_firefly_aioc/gps/u-blox.conf`)里面`SERIAL_DEVICE`或者`SERIAL_BAUD_RATE`修改成对应模组配置的值，修改后重新编译SDK并烧录固件生效
-

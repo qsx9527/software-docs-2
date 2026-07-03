@@ -1,4 +1,7 @@
-# Display
+---
+title: "Display"
+description: "AIO-1126BJD4V0 Display documentation."
+---
 
 * The hardware connection between the baseboard and the MIPI screen is shown in the figure:
 

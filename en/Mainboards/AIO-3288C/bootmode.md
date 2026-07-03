@@ -1,4 +1,7 @@
-# Boot mode description
+---
+title: "Boot mode description"
+description: "AIO-3288C Boot mode description documentation."
+---
 
 ## Preface
 

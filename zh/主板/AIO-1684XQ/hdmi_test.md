@@ -1,4 +1,7 @@
-# HDMI 显示测试
+---
+title: "HDMI 显示测试"
+description: "AIO-1684XQ HDMI 显示测试文档。"
+---
 
 AIO-1684XQ 不带有显卡芯片，且主控 HDMI 输出部分并没有使用标准的 framebuffer 驱动，出厂情况下接入 HDMI 是没有显示的。
 
@@ -6,7 +9,7 @@ AIO-1684XQ 不带有显卡芯片，且主控 HDMI 输出部分并没有使用标
 
 ```shell
 linaro@bm1684:~$ sudo -i
-root@bm1684:~# test-hdmi 
+root@bm1684:~# test-hdmi
 found (1024, 768) @ 60 fps
 entry [0] = (1024, 768) added
 found (1024, 768) @ 60 fps

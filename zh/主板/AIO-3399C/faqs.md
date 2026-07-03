@@ -1,28 +1,32 @@
-# FAQs
+---
+title: "FAQs"
+description: "AIO-3399C FAQs文档。"
+---
+
 ## RK3399 HDMI 4K 分辨率
 RK3399 出厂固件默认支持HDMI 4K分辨率输出，对应的UI是2K分辨率拉伸到4K方式，
 而部分用户需要的是点对点的4K UI方式，关于4K UI相关问题如下：
 
 1.确认是否一定要4K UI？
 
-如果只是想要4K视频或是4K图片，那可以不需要配置 4K UI，系统默认的视频播放器和图片浏览器可以支持。 
+如果只是想要4K视频或是4K图片，那可以不需要配置 4K UI，系统默认的视频播放器和图片浏览器可以支持。
 
 2.如何配置4K UI？
 
 把FrameBuffer 配置成4K，然后 HDMI分辨率确保设置成4K，修改方式如下：
 
-android7.1/android8.1 
+android7.1/android8.1
 ```
-persist.sys.framebuffer.main=3840x2160@60 
+persist.sys.framebuffer.main=3840x2160@60
 ```
 android9.0 and after
 ```
-persist.vendor.framebuffer.main=3840x2160@60 
-```  
+persist.vendor.framebuffer.main=3840x2160@60
+```
 
 3.配置成 4K UI 之后出现闪屏？
 
-修改方式可以参考[[文档]](https://pan.baidu.com/s/1CHEq05zUydKWtlDHz23-5A) 提取码：1234 
+修改方式可以参考[[文档]](https://pan.baidu.com/s/1CHEq05zUydKWtlDHz23-5A) 提取码：1234
 
 
 

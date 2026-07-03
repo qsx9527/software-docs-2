@@ -1,4 +1,7 @@
-# MIPI DSI 使用
+---
+title: "MIPI DSI 使用"
+description: "AIO-3288J MIPI DSI 使用文档。"
+---
 
 ## Config配置
 
@@ -43,7 +46,7 @@ power_ctr: power_ctr {
 
 在 `arch/arm/boot/dts/` 目录中新建 dts 配置文件，如 lcd-xxx-mipi.dtsi。
 
-### 添加 DTS 文件  
+### 添加 DTS 文件
 
 在 `arch/arm/boot/dts/firefly-rk3288.dts` 中添加 #include "lcd-xxx-mipi.dtsi"，如果原来 include 了其他屏的DTS配置，注释掉它们。
 

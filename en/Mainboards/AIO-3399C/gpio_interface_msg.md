@@ -1,3 +1,8 @@
+---
+title: "GPIO Interface Msg"
+description: "AIO-3399C GPIO Interface Msg documentation."
+---
+
 ```
 # cat /sys/kernel/debug/gpio
 GPIOs 0-31, platform/pinctrl, gpio0:
@@ -30,5 +35,3 @@ GPIOs 128-159, platform/pinctrl, gpio4:
 ```
 
 From the above information, we can see that the kernel lists the current state of GPIO. Take GPIO0 group as example, gpio-2 (GPIO0_A2) is the power control pin (vcc3v3_3g) of 3G module, and output high level (out hi).
-
-

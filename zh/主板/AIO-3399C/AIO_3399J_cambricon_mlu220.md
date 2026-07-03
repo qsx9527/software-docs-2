@@ -1,3 +1,8 @@
+---
+title: "AIO 3399J Cambricon Mlu220"
+description: "AIO-3399C AIO 3399J Cambricon Mlu220文档。"
+---
+
 
 
 ## 寒武纪MLU220-M.2边缘端智能加速卡支持
@@ -68,7 +73,7 @@ Firefly AIO-3399J操作系统使用Firefly定制的Ubuntu18.04.  系统中已经
 
 固件升级方法参照：
 
-[AIO-3399J 固件升级](https://wiki.t-firefly.com/zh_CN/AIO-3399C/03-upgrade_firmware.html)
+[AIO-3399J 固件升级](/docs/products/mainboards/AIO-3399C/03-upgrade-firmware)
 
 
 

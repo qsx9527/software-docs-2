@@ -1,3 +1,8 @@
+---
+title: "Distcc"
+description: "AIO-3399C Distcc文档。"
+---
+
 ## 使用 Docker 搭建分布式编译环境
 
 `distcc` 是个通过网络上的若干台机器用来分布式编译 C、C++、Objective-C 或 Objective-C++ 代码的程序。`distcc` 不要求所有的机器共享文件系统，有同步的时钟，或者安装有同样的库和头文件，只要作为服务器的机器有合适的编译工具即可进行编译。本例在两个 Firefly-RK3399 设备 (arm64) 和一台 PC 机 (x86_64) 上利用 Docker 技术来布署 `distcc` 分布式编译服务，进而实现在其中一个 Firefly-RK3399 板卡上利用 `distcc` 的分布式编译特性来加速内核的编译过程。

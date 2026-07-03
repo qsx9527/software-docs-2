@@ -1,4 +1,7 @@
-# Quick Use
+---
+title: "Quick Use"
+description: "AIO-1126BJD4V0 Quick Use documentation."
+---
 
 This chapter describes how to use the official baseboard of `CORE-1126-JD4/CORE-1109-JD4`, and does not include specific application development.
 
@@ -42,7 +45,7 @@ Windows version download link: https://dl.google.com/android/repository/platform
 3. Example: Set as shown below:
 ![](../../../rv1126b_img/AIO-1126BJD4V0/set_path.png)
 4. Note: The path needs to be changed to the custom directory you unzipped
-5. 以管理员权限打开命令提示符，此时电脑 USB 接口连接了 RV1126 的 USB 调试口。命令提示符终端输入 `adb devices` 
+5. 以管理员权限打开命令提示符，此时电脑 USB 接口连接了 RV1126 的 USB 调试口。命令提示符终端输入 `adb devices`
    ```
    C:\Users\lvsx>adb devices
    * daemon not running; starting now at tcp:5037

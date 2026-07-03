@@ -1,5 +1,8 @@
-# RTC 使用
- 
+---
+title: "RTC 使用"
+description: "AIO-1684XJD4 RTC 使用文档。"
+---
+
 
 AIO-1684XJD4 开发板上有 `HYM8563` 的 RTC (Real Time Clock) 芯片，在开发板断电的情况下也能通过纽扣电池保持时钟的运行。
 

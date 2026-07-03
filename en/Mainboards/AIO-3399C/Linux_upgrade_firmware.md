@@ -1,4 +1,7 @@
-# Upgrading firmware on Linux
+---
+title: "Upgrading firmware on Linux"
+description: "AIO-3399C Upgrading firmware on Linux documentation."
+---
 
 ## Preface
 

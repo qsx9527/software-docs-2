@@ -1,4 +1,7 @@
-# Development Board wiki
+---
+title: "Development Board wiki"
+description: "AIO-1684JD4 Development Board wiki documentation."
+---
 
 
-[AIO-1684JD4](https://wiki.t-firefly.com/en/AIO-1684XJD4/)
+[AIO-1684JD4](/en/docs/products/mainboards/AIO-1684JD4/started)

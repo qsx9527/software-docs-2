@@ -1,4 +1,7 @@
-# Power adapter
+---
+title: "Power adapter"
+description: "AIO-3288C Power adapter documentation."
+---
 
 ## [Power adapter](https://www.firefly.store/products/12v-2a-power-adapter)
 

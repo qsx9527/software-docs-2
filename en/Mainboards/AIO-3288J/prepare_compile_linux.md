@@ -1,3 +1,8 @@
+---
+title: "Prepare Compile Linux"
+description: "AIO-3288J Prepare Compile Linux documentation."
+---
+
 ## Build the build environment
 
 This chapter introduces the compilation environment of the Linux SDK.

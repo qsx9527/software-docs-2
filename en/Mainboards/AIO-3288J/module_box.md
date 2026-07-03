@@ -1,4 +1,7 @@
-# Box
+---
+title: "Box"
+description: "AIO-3288J Box documentation."
+---
 
 ## Firefly-RK3288 CAD map
 

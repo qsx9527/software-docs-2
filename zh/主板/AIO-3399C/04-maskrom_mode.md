@@ -1,4 +1,7 @@
-# MaskRom 模式
+---
+title: "MaskRom 模式"
+description: "AIO-3399C MaskRom 模式文档。"
+---
 
 ***有关启动模式的介绍，请参阅[《介绍》](01-bootmode.md)一章***
 

@@ -1,4 +1,7 @@
-# [Remote control](http://item.taobao.com/item.htm?spm=a1z10.1-c.w4004-10068918835.20.iovlJA&id=43749228031)
+---
+title: "Remote control"
+description: "AIO-3399C Remote control documentation."
+---
 
 ## Product Parameter
 
@@ -20,4 +23,3 @@
 * The IR wiring position of the AIO-3399C is shown in the red box below:
 
 ![](../../../rk3399_img/AIO-3399C/module_ir_connection.jpg)
-

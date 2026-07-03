@@ -1,4 +1,7 @@
-# FireflyChat
+---
+title: "FireflyChat"
+description: "AIO-1684XJD4 FireflyChat documentation."
+---
 
 FireflyChat is a graphical application platform for LLM developed by the Firefly team. Users can quickly experience the actual use of various large models on the visual WebUI provided by FireflyChat.
 

@@ -1,3 +1,8 @@
+---
+title: "Sound Card 使用"
+description: "AIO-1126BJD4V0 Sound Card 使用文档。"
+---
+
 ## Sound Card 使用
 
 ### EarPhone && Speak

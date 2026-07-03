@@ -1,9 +1,12 @@
+---
+title: "Screen module"
+description: "AIO-3399C Screen module documentation."
+---
 
-# Screen module
 
 ## 7.85 MIPI LCD module
 
-**Note :** the AIO-3399C motherboard does not carry the mipi_dsi interface by default, and the hardware needs to be modified if this function is needed. Please refer to [LCD driver section](http://wiki.t-firefly.com/AIO-3399C/driver_lcd.md) for details.
+**Note :** the AIO-3399C motherboard does not carry the mipi_dsi interface by default, and the hardware needs to be modified if this function is needed. Please refer to [LCD driver section](/en/docs/products/mainboards/AIO-3399C/driver-lcd) for details.
 
 ### Product parameters
 

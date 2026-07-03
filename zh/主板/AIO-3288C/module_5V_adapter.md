@@ -1,11 +1,14 @@
-# 电源适配器
+---
+title: "电源适配器"
+description: "AIO-3288C 电源适配器文档。"
+---
 
 ## [5V-3A电源适配器](https://store.t-firefly.com/goods.php?id=4)
 
-### 参数  
+### 参数
 
 ![](../../../rk3288_img/module_5V_adapter_1.png)
 
-### 实物  
+### 实物
 
 ![](../../../rk3288_img/module_5V_adapter_2.png)

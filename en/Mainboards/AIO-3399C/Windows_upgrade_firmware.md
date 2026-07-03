@@ -1,4 +1,7 @@
-# Upgrading firmware on Windows
+---
+title: "Upgrading firmware on Windows"
+description: "AIO-3399C Upgrading firmware on Windows documentation."
+---
 
 ## Preface
 

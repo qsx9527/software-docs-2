@@ -1,4 +1,7 @@
-# Upgrade the firmware
+---
+title: "Upgrade the firmware"
+description: "AIO-3399C Upgrade the firmware documentation."
+---
 
 ## Introduction
 
@@ -152,7 +155,7 @@ sudo upgrade_tool ul bootloader.bin # upgrade bootloader
 Android9.0、Android10.0 use the following way:
 ```
 sudo upgrade_tool di -b boot.img
-sudo upgrade_tool di -dtbo dtbo.img  
+sudo upgrade_tool di -dtbo dtbo.img
 sudo upgrade_tool di -misc misc.img
 sudo upgrade_tool di -parameter parameter.txt
 sudo upgrade_tool di -r recovery.img

@@ -1,4 +1,7 @@
-# 定制 Android 固件
+---
+title: "定制 Android 固件"
+description: "AIO-3288J 定制 Android 固件文档。"
+---
 
 ## 前言
 

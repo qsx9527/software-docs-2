@@ -1,4 +1,7 @@
-# 硬件信息
+---
+title: "硬件信息"
+description: "AIO-1126BQ38 硬件信息文档。"
+---
 
 ## 硬件资源
 
@@ -6,7 +9,7 @@
 * <font color=blue>**CPU**</font>：**四核 ARM Cortex-A7，RISC-V MCU**
 * <font color=blue>**NPU**</font>：**2.0Tops, support INT8/ INT16**
 * <font color=blue>**DDR**</font>：**DDR3 1GB/2GB**
-* <font color=blue>**Flash**</font>：**eMMC 8GB/16GB、SD Card 接口** 
+* <font color=blue>**Flash**</font>：**eMMC 8GB/16GB、SD Card 接口**
 * <font color=blue>**显示**</font>：**MIPI-DSI 接口，1080P@60fps**
 * <font color=blue>**Camera**</font>：**双 MIPI-CSI 接口**
 * <font color=blue>**ISP**</font>：**1400万 ISP 2.0 with 3 帧 HDR（Line-based/Frame-based/DCG）**
@@ -23,7 +26,7 @@
 * <font color=blue>**CPU**</font>：**双核 ARM Cortex-A7，RISC-V MCU**
 * <font color=blue>**NPU**</font>：**1.2Tops, support INT8/ INT16**
 * <font color=blue>**DDR**</font>：**DDR3 1GB/2GB**
-* <font color=blue>**Flash**</font>：**eMMC 8GB/16GB、SD Card 接口** 
+* <font color=blue>**Flash**</font>：**eMMC 8GB/16GB、SD Card 接口**
 * <font color=blue>**显示**</font>：**MIPI-DSI 接口，1080P@60fps**
 * <font color=blue>**Camera**</font>：**双 MIPI-CSI 接口**
 * <font color=blue>**ISP**</font>：**500万 ISP 2.0 with 3 帧 HDR（Line-based/Frame-based/DCG）**
@@ -39,16 +42,15 @@
 
 ## 外观尺寸
 
-* 外观尺寸图 
+* 外观尺寸图
 
 ![](../../../rv1126b_img/size.png)
 
 ## 外围接口
 
 `CORE-1126-JD4/CORE-1109-JD4` 金手指保留了 Soc 大部分的接口，用户可以配套官方的 `MB-1126-JD4` 底板使用。
-* 外围接口图 
+* 外围接口图
 
 ![](../../../rv1126b_img/interface-0.png)
 
 ![](../../../rv1126b_img/interface-2.png)
-

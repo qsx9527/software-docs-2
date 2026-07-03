@@ -1,4 +1,7 @@
-# Firefly Ubuntu Desktop 使用
+---
+title: "Firefly Ubuntu Desktop 使用"
+description: "AIO-3288J Firefly Ubuntu Desktop 使用文档。"
+---
 
 Firefly-RK3288 Ubuntu Desktop 系统基于 Ubuntu 32bit 系统构建，目前主要维护 Ubuntu18.04 版本。具有以下特性：
 

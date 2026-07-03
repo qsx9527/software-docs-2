@@ -1,5 +1,8 @@
-# RTC 使用
- 
+---
+title: "RTC 使用"
+description: "AIO-1684XQ RTC 使用文档。"
+---
+
 
 AIO-1684XQ 开发板上有 `DS1307` 的 RTC (Real Time Clock) 芯片，可通过该芯片去设置系统时钟。
 

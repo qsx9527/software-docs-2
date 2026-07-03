@@ -1,4 +1,8 @@
-# SATA 
+---
+title: "SATA"
+description: "AIO-1684XQ SATA documentation."
+---
+
 AIO-1684XQ  has 1 SATA 3.0 interface on the development board:
 
 ![](../../../bm1684_img/AIO-1684XQ/sata.png)

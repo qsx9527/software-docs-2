@@ -1,3 +1,8 @@
+---
+title: "Buildroot 编译"
+description: "AIO-3288C Buildroot 编译文档。"
+---
+
 ## 编译 Buildroot 固件
 
 本章介绍 Buildroot 固件的编译流程。

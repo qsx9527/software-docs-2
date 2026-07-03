@@ -1,3 +1,8 @@
+---
+title: "Linux 编译 Yocto"
+description: "AIO-1126BQ38 Linux 编译 Yocto文档。"
+---
+
 ## 编译 Yocto 固件
 
 ### 编译
@@ -77,16 +82,16 @@ MACHINE=aio-1126bq38 bitbake core-image-sato
 ```bash
 # kernel
 MACHINE=aio-1126bq38 bitbake linux-rockchip
-        
+
 # u-boot
 MACHINE=aio-1126bq38 bitbake u-boot-rockchip
-        
+
 # rkmpp
 MACHINE=aio-1126bq38 bitbake rockchip-mpp
-        
+
 # rockchip-librga
 MACHINE=aio-1126bq38 bitbake rockchip-librga
-        
+
 # 参看更多编译对象
 MACHINE=aio-1126bq38 bitbake -s
 ```

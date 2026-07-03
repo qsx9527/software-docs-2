@@ -1,4 +1,7 @@
-# MIPI CSI Use
+---
+title: "MIPI CSI Use"
+description: "AIO-3288C MIPI CSI Use documentation."
+---
 
 ## Onboard resources
 
@@ -215,7 +218,7 @@ CAMSYS_DEVID_MARVIN
 * Number of I2C channel connected to master control of Sensor
 
 ```xml
-<SensorI2cBusNum busnum="3"></SensorI2cBusNum>  
+<SensorI2cBusNum busnum="3"></SensorI2cBusNum>
 ```
 
 For the specific channel number, please refer to the number of I2C channel connected to master control on the schematic diagram of camera.

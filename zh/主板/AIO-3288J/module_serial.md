@@ -1,5 +1,8 @@
+---
+title: "串口模块"
+description: "AIO-3288J 串口模块文档。"
+---
 
-# 串口模块
 
 ## [USB转TTL串口模块](https://store.t-firefly.com/goods.php?id=24)
 

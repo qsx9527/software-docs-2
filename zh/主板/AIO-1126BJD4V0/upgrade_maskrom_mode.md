@@ -1,4 +1,7 @@
-# MaskRom模式
+---
+title: "MaskRom模式"
+description: "AIO-1126BJD4V0 MaskRom模式文档。"
+---
 
 ***有关启动模式的介绍，请参阅[《升级固件介绍》](upgrade_bootmode.md)一章***
 

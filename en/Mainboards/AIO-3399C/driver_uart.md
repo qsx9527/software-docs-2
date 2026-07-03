@@ -1,6 +1,9 @@
+---
+title: "UART"
+description: "AIO-3399C UART documentation."
+---
 
 
-# UART
 
 ## Introduction
 
@@ -110,5 +113,3 @@ cat /dev/ttysWK0
 ```
 
 Then enter a string at the host's serial terminal: `Firefly RS485 test...`, the device side can see the same string.
-
-

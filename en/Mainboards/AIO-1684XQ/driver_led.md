@@ -1,4 +1,7 @@
-# LED
+---
+title: "LED"
+description: "AIO-1684XQ LED documentation."
+---
 
 There are 2 LEDs on the AIO-1684XQ board:
 | Color | Location | Symbol | Description |
@@ -18,4 +21,3 @@ echo 1 >/sys/class/leds/WORK_LED/brightness
 # green light off
 echo 0 >/sys/class/leds/WORK_LED/brightness
 ````
-

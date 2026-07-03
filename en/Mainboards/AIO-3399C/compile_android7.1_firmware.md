@@ -1,3 +1,8 @@
+---
+title: "Compile Android7.1 firmware"
+description: "AIO-3399C Compile Android7.1 firmware documentation."
+---
+
 **Download compilation instructions:**
 At present, the Android7.1 version does not do major maintenance. Please compile and select the Android7.1 industry version<font color="#dd0000">(Main maintenance)</font>. This version is more widely used in the fields of industry and tablets and boxes. It has a stable performance and has been verified by mass production. This version As the main maintenance version of our company, it is applicable to all models of our RK3399 system.
 
@@ -161,7 +166,7 @@ cd ~/proj/AIO-3399C/
 cd ~/proj/AIO-3399C/
 ./FFTools/make.sh -j8
 ```
-## Package into a unified firmware 
+## Package into a unified firmware
 
 After compiling, execute the following command first, then use Firefly official script to package into a unified SD card firmware, execute the following command:
 
@@ -205,4 +210,3 @@ If you are using a Windows system, copy the above image file to the `rockdev/Ima
 update.img facilitates the release of firmware for end users to upgrade the system. It is more convenient to use partition image during development.
 
 [Android7.1 SDK]: http://en.t-firefly.com/doc/download/52.html#other_18
-

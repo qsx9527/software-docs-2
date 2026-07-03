@@ -1,4 +1,7 @@
-# Technical cases
+---
+title: "Technical cases"
+description: "AIO-3399C Technical cases documentation."
+---
 
 ## OpenSIP build
 
@@ -976,7 +979,7 @@ sudo mkfs.ext4 /dev/sdb1
 
 ```
 
-After formatting is complete, use the `dd` command to burn the created root file system to the newly created partition of the SD card. (For the customization of the root file system, please refer to *[Ubuntu Rootfs Customization](custom_ubuntu_rootfs.md)*)
+After formatting is complete, use the `dd` command to burn the created root file system to the newly created partition of the SD card. (For creating the root file system, see *[Create Ubuntu root file system](linux_build_ubuntu_rootfs.md)*)
 
 ```bash
 # User please fill in the path of the root file system mirror and the device name of the corresponding partition of the SD card according to the actual situation
@@ -1279,5 +1282,3 @@ Precautions
 * In the nginx server configuration, the `root` parameter configures the address of the warehouse, please modify it according to your actual situation;
 * When the client adds the new download source file, please check the correct server address, package warehouse code name and component name. Note that the client must connect to the server;
 * The client must use the `apt-key add` command to add the GPG key before it can obtain the local warehouse information.
-
-

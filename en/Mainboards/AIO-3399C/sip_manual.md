@@ -1,3 +1,8 @@
+---
+title: "SIP Manual"
+description: "AIO-3399C SIP Manual documentation."
+---
+
 ## OpenSIP build
 
 SIP (Session Initiation Protocol) was developed to help provide advanced telephone services across the Internet. Internet telephony (IP telephony) is evolving to a formal business telephony model, and SIP is an important member of the NGN (Next Generation Network) series of protocols required to ensure the realization of this evolution. Support H.264 protocol.

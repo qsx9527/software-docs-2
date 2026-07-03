@@ -1,11 +1,14 @@
-# Preface
+---
+title: "Preface"
+description: "AIO-1684JD4 Preface documentation."
+---
 
 ## Overview
 This document mainly introduces the development method based on the **AIO-1684JD4** platform.
 
 
 
-## OS version  
+## OS version
 
 | OS Name | Kernel Version | Support | Maintenance |
 | :--------: | :-------: | :-------: | :-------: |
@@ -32,5 +35,3 @@ This document mainly introduces the development method based on the **AIO-1684JD
   - Update time：2023-07-22
   - Update content：
     - Support Ubuntu 20.0 System
-
-

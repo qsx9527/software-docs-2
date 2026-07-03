@@ -1,3 +1,8 @@
+---
+title: "定制 Android 固件 打包"
+description: "AIO-3399C 定制 Android 固件 打包文档。"
+---
+
 ```
 # 当前的目录仍然为 update/ ，内有 package-file, package-file 所列的文件均存在
 # 将参数文件拷贝一份到 paramter, 因为 afptool 默认要用到
@@ -20,5 +25,3 @@ Add CRC...
 ------ OK ------
 Pack OK!
 ```
-
-

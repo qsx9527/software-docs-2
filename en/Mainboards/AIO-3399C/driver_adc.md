@@ -1,4 +1,7 @@
-# ADC
+---
+title: "ADC"
+description: "AIO-3399C ADC documentation."
+---
 
 ## Introduction
 

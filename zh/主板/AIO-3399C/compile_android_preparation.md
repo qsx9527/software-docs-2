@@ -1,3 +1,8 @@
+---
+title: "编译 Android Preparation"
+description: "AIO-3399C 编译 Android Preparation文档。"
+---
+
 
 ## 准备工作
 

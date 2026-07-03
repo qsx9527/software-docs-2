@@ -1,4 +1,7 @@
-# U-Boot 使用
+---
+title: "U-Boot 使用"
+description: "AIO-3399C U-Boot 使用文档。"
+---
 
 ## 前言
 

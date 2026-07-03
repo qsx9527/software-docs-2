@@ -1,4 +1,7 @@
-# PWM 使用
+---
+title: "PWM 使用"
+description: "AIO-3399C PWM 使用文档。"
+---
 
 ## 前言
 AIO-3399C 开发板上引出有 3 路 PWM 输出，分别为：

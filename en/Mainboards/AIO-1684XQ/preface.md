@@ -1,11 +1,14 @@
-# Preface
+---
+title: "Preface"
+description: "AIO-1684XQ Preface documentation."
+---
 
 ## Overview
 This document mainly introduces the development method based on the **AIO-1684XQ** platform.
 
 
 
-## OS version  
+## OS version
 
 | OS Name | Kernel Version | Support | Maintenance |
 | :--------: | :-------: | :-------: | :-------: |
@@ -27,5 +30,3 @@ This document mainly introduces the development method based on the **AIO-1684XQ
   - Update time: 2023-07-22
   - Update content:
     - Initial release
-
-

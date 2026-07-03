@@ -1,4 +1,7 @@
-# Upgrade the firmware via SD card
+---
+title: "Upgrade the firmware via SD card"
+description: "AIO-3399C Upgrade the firmware via SD card documentation."
+---
 
 This article mainly introduces how to use a MicroSD card to update the firmware on the motherboard. <font color = "red">But only if the firmware is smaller than 4G</font>, otherwise, please check ["If the firmware is larger than 4G SD upgrade card making tutorial"](05-upgrade_firmware_sd_morethan_4g.md).
 

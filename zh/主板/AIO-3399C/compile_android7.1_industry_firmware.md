@@ -1,4 +1,7 @@
-# 编译 Android7.1 Industry 固件
+---
+title: "编译 Android7.1 Industry 固件"
+description: "AIO-3399C 编译 Android7.1 Industry 固件文档。"
+---
 
 ## 下载编译须知
 Android7.1 industry 版本在工业和平板和盒子等领域的使用上范围更加广泛，而且性能稳定大批量生产验证过，
@@ -175,8 +178,8 @@ update.img 方便固件的发布，供终端用户升级系统使用。一般开
 ## 其他安卓版本
 * <font color=#ff0000 size=3>主要维护：</font>
 
-   [《编译 Android7.1 industry 固件》](compile_android7.1_industry_firmware.md)     [《编译 Android10. 固件》](compile_android10.0_firmware.md)  
+   [《编译 Android7.1 industry 固件》](compile_android7.1_industry_firmware.md)     [《编译 Android10. 固件》](compile_android10.0_firmware.md)
 * 支持但不维护：
 
-   [《编译 Android7.1 固件》](compile_android7.1_firmware.md)     [《编译 Android8.1 固件》](compile_android8.1_firmware.md)  
+   [《编译 Android7.1 固件》](compile_android7.1_firmware.md)     [《编译 Android8.1 固件》](compile_android8.1_firmware.md)
 [Android7.1 industry源码包]: http://www.t-firefly.com/doc/download/page/id/54.html#other_369

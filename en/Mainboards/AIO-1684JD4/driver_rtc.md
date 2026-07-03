@@ -1,5 +1,8 @@
-# RTC
- 
+---
+title: "RTC"
+description: "AIO-1684JD4 RTC documentation."
+---
+
 The AIO-1684JD4 development board has the `HYM8563` RTC (Real Time Clock) chip, which can keep the clock running through the button battery even when the development board is powered off.
 The following are common RTC operations:
 
@@ -18,4 +21,3 @@ $ sudo hwclock -s
 # Save current system time to RTC
 $ sudo hwclock -w
 ```
-

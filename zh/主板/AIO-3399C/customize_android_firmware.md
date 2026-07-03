@@ -1,5 +1,8 @@
+---
+title: "定制 Android 固件"
+description: "AIO-3399C 定制 Android 固件文档。"
+---
 
-# 定制 Android 固件
 
 ## 前言
 

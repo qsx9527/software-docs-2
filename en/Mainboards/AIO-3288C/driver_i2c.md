@@ -1,15 +1,18 @@
-# I2C Use
+---
+title: "I2C Use"
+description: "AIO-3288C I2C Use documentation."
+---
 
 ## Introduction
 
 There are 6 on-chip I2C controllers on the AIO-3288C development board. This paper describes how to configure the I2C on the development board.
 
-There are two major steps to configure the I2C:  
+There are two major steps to configure the I2C:
 
 * Define and register the I2C device
 * Define and register the I2C driver
 
-Here is an example of configuring the lt8641ex.  
+Here is an example of configuring the lt8641ex.
 
 ## Define and register the I2C device
 
@@ -36,7 +39,7 @@ The I2C device information provided by the user is written to the dts file as a 
 
 ### Define the I2C driver
 
-Before defining I2C drivers, the user first defines the variables of_device_id and i2c_device_id.  
+Before defining I2C drivers, the user first defines the variables of_device_id and i2c_device_id.
 The of_device_id is used to call the device information defined in the dts file in the driver, it is defined as follows:
 
 ```c
@@ -64,7 +67,7 @@ static struct i2c_driver lt8641ex_device_driver = {
         .name   = "lt8641ex",
         .owner  = THIS_MODULE,
         .of_match_table = of_rk_lt8641ex_match,
-     },  
+     },
     .probe      = lt8641ex_probe,
     .remove     = lt8641ex_remove,
     .suspend        = lt8641ex_suspend,
@@ -100,7 +103,7 @@ static int i2c_master_reg8_send(const struct i2c_client *client, const char reg,
     if(!tx_buf)
         return -ENOMEM;
     tx_buf[0] = reg;
-    memcpy(tx_buf+1, buf, count);  
+    memcpy(tx_buf+1, buf, count);
     msg.addr = client->addr;
     msg.flags = client->flags;
     msg.len = count + 1;
@@ -119,24 +122,24 @@ static int i2c_master_reg8_recv(const struct i2c_client *client, const char reg,
     struct i2c_adapter *adap=client->adapter;
     struct i2c_msg msgs[2];
     int ret;
-    char reg_buf = reg; 
+    char reg_buf = reg;
     msgs[0].addr = client->addr;
     msgs[0].flags = client->flags;
     msgs[0].len = 1;
     msgs[0].buf = &reg_buf;
-    msgs[0].scl_rate = scl_rate; 
+    msgs[0].scl_rate = scl_rate;
     msgs[1].addr = client->addr;
     msgs[1].flags = client->flags | I2C_M_RD;msgs[1].len = count;
     msgs[1].buf = (char *)buf;
-    msgs[1].scl_rate = scl_rate; 
-    ret = i2c_transfer(adap, msgs, 2);  
+    msgs[1].scl_rate = scl_rate;
+    ret = i2c_transfer(adap, msgs, 2);
     return (ret == 2)? count : ret;
 }
 ```
 
 Note:
 
-The msgs[0] is the message to be sent to the slave and tells the slave the message that the slave needs to read from the salve.  
+The msgs[0] is the message to be sent to the slave and tells the slave the message that the slave needs to read from the salve.
 
 The msgs[1] is the information that the host reads from the slave.
 

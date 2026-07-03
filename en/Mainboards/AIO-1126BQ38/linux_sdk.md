@@ -1,3 +1,8 @@
+---
+title: "Linux SDK"
+description: "AIO-1126BQ38 Linux SDK documentation."
+---
+
 ## Linux SDK Configuration Introduction
 
 ### Directory

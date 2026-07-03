@@ -1,4 +1,7 @@
-# Screen module
+---
+title: "Screen module"
+description: "AIO-3399C Screen module documentation."
+---
 
 ## 7.85-Inches EDP display module
 

@@ -1,3 +1,8 @@
+---
+title: "Android 准备 编译 Android"
+description: "AIO-1126BQ38 Android 准备 编译 Android文档。"
+---
+
 ## 编译环境搭建
 
 ### 准备工作
@@ -22,7 +27,7 @@ libesd-java libwxgtk3.0-dev squashfs-tools build-essential zip curl \
 libncurses5-dev zlib1g-dev pngcrush schedtool libxml2 libxml2-utils \
 xsltproc lzop libc6-dev schedtool g++-multilib lib32z1-dev lib32ncurses5-dev \
 lib32readline-dev gcc-multilib libswitch-perl libssl-dev unzip zip device-tree-compiler \
-liblz4-tool python-pyelftools python3-pyelftools -y 
+liblz4-tool python-pyelftools python3-pyelftools -y
 ```
 
 ### 编译FAQ

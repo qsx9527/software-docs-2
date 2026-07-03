@@ -1,4 +1,7 @@
-# Screen module
+---
+title: "Screen module"
+description: "AIO-1126BQ38 Screen module documentation."
+---
 
 Firefly supports the following displays:
 

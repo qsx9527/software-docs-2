@@ -1,4 +1,7 @@
-# Firefly Debian 使用手册
+---
+title: "Firefly Debian 使用手册"
+description: "AIO-1126BJD4V0 Firefly Debian 使用手册 documentation."
+---
 
 ## 固件下载
 在[资源下载](https://www.t-firefly.com/doc/download/101.html)页面下载` Debian10 `固件。
@@ -72,7 +75,7 @@ make
 sudo ./rknn_ssd_demo model/ssd_inception_v2_rv1109_rv1126.rknn model/road.bmp
 
 #效果如下：
-root@firefly:/home/firefly/rknn_ssd_demo# sudo ./rknn_ssd_demo model/ssd_inception_v2_rv1109_rv1126.rknn model/road.bmp 
+root@firefly:/home/firefly/rknn_ssd_demo# sudo ./rknn_ssd_demo model/ssd_inception_v2_rv1109_rv1126.rknn model/road.bmp
 Loading model ...
 model input num: 1, output num: 2
 input tensors:

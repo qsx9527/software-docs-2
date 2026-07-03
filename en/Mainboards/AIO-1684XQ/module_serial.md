@@ -1,5 +1,8 @@
+---
+title: "Serial port module"
+description: "AIO-1684XQ Serial port module documentation."
+---
 
-# Serial port module
 
 ## [USB to TTL serial port module](https://www.firefly.store/products/usb-to-uart-module-cp2104)
 

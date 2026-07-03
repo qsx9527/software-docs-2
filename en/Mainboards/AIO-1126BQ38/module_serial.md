@@ -1,4 +1,7 @@
-# Conversion module
+---
+title: "Conversion module"
+description: "AIO-1126BQ38 Conversion module documentation."
+---
 
 ## [USB to TTL serial module](https://store.t-firefly.com/goods.php?id=24)
 
@@ -19,4 +22,3 @@
 ### Connection Method
 
 ![](../../../rv1126b_img/AIO-1126BQ38/debug_connection.jpg)
-

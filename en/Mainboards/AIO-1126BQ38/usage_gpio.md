@@ -1,4 +1,7 @@
-# GPIO
+---
+title: "GPIO"
+description: "AIO-1126BQ38 GPIO documentation."
+---
 
 ## Introduction
 
@@ -9,7 +12,7 @@ GPIO (General-Purpose Input/Output) is a General pin that can be dynamically con
 AIO-1126BQ38 have 7  GPIO bank：GPIO0~GPIO7，Each group was numbered A0~A7, B0~B7, C0~C7, and D0~D7, the following formulas are often used to calculate GPIO Pin:
 
 ```
-GPIO pin calculation formula：pin = bank * 32 + number 
+GPIO pin calculation formula：pin = bank * 32 + number
 
 GPIO group number calculation formula：number = group * 8 + X
 ```
@@ -272,10 +275,10 @@ gpiochip6: GPIOs 192-223, parent: platform/21a00000.gpio, gpio6:
 ...
 ```
 
-From the information read, we can know that the kernel lists the current status of GPIO. 
+From the information read, we can know that the kernel lists the current status of GPIO.
 
 ### pinmux-pins
-Command: 
+Command:
 ```
 $ cat /sys/kernel/debug/pinctrl/pinctrl-rockchip-pinctrl/pinmux-pins
 ```

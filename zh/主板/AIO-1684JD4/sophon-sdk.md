@@ -1,18 +1,21 @@
-# Sophon SDK 开发
+---
+title: "Sophon SDK 开发"
+description: "AIO-1684JD4 Sophon SDK 开发文档。"
+---
 
 目前存在两套 Sophon SDK，其中 **SophonSDK3** 是属于旧版本的 SDK，而 **Sophon SDK** 属于新版本的 SDK。
-两套 SDK 的主要区别在于：  
+两套 SDK 的主要区别在于：
 
 | 区别                            | Sophon SDK                                                                                                                                     | SophonSDK3                                    |
 | --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |----------------------------------------------------------------------------------------------------------------------------------------------- |
 | 适配芯片                        | BM1684、BM1684X                                                                                                                                | BM1684、BM1684X                               |
-| 发布方式                        | 将各个模块解耦，分别提供tar和deb包。                                                                                                           | 提供统一的tar开发包， 包含Compiler和Library。 | 
-| 驱动安装                        | 安装sophon-driver_x.y.z_amd64.deb包                                                                                                            | 使用install_driver_{target}.sh安装            
-| NNToolchain、Quantization-Tools | 提供tpu-nntc_vx.y.z-<hash>-<data>.tar.gz安装使用                                                                                               | 包含于SophonSDK3                              | 
-| BMCV、BMRuntime、BMLib          | 提供sophon-libsophon_x.x.x_amd64.deb包，安装后位于/opt/sophon/libsophon-current                                                                | 包含于SophonSDK3                              | 
-| 多媒体库                        | 提供sophon-mw-x.x.x_amd64.deb包，安装后位于/opt/sophon/sophon-ffmpeg-latest、/opt/sophon/sophon-opencv-latest、/opt/sophon/opencv-bmcpu-latest | 包含于SophonSDK3                              | 
-| pipeline例程                    | 开源至github仓库，sophon-pipeline                                                                                                              | [https://github.com/sophon-ai-algo/sophon-inference](https://github.com/sophon-ai-algo/sophon-inference)                                              | 
-| 算法例程                        | 开源至github仓库（暂未发布）                                                                                                                   | [https://github.com/sophon-ai-algo/examples/tree/2.7.0](https://github.com/sophon-ai-algo/examples/tree/2.7.0)                                              | 
+| 发布方式                        | 将各个模块解耦，分别提供tar和deb包。                                                                                                           | 提供统一的tar开发包， 包含Compiler和Library。 |
+| 驱动安装                        | 安装sophon-driver_x.y.z_amd64.deb包                                                                                                            | 使用install_driver_{target}.sh安装
+| NNToolchain、Quantization-Tools | 提供tpu-nntc_vx.y.z-<hash>-<data>.tar.gz安装使用                                                                                               | 包含于SophonSDK3                              |
+| BMCV、BMRuntime、BMLib          | 提供sophon-libsophon_x.x.x_amd64.deb包，安装后位于/opt/sophon/libsophon-current                                                                | 包含于SophonSDK3                              |
+| 多媒体库                        | 提供sophon-mw-x.x.x_amd64.deb包，安装后位于/opt/sophon/sophon-ffmpeg-latest、/opt/sophon/sophon-opencv-latest、/opt/sophon/opencv-bmcpu-latest | 包含于SophonSDK3                              |
+| pipeline例程                    | 开源至github仓库，sophon-pipeline                                                                                                              | [https://github.com/sophon-ai-algo/sophon-inference](https://github.com/sophon-ai-algo/sophon-inference)                                              |
+| 算法例程                        | 开源至github仓库（暂未发布）                                                                                                                   | [https://github.com/sophon-ai-algo/examples/tree/2.7.0](https://github.com/sophon-ai-algo/examples/tree/2.7.0)                                              |
 
 建议优先使用 `Ubuntu 20.0`的固件以及新版本的 SDK 去做开发。
 
@@ -68,11 +71,11 @@ SophonSDK3
 ├── bin                    # 各个平台的相关工具
 │   ├── arm                # soc平台，对应SE5/SM5设备
 │   ├── arm_pcie           # ARM指令集CPU的服务器主机
-│   ├── fib.bin            # 
+│   ├── fib.bin            #
 │   ├── firmware           # BM1684中MCU的固件
 │   ├── loongarch64        # loongarch指令集CPU的服务器主机
 │   ├── mips64             # MIPS指令集CPU的服务器主机
-│   ├── ramboot_rootfs.itb # 
+│   ├── ramboot_rootfs.itb #
 │   ├── spi_flash.bin      #
 │   ├── sw64               # SW64指令集CPU的服务器主机
 │   └── x86                # intel x86主机
@@ -86,7 +89,7 @@ SophonSDK3
 │   ├── bmnetp             # Pytorch Compiler
 │   ├── bmnett             # TensorFlow Compiler
 │   ├── bmnetu             # int8 Umodel compiler
-│   ├── bmpaddle           # PaddlePaddle Compiler 
+│   ├── bmpaddle           # PaddlePaddle Compiler
 │   ├── bmprofile          # 性能分析工具
 │   ├── bmtflite           # TFLite Compiler
 │   ├── bmusercpu          # 使用A53 arm cpu相关的源文件
@@ -345,9 +348,9 @@ Sophon SDK 提供了十一个文件夹模块，具体如下表所示：
 
 ### 详细资料
 
-* [获取 SDK（v23.05.01 版本）](https://doc.sophgo.com/sdk-docs/v23.05.01/docs_latest_release/docs/SophonSDK_doc/zh/html/sdk_intro/3_claim_sdk.html)  
+* [获取 SDK（v23.05.01 版本）](https://doc.sophgo.com/sdk-docs/v23.05.01/docs_latest_release/docs/SophonSDK_doc/zh/html/sdk_intro/3_claim_sdk.html)
 * [安装 SDK（v23.05.01 版本）](https://doc.sophgo.com/sdk-docs/v23.05.01/docs_latest_release/docs/SophonSDK_doc/zh/html/sdk_intro/4_install.html#id12)
-  
-更多资料的，请参考：[https://developer.sophgo.com/site/index/document/all/all.html](https://developer.sophgo.com/site/index/document/all/all.html)    
+
+更多资料的，请参考：[https://developer.sophgo.com/site/index/document/all/all.html](https://developer.sophgo.com/site/index/document/all/all.html)
 
 [下载中心]: https://www.t-firefly.com/doc/download/179.html

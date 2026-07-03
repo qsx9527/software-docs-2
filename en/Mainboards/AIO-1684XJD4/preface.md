@@ -1,11 +1,14 @@
-# Preface
+---
+title: "Preface"
+description: "AIO-1684XJD4 Preface documentation."
+---
 
 ## Overview
 This document mainly introduces the development method based on the **AIO-1684XJD4** platform.
 
 
 
-## OS version  
+## OS version
 
 | OS Name | Kernel Version | Support | Maintenance |
 | :--------: | :-------: | :-------: | :-------: |
@@ -27,5 +30,3 @@ This document mainly introduces the development method based on the **AIO-1684XJ
   - Update time: 2023-07-22
   - Update content:
     - Initial release
-
-

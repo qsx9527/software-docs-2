@@ -1,4 +1,7 @@
-# Instruction of upgrade
+---
+title: "Instruction of upgrade"
+description: "AIO-3288J Instruction of upgrade documentation."
+---
 
 Due to differences in firmware of different systems, there may be some problems when upgrade firmware. If you encounter some problems, you can follow the steps below.
 

@@ -1,4 +1,7 @@
-# Cooling suit
+---
+title: "Cooling suit"
+description: "AIO-3288C Cooling suit documentation."
+---
 
 ## [Aluminum cooling fin](https://www.firefly.store/products)
 

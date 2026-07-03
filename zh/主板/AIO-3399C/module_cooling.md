@@ -1,5 +1,8 @@
+---
+title: "散热套件"
+description: "AIO-3399C 散热套件文档。"
+---
 
-# 散热套件
 
 
 
@@ -37,4 +40,3 @@
 
 ### 安装方式
 ![](../../../rk3399_img/AIO-3399C/module_cooling_fan_install.png)
-

@@ -1,5 +1,8 @@
+---
+title: "UART"
+description: "AIO-1684XQ UART documentation."
+---
 
-# UART
 
 ## Introduction
 
@@ -19,7 +22,7 @@ The RS485 interfaces diagram of AIO-1684XQ board is as follows:
 
 Users can use different host's USB-to-serial adapters to send and receive data to the serial port of the development board according to different interfaces. For example, the debugging steps of RS485 are as follows:
 
-(1) Connecting the hardware  
+(1) Connecting the hardware
 
 Connect the RS485B-A, RS485B-B and GND of the development board to the A, B and GND pins of the host serial adapter (USB to 485 to serial port module) respectively.
 (2) Open the serial terminal of the host

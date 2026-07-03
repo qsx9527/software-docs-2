@@ -1,4 +1,7 @@
-# Windows 上制作 SD 启动卡
+---
+title: "Windows 上制作 SD 启动卡"
+description: "AIO-3399C Windows 上制作 SD 启动卡文档。"
+---
 
 承接上一步的使用SD卡来更新固件，本文主要介绍如何实现使用MicroSD卡，制作用于启动并运行系统的SD启动卡。
 制作启动卡的准备工作和操作步骤一致，唯一一点不同的是，在打开**SD_Firmware_Tool** 的时候，需要勾选的是**SD Boot**框，如下图所示：
@@ -17,9 +20,9 @@ index 6b7b451cee1..295086a0025 100644
 --- a/kernel/arch/arm64/boot/dts/rockchip/rk3399-roc-pc-plus.dts
 +++ b/kernel/arch/arm64/boot/dts/rockchip/rk3399-roc-pc-plus.dts
 @@ -85,3 +85,7 @@
-     assigned-clock-parents = <&cru PLL_CPLL>; 
+     assigned-clock-parents = <&cru PLL_CPLL>;
  };
- 
+
 +&sdmmc{
 +supports-emmc;
 +};

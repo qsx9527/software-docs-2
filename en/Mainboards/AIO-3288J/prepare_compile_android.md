@@ -1,4 +1,7 @@
-# Compile environment to build
+---
+title: "Compile environment to build"
+description: "AIO-3288J Compile environment to build documentation."
+---
 
 ## Ready to compile
 

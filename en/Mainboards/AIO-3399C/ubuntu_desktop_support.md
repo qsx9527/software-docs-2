@@ -1,4 +1,7 @@
-# Firefly Ubuntu Desktop Introduction
+---
+title: "Firefly Ubuntu Desktop Introduction"
+description: "AIO-3399C Firefly Ubuntu Desktop Introduction documentation."
+---
 
 AIO-3399C The Ubuntu Desktop system is based on the Ubuntu 64bit system. Currently, two versions of Ubuntu 16.04 and Ubuntu 18.04 have been released. Has the following characteristics:
 

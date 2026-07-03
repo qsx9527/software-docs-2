@@ -1,6 +1,9 @@
+---
+title: "UART 使用"
+description: "AIO-3399C UART 使用文档。"
+---
 
 
-# UART 使用
 
 ## 简介
 
@@ -111,5 +114,3 @@ cat /dev/ttysWK0
 ```
 
 然后在主机的串口终端输入字符串 "Firefly RS485 test..."，设备端即可见到相同的字符串。
-
-

@@ -1,4 +1,7 @@
-# Interface definition
+---
+title: "Interface definition"
+description: "AIO-1684XJD4 Interface definition documentation."
+---
 
 ## Interface definition of the whole machine
 

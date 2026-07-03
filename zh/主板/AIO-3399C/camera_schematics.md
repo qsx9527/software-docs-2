@@ -1,3 +1,8 @@
+---
+title: "摄像头 原理图"
+description: "AIO-3399C 摄像头 原理图文档。"
+---
+
 从以下摄像头接口原理图可知，需要配置的引脚有：`AF_VDD28`、`DOVDD18`、`AVDD28`、`DVDD12`、`PWDN1`、`RST` 和 `MCLK`。
 
 * MIPI 接口

@@ -1,3 +1,8 @@
+---
+title: "Linux 编译 Debian"
+description: "AIO-1126BJD4V0 Linux 编译 Debian文档。"
+---
+
 ## 编译 Debian 固件
 
 ### 准备工作

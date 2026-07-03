@@ -1,4 +1,7 @@
-# 蓝牙
+---
+title: "蓝牙"
+description: "AIO-1684XJD4 蓝牙文档。"
+---
 
 AIO-1684XJD4 支持无线蓝牙，可以通过 `hciconfig -a` 命令显示蓝牙设备信息：
 
@@ -6,17 +9,17 @@ AIO-1684XJD4 支持无线蓝牙，可以通过 `hciconfig -a` 命令显示蓝牙
 linaro@bm1684:~$ hciconfig -a
 hci0:	Type: Primary  Bus: USB
 	BD Address: 20:57:9E:BA:7C:EC  ACL MTU: 1021:8  SCO MTU: 255:16
-	UP RUNNING 
+	UP RUNNING
 	RX bytes:650 acl:0 sco:0 events:41 errors:0
 	TX bytes:2170 acl:0 sco:0 commands:41 errors:0
 	Features: 0xff 0xff 0xff 0xfa 0xdb 0xbd 0x7b 0x87
-	Packet type: DM1 DM3 DM5 DH1 DH3 DH5 HV1 HV2 HV3 
-	Link policy: RSWITCH HOLD SNIFF PARK 
-	Link mode: SLAVE ACCEPT 
+	Packet type: DM1 DM3 DM5 DH1 DH3 DH5 HV1 HV2 HV3
+	Link policy: RSWITCH HOLD SNIFF PARK
+	Link mode: SLAVE ACCEPT
 	Name: 'bm1684'
 	Class: 0x000000
 	Service Classes: Unspecified
-	Device Class: Miscellaneous, 
+	Device Class: Miscellaneous,
 	HCI Version: 4.2 (0x8)  Revision: 0xaba8
 	LMP Version: 4.2 (0x8)  Subversion: 0xa0cd
 	Manufacturer: Realtek Semiconductor Corporation (93)
@@ -120,7 +123,7 @@ Attempting to connect to A4:90:CE:DF:64:4F
 [CHG] Device A4:90:CE:DF:64:4F Connected: yes
 Connection successful
 [CHG] Device A4:90:CE:DF:64:4F ServicesResolved: yes
-[iQOO Neo6 SE]# 
+[iQOO Neo6 SE]#
 ```
 
 （7）把手机设备设置成信任：
@@ -256,7 +259,7 @@ Device 38:F5:FA:A2:70:A0 (public)
   32 32 78 78 11 22 33 44 55 66 aa bb 00 00        22xx."3DUf....
 ```
 
-* 打开第二个终端: 播放和录音  
+* 打开第二个终端: 播放和录音
 
 ```shell
 # List the available BT audio PCMs:
@@ -362,8 +365,8 @@ root@firefly:~# systemctl --user start obex
 （2）进入交互命令行：
 
 ```shell
-root@firefly:~# obexctl 
-[NEW] Client /org/bluez/obex 
+root@firefly:~# obexctl
+[NEW] Client /org/bluez/obex
 ```
 
 （3）连接 AIO-1684XJD4 （主设备）：
@@ -373,7 +376,7 @@ root@firefly:~# obexctl
 Attempting to connect to 20:57:9E:BA:7C:EC
 ...
 [NEW] Session /org/bluez/obex/client/session2 [default]
-[NEW] ObjectPush /org/bluez/obex/client/session2 
+[NEW] ObjectPush /org/bluez/obex/client/session2
 ```
 
 （4）发送文件：

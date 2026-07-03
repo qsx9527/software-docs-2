@@ -1,4 +1,7 @@
-# 编译 LibreELEC 固件
+---
+title: "编译 LibreELEC 固件"
+description: "AIO-3399C 编译 LibreELEC 固件文档。"
+---
 
 使用LibreELEC官方提供的SDK，并打上firefly提供的补丁文件，本章详细的说明 SDK 的具体用法。
 

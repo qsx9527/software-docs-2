@@ -1,4 +1,7 @@
-# ADC 使用
+---
+title: "ADC 使用"
+description: "AIO-1126BJD4V0 ADC 使用文档。"
+---
 
 ## 简介
 

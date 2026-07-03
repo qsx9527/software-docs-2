@@ -1,3 +1,8 @@
+---
+title: "编译 Android8.1 产品"
+description: "AIO-3399C 编译 Android8.1 产品文档。"
+---
+
 ### HDMI+DP 显示编译
 
 * 默认编译HDMI+DP
@@ -84,7 +89,7 @@ cd ~/proj/AIO-3399C/
 cd ~/proj/AIO-3399C/
 ./FFTools/make.sh -j8
 ```
-## 打包成统一固件 
+## 打包成统一固件
 
 编译完可以用 Firefly 官方的脚本打包成统一固件，执行如下命令：
 

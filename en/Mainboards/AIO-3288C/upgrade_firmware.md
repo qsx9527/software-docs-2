@@ -1,4 +1,7 @@
-# Upgrade the firmware
+---
+title: "Upgrade the firmware"
+description: "AIO-3288C Upgrade the firmware documentation."
+---
 
 ## Introduction
 

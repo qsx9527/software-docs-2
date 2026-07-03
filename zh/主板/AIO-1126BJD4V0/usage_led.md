@@ -1,4 +1,7 @@
-# LED 使用
+---
+title: "LED 使用"
+description: "AIO-1126BJD4V0 LED 使用文档。"
+---
 
 ## 前言
 
@@ -105,9 +108,8 @@ echo "timer" > /sys/class/leds/:user/trigger
 
 ```
 $ cat /sys/class/leds/:user/trigger
-none ir-power-click rfkill-any rfkill-none test_ac-online test_battery-charging-or-full 
-test_battery-charging test_battery-full test_battery-charging-blink-full-solid 
-test_usb-online mmc0 [timer] heartbeat backlight default-on ir-user-click mmc1 
+none ir-power-click rfkill-any rfkill-none test_ac-online test_battery-charging-or-full
+test_battery-charging test_battery-full test_battery-charging-blink-full-solid
+test_usb-online mmc0 [timer] heartbeat backlight default-on ir-user-click mmc1
 rfkill0 tcpm-source-psy-6-0022-online rfkill1 rfkill2
 ```
-

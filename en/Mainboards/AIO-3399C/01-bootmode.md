@@ -1,4 +1,7 @@
-# Boot mode description
+---
+title: "Boot mode description"
+description: "AIO-3399C Boot mode description documentation."
+---
 
 ## Preface
 
@@ -44,7 +47,7 @@ Normal mode is the Normal startup process. Each component loads in turn and ente
 
 ### Loader mode
 
-In Loader mode, the bootloader will enter the upgrade state, waiting for the host command for firmware upgrade, etc. 
+In Loader mode, the bootloader will enter the upgrade state, waiting for the host command for firmware upgrade, etc.
 
 ### MaskRom mode
 

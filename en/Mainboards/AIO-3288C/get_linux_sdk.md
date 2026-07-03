@@ -1,3 +1,8 @@
+---
+title: "Get Linux SDK"
+description: "AIO-3288C Get Linux SDK documentation."
+---
+
 ### Download Firefly_Linux_SDK
 
 First prepare an empty folder to place SDK, better under home, here we use `~/proj` as example.

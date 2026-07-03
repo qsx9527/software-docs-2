@@ -1,3 +1,8 @@
+---
+title: "AIO-3288C"
+description: "AIO-3288C mainboard product documentation navigation."
+---
+
 # Quick Start
 - [](started.md)
 - [Serial debug](debug.md)

@@ -1,4 +1,7 @@
-# ADC Use
+---
+title: "ADC Use"
+description: "AIO-3288C ADC Use documentation."
+---
 
 ## Introduction
 
@@ -149,7 +152,7 @@ static struct platform_driver XXX_driver = {
         #ifdef CONFIG_OF
         .of_match_table = of_XXX_match,
          #endif
-    },  
+    },
 };
 ```
 

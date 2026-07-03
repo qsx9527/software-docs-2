@@ -1,4 +1,7 @@
-# Interface definition
+---
+title: "Interface definition"
+description: "AIO-3288C Interface definition documentation."
+---
 
 ## Machine interface definition
 

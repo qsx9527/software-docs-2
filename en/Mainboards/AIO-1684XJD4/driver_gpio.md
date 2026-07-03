@@ -1,4 +1,7 @@
-# GPIO
+---
+title: "GPIO"
+description: "AIO-1684XJD4 GPIO documentation."
+---
 
 The BM1684 chip contains 3 groups of GPIO controllers, each of which controls 32 GPIOs, which correspond to the Linux device nodes as follows:
 
@@ -21,7 +24,7 @@ For example, to operate `GPIO6`, you need:
     # set input mode
     echo in >direction
     cat value
-    
+
     # set output mode
     echo out >direction
     # output low level
@@ -35,4 +38,3 @@ There are a few things to note:
 - Involving the multiplexing of IO functions, if the function of the pin is already GPIO, the above method can be used; otherwise, the pinctrl state must be specified in the device tree.
 
 Generally speaking, if you want to easily operate a GPIO in the user layer, you can add it as a GPIO-LED in the device tree. Please refer to `linux-linaro-stable/arch/arm64/boot/dts/bitmain/bm1684_firefly.dtsi` for details.
-

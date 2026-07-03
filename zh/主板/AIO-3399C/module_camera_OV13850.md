@@ -1,3 +1,8 @@
+---
+title: "模组 摄像头 OV13850"
+description: "AIO-3399C 模组 摄像头 OV13850文档。"
+---
+
 ## [OV13850 摄像头模组](https://store.t-firefly.com/goods.php?id=6)<font color=#ff0000>(已停产)</font> <br />
 
 ### 产品参数

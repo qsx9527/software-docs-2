@@ -1,3 +1,8 @@
+---
+title: "Ubuntu Compile"
+description: "AIO-3288C Ubuntu Compile documentation."
+---
+
 ## Build Ubuntu firmware
 
 This chapter introduces the compilation process of Ubuntu firmware.

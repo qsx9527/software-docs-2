@@ -1,4 +1,7 @@
-# Image content retrieval
+---
+title: "Image content retrieval"
+description: "AIO-1684XQ Image content retrieval documentation."
+---
 
 ## CLIP-TPU project introduction
 

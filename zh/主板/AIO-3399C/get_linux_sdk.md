@@ -1,3 +1,8 @@
+---
+title: "获取 Linux SDK"
+description: "AIO-3399C 获取 Linux SDK文档。"
+---
+
 ### 下载 Firefly_Linux_SDK 分卷压缩包
 
 **由于 Firefly_Linux_SDK 源码包比较大，部分用户电脑不支持4G以上文件或单个文件网络传输较慢, 所以我们采用分卷压缩的方法来打包SDK。用户可以通过如下方式获取 Firefly_Linux_SDK源码包：**[Firefly_Linux_SDK源码包]

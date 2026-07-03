@@ -1,4 +1,7 @@
-# 使用方法
+---
+title: "使用方法"
+description: "AIO-1126BQ38 使用方法文档。"
+---
 
 本章讲述讲述` CORE-1126-JD4/CORE-1109-JD4 `配套官方底板的使用方法，不包含具体应用开发，应用开发请看[《软件开发》](Source_code.html)一节。
 
@@ -71,7 +74,7 @@ Windows版本：https://dl.google.com/android/repository/platform-tools-latest-w
 
 * 注：路径需要改成你解压的自定义目录
 
-* 以管理员权限打开命令提示符，此时电脑 USB 接口连接了 RV1126 的 USB 调试口。命令提示符终端输入 `adb devices` 
+* 以管理员权限打开命令提示符，此时电脑 USB 接口连接了 RV1126 的 USB 调试口。命令提示符终端输入 `adb devices`
 ```
 C:\Users\lvsx>adb devices
 * daemon not running; starting now at tcp:5037

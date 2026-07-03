@@ -1,4 +1,7 @@
-# IR Use
+---
+title: "IR Use"
+description: "AIO-3288J IR Use documentation."
+---
 
 ## IR remote control configuration
 
@@ -56,7 +59,7 @@ static struct rkxx_remotectl_button remotectl_button[] =
     //...
     {
         .usercode = 0xff00,/* need to get the usercode in next step */
-        .nbuttons =  12,/* number of buttons */  
+        .nbuttons =  12,/* number of buttons */
         .key_table = &remote_key_table_r66[0],/* key table */
     },
     // ...

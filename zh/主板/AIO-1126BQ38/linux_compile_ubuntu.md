@@ -1,3 +1,8 @@
+---
+title: "Linux 编译 Ubuntu"
+description: "AIO-1126BQ38 Linux 编译 Ubuntu文档。"
+---
+
 ## 编译 Ubuntu 固件
 
 本章介绍 Ubuntu 固件的编译流程，推荐在 Ubuntu 18.04 系统环境下进行开发，若使用其它系统版本，可能需要对编译环境做相应调整。
@@ -27,7 +32,7 @@ device-tree-compiler ncurses-dev \
 在 `device/rockchip/rk3588/` 目录下，有不同板型的配置文件，选择配置文件：
 
 ```bash
-./build.sh  
+./build.sh
 
 or
 

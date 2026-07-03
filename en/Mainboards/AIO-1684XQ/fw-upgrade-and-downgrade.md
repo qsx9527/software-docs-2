@@ -1,4 +1,7 @@
-# Upgrade and downgrade between old and new firmware
+---
+title: "Upgrade and downgrade between old and new firmware"
+description: "AIO-1684XQ Upgrade and downgrade between old and new firmware documentation."
+---
 
 WARNING:
 - For 1684X machines only! (There's no need for 1684)

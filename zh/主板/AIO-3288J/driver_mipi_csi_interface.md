@@ -1,3 +1,8 @@
+---
+title: "驱动 MIPI CSI 接口"
+description: "AIO-3288J 驱动 MIPI CSI 接口文档。"
+---
+
 ## 配置原理
 
 设置摄像头相关的引脚和时钟，即可完成配置过程。

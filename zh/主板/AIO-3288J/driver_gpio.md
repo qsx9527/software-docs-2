@@ -1,4 +1,7 @@
-# GPIO 使用
+---
+title: "GPIO 使用"
+description: "AIO-3288J GPIO 使用文档。"
+---
 
 ## 简介
 
@@ -34,7 +37,7 @@ kernel/drivers/pinctrl/pinctrl-rockchip.c
 
 
 另外，扩展槽上引出了几个空闲的 GPIO 口，分别是：
-  
+
 ![](../../../rk3288_img/gpio_expand.png)
 
 这几个 GPIO 口可以自定义作输入、输出使用。

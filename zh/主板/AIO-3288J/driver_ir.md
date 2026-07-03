@@ -1,4 +1,7 @@
-# IR 使用
+---
+title: "IR 使用"
+description: "AIO-3288J IR 使用文档。"
+---
 
 ## 红外遥控配置
 
@@ -23,7 +26,7 @@ AIO-3288J的 IR 接线位置如下图红框所示：
 
 ### 定义相关数据结构
 
-**以下是定义数据结构的步骤：**  
+**以下是定义数据结构的步骤：**
 
 * 添加键值表结构体数组
 
@@ -55,7 +58,7 @@ static struct rkxx_remotectl_button remotectl_button[] =
 {
     //...
     {   .usercode = 0xff00,/* need to get the usercode in next step */
-        .nbuttons =  12,/* number of buttons */  
+        .nbuttons =  12,/* number of buttons */
         .key_table = &remote_key_table_r66[0],/* key table */
     },
     // ...

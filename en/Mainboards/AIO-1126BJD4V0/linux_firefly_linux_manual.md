@@ -1,4 +1,7 @@
-# Firefly Linux User Guide
+---
+title: "Firefly Linux User Guide"
+description: "AIO-1126BJD4V0 Firefly Linux User Guide documentation."
+---
 
 **Loading......**
 

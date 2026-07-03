@@ -1,4 +1,7 @@
-# GPIO 使用
+---
+title: "GPIO 使用"
+description: "AIO-1684JD4 GPIO 使用文档。"
+---
 
 BM1684 芯片包含 3 组 GPIO 控制器，每个控制 32 根 GPIO，与 Linux 的设备节点对应如下：
 
@@ -21,7 +24,7 @@ BM1684 芯片包含 3 组 GPIO 控制器，每个控制 32 根 GPIO，与 Linux 
     # 设置输入模式
     echo in >direction
     cat value
-    
+
     # 设置输出模式
     echo out >direction
     # 输出低电平
@@ -32,5 +35,3 @@ BM1684 芯片包含 3 组 GPIO 控制器，每个控制 32 根 GPIO，与 Linux 
 
 有以下注意事项：
 - 如果 GPIO 已经被其他驱动申请了的话，是无法导出 (export) 成功的，也就无法进行后续的读写操作。
-
-

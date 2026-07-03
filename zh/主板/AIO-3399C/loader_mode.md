@@ -1,4 +1,7 @@
-# 使用USB线缆升级固件
+---
+title: "使用USB线缆升级固件"
+description: "AIO-3399C 使用USB线缆升级固件文档。"
+---
 
 ## 前言
 

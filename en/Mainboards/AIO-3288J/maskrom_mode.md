@@ -1,4 +1,7 @@
-# MaskRom mode
+---
+title: "MaskRom mode"
+description: "AIO-3288J MaskRom mode documentation."
+---
 
 ***See startup mode for an introduction [startup mode](bootmode.md)***
 

@@ -1,5 +1,8 @@
+---
+title: "Watchdog"
+description: "AIO-1126BJD4V0 Watchdog documentation."
+---
 
-# Watchdog
 
 ## Introduction
 
@@ -78,11 +81,11 @@ int main(void)
 
     ret = ioctl(fd, WDIOC_SETTIMEOUT, &timeout1); //set timeout
     if (ret < 0)
-        printf("ioctl WDIOC_SETTIMEOUT failed.\n"); 
+        printf("ioctl WDIOC_SETTIMEOUT failed.\n");
 
     ret = ioctl(fd, WDIOC_GETTIMEOUT, &timeout2); //get timeout
     if (ret < 0)
-        printf("ioctl WDIOC_SETTIMEOUT failed.\n"); 
+        printf("ioctl WDIOC_SETTIMEOUT failed.\n");
     printf("timeout = %d\n", timeout2);
 
     while (1) {

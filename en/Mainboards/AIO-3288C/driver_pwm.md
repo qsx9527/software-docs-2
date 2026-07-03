@@ -1,4 +1,7 @@
-# PWM Use
+---
+title: "PWM Use"
+description: "AIO-3288C PWM Use documentation."
+---
 
 ## Introduction
 
@@ -185,7 +188,7 @@ int pwm_enable(struct pwm_device *pwm);
     + pwm: pwm to be enabled
 
 ```c
-void pwm_disable(struct pwm_device *pwm); 
+void pwm_disable(struct pwm_device *pwm);
 ```
 
 * Function: forbid pwm

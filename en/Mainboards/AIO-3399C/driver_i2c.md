@@ -1,4 +1,7 @@
-# I2C
+---
+title: "I2C"
+description: "AIO-3399C I2C documentation."
+---
 
 ## Introduction
 

@@ -1,4 +1,7 @@
-# NPU使用
+---
+title: "NPU使用"
+description: "AIO-1126BQ38 NPU使用文档。"
+---
 
 RV1126B 内置 NPU 模块, 处理性能最高可达3TOPS。使用该NPU需要下载[RKNN SDK](https://www.t-firefly.com/doc/download/367.html)，RKNN SDK 为带有 NPU 的 RK 系列芯片提供编程接口，能够帮助用户部署使用 RKNN-Toolkit2 导出的 RKNN 模型，加速 AI 应用的落地，具体支持平台列表可通过 SDK 中 README 文档或者访问[airockchip](https://github.com/airockchip/rknn-toolkit2/) 查看，开发建议以[airockchip](https://github.com/airockchip/rknn-toolkit2/)官方更新版本作为参考。
 
@@ -189,7 +192,7 @@ RKNN-Toolkit2 通过 PC 的 USB 连接到 OTG 设备 AIO-1126BQ38。RKNN-Toolkit
 将 RKNN 模型传到 AIO-1126BQ38 的 NPU 上运行，再从 AIO-1126BQ38 上获取推理结果、性能信息等：
 
 
-* 首先部署 AIO-1126BQ38 环境：更新librknnrt.so及运行rknn_server 
+* 首先部署 AIO-1126BQ38 环境：更新librknnrt.so及运行rknn_server
 
 ```shell
 adb push rknpu2/runtime/Linux/rknn_server/aarch64/usr/bin/rknn_server /usr/bin/
@@ -210,20 +213,20 @@ index 0507edb..fd2e070 100755
 +++ b/examples/tflite/mobilenet_v1/test.py
 @@ -24,11 +24,11 @@ def show_outputs(outputs):
  if __name__ == '__main__':
- 
+
      # Create RKNN object
 -    rknn = RKNN(verbose=True)
 +    rknn = RKNN()
- 
+
      # Pre-process config
      print('--> Config model')
 -    rknn.config(mean_values=[128, 128, 128], std_values=[128, 128, 128])
 +    rknn.config(mean_values=[128, 128, 128], std_values=[128, 128, 128], target_platform='rv1126b')
      print('done')
- 
+
      # Load model
 @@ -62,7 +62,7 @@ if __name__ == '__main__':
- 
+
      # Init runtime environment
      print('--> Init runtime environment')
 -    ret = rknn.init_runtime()
@@ -235,7 +238,7 @@ index 0507edb..fd2e070 100755
 
 * PC 端运行test.py
 ```shell
-(venv) firefly@T-chip:~/rknn-toolkit2/examples/tflite/mobilenet_v1$ python3 test.py 
+(venv) firefly@T-chip:~/rknn-toolkit2/examples/tflite/mobilenet_v1$ python3 test.py
 W __init__: rknn-toolkit2 version: 1.3.0-11912b58
 --> Config model
 done
@@ -275,4 +278,3 @@ done
 
 ## 详细开发文档
 AIO-1126BQ38 NPU 及 Toolkit 详细使用方法请参考RKNN SDK下《Rockchip_RKNPU_User_Guide_RKNN_API_\*.pdf》、《Rockchip_User_Guide_RKNN_Toolkit2_\*.pdf》文档。
-

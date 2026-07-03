@@ -1,3 +1,8 @@
+---
+title: "Firmware Ubuntu"
+description: "AIO-3399C Firmware Ubuntu文档。"
+---
+
 
 
 

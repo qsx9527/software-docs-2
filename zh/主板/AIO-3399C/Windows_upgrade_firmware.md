@@ -1,4 +1,7 @@
-# Windows 上升级固件
+---
+title: "Windows 上升级固件"
+description: "AIO-3399C Windows 上升级固件文档。"
+---
 
 ## 前言
 

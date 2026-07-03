@@ -1,3 +1,8 @@
+---
+title: "Distcc"
+description: "AIO-3399C Distcc documentation."
+---
+
 ## Build a distributed compilation environment with Docker
 
 `distcc` is a program used for distributed compilation of C, C++, Objective-C or Objective-C++ code through several machines on the network. `distcc` does not require all machines to share the file system, have synchronized clocks, or have the same libraries and header files installed, as long as the server machine has a suitable compilation tool to compile. This example uses Docker technology to deploy the `distcc` distributed compilation service on two Firefly-RK3399 devices (arm64) and one PC (x86_64), and then realizes the use of `distcc`'s distributed compilation features on one of the Firefly-RK3399 devices To speed up the kernel compilation process.

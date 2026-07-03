@@ -1,3 +1,8 @@
+---
+title: "External RootFS"
+description: "AIO-3399C External RootFS documentation."
+---
+
 ## External storage device rootfs mount
 
 In addition to the root file system used in the internal eMMC, you can also use the root file system of external storage devices, such as SD cards, U disks, etc. The following takes SD card as an example to realize the root file system of mounting external storage device on Firefly-RK3399 device.
@@ -93,7 +98,7 @@ sudo mkfs.ext4 /dev/sdb1
 
 ```
 
-After formatting is complete, use the `dd` command to burn the created root file system to the newly created partition of the SD card. (For the customization of the root file system, please refer to *[Ubuntu Rootfs Customization](custom_ubuntu_rootfs.md)*)
+After formatting is complete, use the `dd` command to burn the created root file system to the newly created partition of the SD card. (For creating the root file system, see *[Create Ubuntu root file system](linux_build_ubuntu_rootfs.md)*)
 
 ```bash
 # User please fill in the path of the root file system mirror and the device name of the corresponding partition of the SD card according to the actual situation

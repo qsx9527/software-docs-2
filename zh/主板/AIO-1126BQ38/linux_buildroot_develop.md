@@ -1,4 +1,7 @@
-# Buildroot 开发
+---
+title: "Buildroot 开发"
+description: "AIO-1126BQ38 Buildroot 开发文档。"
+---
 
 Buildroot 是 Linux 平台上一个构建嵌入式 Linux 系统的框架。整个 Buildroot 是由 Makefile(*.mk) 脚本和 Kconfig(Config.in) 配置文件构成的。你可以和编译 Linux 内核一样，通过 buildroot 配置，menuconfig 修改，编译出一个完整的可以直接烧写到机器上运行的 Linux 系统软件（包含 boot、kernel、rootfs 以及 rootfs 中的各种库和应用程序）。
 
@@ -44,7 +47,7 @@ buildroot/
 cd path/to/SDK/
 # 选择配置文件
 # `configs/_defconfig`
-source envsetup.sh 
+source envsetup.sh
 ```
 
 执行完成后会生成编译输出目录，`output/`，后续也可以在该目录下执行 `make` 相关操作。

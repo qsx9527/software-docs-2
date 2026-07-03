@@ -1,3 +1,8 @@
+---
+title: "Get Linux SDK"
+description: "AIO-3399C Get Linux SDK documentation."
+---
+
 ### Download Firefly_Linux_SDK sub-volume compressed package
 
 **Since the Firefly_Linux_SDK source code package is relatively large, some users' computers do not support files above 4G or the network transmission of a single file is slow, so we use the method of sub-volume compression to package the SDK. Users can obtain the Firefly_Linux_SDK source code package in the following ways:**[Firefly_Linux_SDK Source]

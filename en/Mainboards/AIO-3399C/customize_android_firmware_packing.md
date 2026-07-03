@@ -1,3 +1,8 @@
+---
+title: "Customize Android Firmware Packing"
+description: "AIO-3399C Customize Android Firmware Packing documentation."
+---
+
 ```
 # The current directory is still update/, with package-file and all files listed in package-file.
 # Copy the parameter file to paramter, because it is used by default by afptool.
@@ -20,6 +25,3 @@ Add CRC...
 ------ OK ------
 Pack OK!
 ```
-
-
-

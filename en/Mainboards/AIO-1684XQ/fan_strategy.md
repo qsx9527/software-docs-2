@@ -1,4 +1,7 @@
-# Fan working strategy
+---
+title: "Fan working strategy"
+description: "AIO-1684XQ Fan working strategy documentation."
+---
 
 AIO-1684XQ fans work in 4 levels:
 

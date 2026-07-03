@@ -1,4 +1,7 @@
-# 接口定义
+---
+title: "接口定义"
+description: "AIO-1126BJD4V0 接口定义 documentation."
+---
 
 ## 整机接口定义
 
@@ -37,4 +40,3 @@
 ![](../../../rv1126b_img/Core-3588J/interface_front.png)
 
 ![](../../../rv1126b_img/Core-3588J/interface_back.png)
-

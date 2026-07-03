@@ -1,3 +1,8 @@
+---
+title: "获取 Linux SDK"
+description: "AIO-3288C 获取 Linux SDK文档。"
+---
+
 ### 获取 SDK
 
 首先准备一个空文件夹用于存放 SDK，建议在 home 目录下，本文以`~/proj`为例

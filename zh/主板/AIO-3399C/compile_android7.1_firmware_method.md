@@ -1,3 +1,8 @@
+---
+title: "编译 Android7.1 固件 Method"
+description: "AIO-3399C 编译 Android7.1 固件 Method文档。"
+---
+
 
 ### HDMI 显示编译
 

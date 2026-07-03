@@ -1,4 +1,7 @@
-# ADC
+---
+title: "ADC"
+description: "AIO-1126BJD4V0 ADC documentation."
+---
 
 ## Introduction
 

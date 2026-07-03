@@ -1,3 +1,8 @@
+---
+title: "Android Get Android 12.0 SDK"
+description: "AIO-1126BQ38 Android Get Android 12.0 SDK documentation."
+---
+
 ### Download Android SDK
 * The SDK can be obtained by email. Send the order number to <font color=red>sales@t-firefly.com</font> and indicate the required SDK name [firefly_rk3588_android12_git_20240704]()
 
@@ -40,7 +45,7 @@ cd ~/proj/RK3588_Android12.0
 2. Download remote bundle repository
 git clone https://gitlab.com/T-Firefly/rk3588-android12.0-bundle.git .bundle
 
-3. If the download warehouse fails, it may be stuck or failed problems during synchronization. 
+3. If the download warehouse fails, it may be stuck or failed problems during synchronization.
 we can download and unzip it from the cloud disk link below to the SDK root directory.
 
 7z x rk3588-android12.0-bundle.7z  -r -o. && mv rk3588-android12.0-bundle .bundle
@@ -54,4 +59,3 @@ git rebase FETCH_HEAD
 ```
 
 Google Driver [Android12.0 Bundle]()。
-

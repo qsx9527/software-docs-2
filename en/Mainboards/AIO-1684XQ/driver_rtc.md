@@ -1,5 +1,8 @@
-# RTC
- 
+---
+title: "RTC"
+description: "AIO-1684XQ RTC documentation."
+---
+
 
 AIO-1684XQ development board is equipped with the DS1307 RTC (Real Time Clock) chip, which allows you to set the system clock using this chip.
 The following are common RTC operations:
@@ -19,4 +22,3 @@ $ sudo hwclock -s
 # Save current system time to RTC
 $ sudo hwclock -w
 ```
-

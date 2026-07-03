@@ -1,4 +1,7 @@
-# WIFI
+---
+title: "WIFI"
+description: "AIO-1684XQ WIFI documentation."
+---
 
 AIO-1684XQ supports wireless WIFI, and the network card name in the system defaults to `wlan0`:
 

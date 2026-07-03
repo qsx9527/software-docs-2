@@ -1,4 +1,7 @@
-# 摄像头模组
+---
+title: "摄像头模组"
+description: "AIO-3288C 摄像头模组文档。"
+---
 
 ## [OV13850摄像头模组](https://store.t-firefly.com/goods.php?id=6)
 

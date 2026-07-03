@@ -1,4 +1,7 @@
-# 外壳
+---
+title: "外壳"
+description: "AIO-3288J 外壳文档。"
+---
 
 ## Firefly-RK3288 CAD图
 

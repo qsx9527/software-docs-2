@@ -1,3 +1,8 @@
+---
+title: "MIPI 摄像头"
+description: "AIO-3399C MIPI 摄像头文档。"
+---
+
 ## MIPI 摄像头
 带有 `MIPI CSI` 接口的 RK3399 板子都添加了双 MIPI 摄像头 `OV13850` 的支持，应用中也添加了摄像头的例子。下面介绍一下相关配置。
 

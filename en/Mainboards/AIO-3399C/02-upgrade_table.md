@@ -1,9 +1,12 @@
-# Instructions for writing with USB cable (important)
+---
+title: "Instructions for writing with USB cable (important)"
+description: "AIO-3399C Instructions for writing with USB cable (important) documentation."
+---
 
 
 ## Preface
 
-AIO-3399C is installed with Android7.1(industry) system by default. 
+AIO-3399C is installed with Android7.1(industry) system by default.
 
 AIO-3399C may officially support multiple systems, so it is possible to upgrade firmware for different systems.
 

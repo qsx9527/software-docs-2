@@ -1,3 +1,8 @@
+---
+title: "Linux Compile Thunder Boot"
+description: "AIO-1126BJD4V0 Linux Compile Thunder Boot documentation."
+---
+
 ## Compile Thunder-boot firmware
 Currently, the latest SDK of CORE-1126-JD4 has been adapted to Quickboot. Compile Quickboot firmware options:
 ```

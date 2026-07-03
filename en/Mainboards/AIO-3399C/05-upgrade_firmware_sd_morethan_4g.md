@@ -1,4 +1,7 @@
-# If the firmware is larger than 4G SD upgrade card making tutorial:
+---
+title: "If the firmware is larger than 4G SD upgrade card making tutorial:"
+description: "AIO-3399C If the firmware is larger than 4G SD upgrade card making tutorial: documentation."
+---
 
 Because the `SD_Firmware_Tool` upgrade tool provided by RK, the upgrade partition made is in FAT32 format, so the supported firmware size is up to 4G. Now the FAT32 format partition should be reformatted to EXT4 format. <font color = "red">(Note: The previous work is the same as the normal SD upgrade card, but in the end, you need to reformat the partition and put in the files required for the upgrade)</font>
 

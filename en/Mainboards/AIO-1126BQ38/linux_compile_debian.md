@@ -1,3 +1,8 @@
+---
+title: "Linux Compile Debian"
+description: "AIO-1126BQ38 Linux Compile Debian documentation."
+---
+
 ## Compile Debian firmware
 
 ### Preparatory work

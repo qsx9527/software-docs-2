@@ -1,4 +1,7 @@
-# IR 使用
+---
+title: "IR 使用"
+description: "AIO-3399C IR 使用文档。"
+---
 
 ## 红外遥控配置
 

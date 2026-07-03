@@ -1,4 +1,7 @@
-# 显示屏模组
+---
+title: "显示屏模组"
+description: "AIO-1126BQ38 显示屏模组文档。"
+---
 
 Firefly 支持的显示屏如下：
 

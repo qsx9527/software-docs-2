@@ -1,4 +1,8 @@
-# NPU
+---
+title: "NPU"
+description: "AIO-1126BQ38 NPU documentation."
+---
+
 RV1126B has a NPU(*Neural Process Unit*) that Neural network acceleration engine with processing performance up to 3 TOPS. Using this NPU module needs to download [RKNN SDK](https://en.t-firefly.com/doc/download/377.html) which provides programming interfaces for RK series chips platforms with NPU. This SDK can help users deploy RKNN models exported by RKNN-Toolkit2 and accelerate the implementation of AI applications. The specific list of supported platforms can be found in the README document included with the SDK or by visiting [airockchip](https://github.com/airockchip/rknn-toolkit2/). It is recommended to refer to the official updates provided by [airockchip](https://github.com/airockchip/rknn-toolkit2/) for development purposes.
 
 ## RKNN Model
@@ -46,7 +50,7 @@ RKNN-Toolkit2 is a development kit that provides users with model conversion, in
 * <font color=blue>**Model conversion**</font>: support to convert `Caffe` / `TensorFlow` / `TensorFlow Lite` / `ONNX` / `Darknet`
 / `PyTorch` model to RKNN model, support RKNN model import/export, which can be used on Rockchip NPU platform later
 <br></br>
-* <font color=blue>**Quantization**</font>: support to convert float model to quantization model, currently support quantized methods including asymmetric quantization(asymmetric_quantized-8, asymmetric_quantized-16). and support hybrid quantization. 
+* <font color=blue>**Quantization**</font>: support to convert float model to quantization model, currently support quantized methods including asymmetric quantization(asymmetric_quantized-8, asymmetric_quantized-16). and support hybrid quantization.
 <font color=red>Asymmetric_quantized-16 not supported yet</font>
 <br></br>
 * <font color=blue>**Model inference**</font>: Able to simulate Rockchip NPU to run RKNN model on PC and get the inference result.
@@ -54,7 +58,7 @@ RKNN-Toolkit2 is a development kit that provides users with model conversion, in
  <br></br>
 * <font color=blue>**Performance evaluation**</font>: distribute the RKNN model to the specified NPU device to run, and evaluate the model performance in the actual device
 <br></br>
-* <font color=blue>**Memory evaluation**</font>: Evaluate memory consumption at runtime of the model. When using this function, 
+* <font color=blue>**Memory evaluation**</font>: Evaluate memory consumption at runtime of the model. When using this function,
 the RKNN model must be distributed to the NPU device to run, and then call the relevant interface to obtain memory information
 <br></br>
 * <font color=blue>**Quantitative error analysis**</font>: This function will give the Euclidean or cosine distance of each layer of inference results before and after the model is quantized.
@@ -114,7 +118,7 @@ bfloat16==1.1
 
 ### RKNN-Toolkit2 installation
 
-It is recommended to use virtualenv to manage the python environment because there may be multiple versions of the python environment in the system at the same time. Let's start with Python 3.6 as an example: 
+It is recommended to use virtualenv to manage the python environment because there may be multiple versions of the python environment in the system at the same time. Let's start with Python 3.6 as an example:
 ```shell
 # 1）Install virtualenv、Python3.6 and pip3
 sudo apt install virtualenv \
@@ -122,7 +126,7 @@ sudo apt-get install python3 python3-dev python3-pip
 # 2）Install dependent libraries
 sudo apt-get install libxslt1-dev zlib1g zlib1g-dev libglib2.0-0 libsm6 \
 libgl1-mesa-glx libprotobuf-dev gcc
-# 3）Use virtualenv and install Python dependency, such as requirements_cp36-1.3.0.txt 
+# 3）Use virtualenv and install Python dependency, such as requirements_cp36-1.3.0.txt
 virtualenv -p /usr/bin/python3 venv
 source venv/bin/activate
 pip3 install -r doc/requirements_cp36-*.txt
@@ -212,20 +216,20 @@ index 0507edb..fd2e070 100755
 +++ b/examples/tflite/mobilenet_v1/test.py
 @@ -24,11 +24,11 @@ def show_outputs(outputs):
  if __name__ == '__main__':
- 
+
      # Create RKNN object
 -    rknn = RKNN(verbose=True)
 +    rknn = RKNN()
- 
+
      # Pre-process config
      print('--> Config model')
 -    rknn.config(mean_values=[128, 128, 128], std_values=[128, 128, 128])
 +    rknn.config(mean_values=[128, 128, 128], std_values=[128, 128, 128], target_platform='rv1126b')
      print('done')
- 
+
      # Load model
 @@ -62,7 +62,7 @@ if __name__ == '__main__':
- 
+
      # Init runtime environment
      print('--> Init runtime environment')
 -    ret = rknn.init_runtime()
@@ -238,7 +242,7 @@ index 0507edb..fd2e070 100755
 
 * Run test.py on host PC
 ```shell
-(venv) firefly@T-chip:~/rknn-toolkit2/examples/tflite/mobilenet_v1$ python3 test.py 
+(venv) firefly@T-chip:~/rknn-toolkit2/examples/tflite/mobilenet_v1$ python3 test.py
 W __init__: rknn-toolkit2 version: 1.3.0-11912b58
 --> Config model
 done
@@ -279,4 +283,3 @@ Other Toolkit demos can be found under `rknn-toolkit2/examples/`, such as quanti
 
 ## Detailed Development Documents
 Please refer to <<Rockchip_RKNPU_User_Guide_RKNN_API_\*.pdf>> and <<Rockchip_User_Guide_RKNN_Toolkit2_\*.pdf>> in RKNN SDK for development.
-

@@ -1,4 +1,7 @@
-# RAG private knowledge base
+---
+title: "RAG private knowledge base"
+description: "AIO-1684XJD4 RAG private knowledge base documentation."
+---
 
 Retrieval-Augmented Generation (RAG) is a technology that utilizes information from private or proprietary data sources to enhance text generation. It combines the generative capabilities of large language models (LLMs) with the ability to retrieve relevant information from external knowledge bases, thereby producing more accurate and contextually relevant responses or text content.
 

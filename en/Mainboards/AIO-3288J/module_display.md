@@ -1,4 +1,7 @@
-# Display module
+---
+title: "Display module"
+description: "AIO-3288J Display module documentation."
+---
 
 ## [10.1 inch LVDS display module](https://www.firefly.store/products)
 

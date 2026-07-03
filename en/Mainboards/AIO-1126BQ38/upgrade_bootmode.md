@@ -1,4 +1,7 @@
-# Boot mode description
+---
+title: "Boot mode description"
+description: "AIO-1126BQ38 Boot mode description documentation."
+---
 
 ## Preface
 

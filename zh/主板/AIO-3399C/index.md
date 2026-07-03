@@ -1,3 +1,8 @@
+---
+title: "AIO-3399C"
+description: "AIO-3399C 主板产品文档导航。"
+---
+
 # AIO-3399C
 - [前言](preface.md)
 # 上手教程

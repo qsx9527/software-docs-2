@@ -1,4 +1,7 @@
-# PWM 使用
+---
+title: "PWM 使用"
+description: "AIO-3288C PWM 使用文档。"
+---
 
 ## 前言
 
@@ -46,7 +49,7 @@ struct pwm_chip {
 
 ## 配置步骤
 
-配置 PWM 主要有以下三大步骤：配置 PWM DTS 节点、配置 PWM 内核驱动、控制 PWM 设备。  
+配置 PWM 主要有以下三大步骤：配置 PWM DTS 节点、配置 PWM 内核驱动、控制 PWM 设备。
 
 ### 配置 PWM DTS节点
 

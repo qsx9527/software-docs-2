@@ -1,3 +1,8 @@
+---
+title: "编译 Android"
+description: "AIO-3399C 编译 Android文档。"
+---
+
 * 单独编译 kernel：
 
 ```
