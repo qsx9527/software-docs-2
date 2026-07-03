@@ -1,0 +1,11 @@
+{
+  "title": "software-docs-2 RK3588 Product Meta Table Test",
+  "description": "Validate software-docs-2/RK3588 meta.json pages and pagesIndex.",
+  "icon": "BookOpen",
+  "pagesIndex": "quick-start",
+  "pages": [
+    "quick-start"
+  ],
+  "defaultOpen": true,
+  "collapsible": true
+}

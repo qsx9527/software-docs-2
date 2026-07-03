@@ -1,0 +1,10 @@
+{
+  "title": "software-docs-2 English Meta Test Root",
+  "description": "Validate category order, description, and icon from software-docs-2 root meta.json.",
+  "icon": "FolderTree",
+  "pages": [
+    "Chip-Docs"
+  ],
+  "defaultOpen": true,
+  "collapsible": true
+}

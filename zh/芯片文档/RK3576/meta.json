@@ -1,0 +1,11 @@
+{
+  "title": "software-docs-2 RK3576 产品 Meta 表格测试",
+  "description": "用于验证 software-docs-2/RK3576 的 meta.json pages 与 pagesIndex。",
+  "icon": "BookOpen",
+  "pagesIndex": "quick-start",
+  "pages": [
+    "quick-start"
+  ],
+  "defaultOpen": true,
+  "collapsible": true
+}

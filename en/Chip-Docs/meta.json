@@ -1,0 +1,11 @@
+{
+  "title": "Chip-Docs Category Meta Test",
+  "description": "Validate product order from Chip-Docs category meta.json.",
+  "icon": "Cpu",
+  "pages": [
+    "RK3588",
+    "RK3568"
+  ],
+  "defaultOpen": true,
+  "collapsible": true
+}

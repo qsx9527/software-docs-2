@@ -1,0 +1,12 @@
+{
+  "title": "software-docs-2 RK3568 产品 Meta 表格测试",
+  "description": "用于验证 software-docs-2/RK3568 的 meta.json pages 与 pagesIndex。",
+  "icon": "BookOpen",
+  "pagesIndex": "quick-start2",
+  "pages": [
+    "quick-start2",
+    "quick-start"
+  ],
+  "defaultOpen": true,
+  "collapsible": true
+}
