@@ -17,8 +17,9 @@ icon: "Table"
 <!-- firefly-meta-test-table:end -->
 
 
-~~ 123123 ~~
-~\~ 123123 ~~
+~~123123~~
+
+~\~123123~~
 
 这是 `software-docs-2` 的中文测试索引，用于验证远端分支拉取。
 
