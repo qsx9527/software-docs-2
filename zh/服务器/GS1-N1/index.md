@@ -4,7 +4,7 @@
 - [简介](started.md)
 - [接口](interface_definition.md)
 - [登录](login.md)
-- [看门狗](usage_watchdog.md)
+- [知识库同步联调页](qsx_sync_probe.md)
 - [RTC](usage_rtc.md)
 - [WIFI](usage_wifi.md)
 - [IO ](usage_io.md)

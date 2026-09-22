@@ -55,3 +55,25 @@ max user IRQ frequency  : 64
 可以使用 `ioctl` 控制 `/dev/rtc0`。
 
 详细使用说明请参考文档 `kernel-jammy-src/Documentation/admin-guide/rtc.rst` 。
+
+## 定时唤醒配置
+
+除读写系统时间之外，RTC 还可以在设备关机后按固定周期唤醒系统。先确认硬件是否支持唤醒引脚：
+
+```
+# cat /sys/class/rtc/rtc0/wakealarm
+```
+
+写入唤醒时间戳（从 1970-01-01 起的秒数）即可设置下一次唤醒：
+
+```
+# echo $(date -d '2026-10-01 09:00:00' +%s) > /sys/class/rtc/rtc0/wakealarm
+```
+
+读取同一个文件会返回当前已设置的唤醒时间，写入空值则取消唤醒：
+
+```
+# echo 0 > /sys/class/rtc/rtc0/wakealarm
+```
+
+联调标记：Q S X - R T C - U P D A T E - 2 0 2 6 0 9 2 2

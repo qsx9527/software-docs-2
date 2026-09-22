@@ -19,7 +19,7 @@
    started
    interface_definition
    login
-   usage_watchdog
+   qsx_sync_probe
    usage_rtc
    usage_wifi
    usage_io
