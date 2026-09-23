@@ -23,4 +23,16 @@ Precautions:
 - The upgrade time is a bit long, about six minutes, please be patient.
 - The cooling fan must be installed correctly.
 
+## Upgrade flow
+
+```mermaid
+flowchart TD
+  A[Format the TF card as MBR / FAT32] --> B[Extract the firmware archive to the TF card]
+  B --> C[Insert the TF card and power on]
+  C --> D[Wait about 6 minutes and watch the LEDs]
+  D --> E{Upgrade result}
+  E -->|Green LED keeps flashing| F[Upgrade succeeded]
+  E -->|All LEDs are off| G[Upgrade failed]
+```
+
 [Download Center]: https://en.t-firefly.com/doc/download/342.html
