@@ -166,3 +166,55 @@ Press CTRL-A Z for help on special keys
 **注意：**`Hardware Flow Control` 和 `Software Flow Control` 都要设成 No，否则可能导致无法输入。
 
 设置完成后回到上一菜单，选择 `Save setup as dfl` 即可保存为默认配置，以后将默认使用该配置。
+## Mermaid 渲染测试
+
+本章节用于验证 Wiki 文档的 Mermaid 服务端渲染效果。
+
+### 流程图（flowchart）
+
+```mermaid
+flowchart LR
+    A[串口适配器] -->|USB| B[主机]
+    A -->|TTL| C[开发板 UART]
+    C --> D[U-Boot 日志]
+    C --> E[Kernel 日志]
+```
+
+### 时序图（sequenceDiagram）
+
+```mermaid
+sequenceDiagram
+    participant H as 主机
+    participant A as 串口适配器
+    participant B as AIO-1126BJD4V0
+    H->>A: 打开串口 1500000
+    A->>B: 收发 TTL 电平
+    B-->>A: 启动日志输出
+    A-->>H: 终端显示日志
+```
+
+### 实体关系图（erDiagram）
+
+```mermaid
+erDiagram
+    ADAPTER ||--o{ PIN : 引出
+    ADAPTER {
+        string chip 芯片型号
+        int baud 最大波特率
+    }
+    PIN {
+        string name 引脚名
+        string connect 接法
+    }
+```
+
+### 不支持的图（gantt，应降级为源码块）
+
+```mermaid
+gantt
+    title 串口调试排期示例
+    section 准备
+    选购适配器 :a1, 2026-09-01, 7d
+    section 联调
+    波特率验证 :a2, after a1, 3d
+```
