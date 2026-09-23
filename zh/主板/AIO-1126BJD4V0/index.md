@@ -36,3 +36,60 @@ description: "AIO-1126BJD4V0 主板产品文档导航。"
 - [Linux 设备树 (DTS) 指南](linux_dts_manual.md)
 # 参考资料
 - [接口定义](interface_definition.md)
+
+# Mermaid 渲染测试
+
+本章节用于验证 Wiki 文档的 Mermaid 服务端渲染效果。
+
+## 流程图（flowchart）
+
+```mermaid
+flowchart LR
+    A[上电启动] --> B{BootRom}
+    B -->|SPI NOR| C[Loader]
+    B -->|eMMC| D[U-Boot]
+    C --> D
+    D --> E[Kernel]
+    E --> F[根文件系统]
+    F --> G[应用启动]
+```
+
+## 时序图（sequenceDiagram）
+
+```mermaid
+sequenceDiagram
+    participant C as 客户端
+    participant S as Wiki 服务端
+    participant G as GitHub 仓库
+    C->>S: 请求文档页面
+    S->>G: 同步拉取 master
+    G-->>S: 返回 Markdown
+    S->>S: MDX 编译 + Mermaid 渲染
+    S-->>C: 返回含 SVG 的页面
+```
+
+## 实体关系图（erDiagram）
+
+```mermaid
+erDiagram
+    PRODUCT ||--o{ DOC : 拥有
+    PRODUCT {
+        string name 产品名
+        string board 型号
+    }
+    DOC {
+        string title 标题
+        string lang 语言
+    }
+```
+
+## 不支持的图（gantt，应降级为源码块）
+
+```mermaid
+gantt
+    title 固件发布计划
+    section 开发
+    SDK 适配 :a1, 2026-09-01, 30d
+    section 测试
+    整机验证 :a2, after a1, 20d
+```
