@@ -5,7 +5,8 @@
   "pagesIndex": "quick-start",
   "pages": [
     "quick-start",
-    "linux-compile-tabs"
+    "linux-compile-tabs",
+    "accordion-demo"
   ],
   "defaultOpen": true,
   "collapsible": true
