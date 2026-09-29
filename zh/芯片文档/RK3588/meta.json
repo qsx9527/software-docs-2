@@ -4,7 +4,8 @@
   "icon": "BookOpen",
   "pagesIndex": "quick-start",
   "pages": [
-    "quick-start"
+    "quick-start",
+    "linux-compile-tabs"
   ],
   "defaultOpen": true,
   "collapsible": true
