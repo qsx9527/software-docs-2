@@ -4,7 +4,6 @@
   "pagesIndex": "preface",
   "pages": [
     "github-sync-acceptance-update",
-    "github-sync-acceptance-delete",
     "preface",
     "started",
     "interface_definition",
