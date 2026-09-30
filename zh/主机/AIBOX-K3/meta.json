@@ -3,7 +3,6 @@
   "description": "AIBOX-K3 主机产品文档。",
   "pagesIndex": "preface",
   "pages": [
-    "github-sync-acceptance-update",
     "preface",
     "started",
     "interface_definition",
