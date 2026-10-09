@@ -73,7 +73,8 @@
     "usage_rs232_rs485",
     "usage_wifi",
     "wiki",
-    "x11vnc"
+    "x11vnc",
+    "github-sync-acceptance-20261009"
   ],
   "defaultOpen": true,
   "collapsible": true
