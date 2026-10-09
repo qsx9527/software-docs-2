@@ -73,7 +73,8 @@
     "usage_rs232_rs485",
     "usage_wifi",
     "wiki",
-    "x11vnc"
+    "x11vnc",
+    "github-incremental-reuse-20261009"
   ],
   "defaultOpen": true,
   "collapsible": true
