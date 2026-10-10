@@ -73,8 +73,7 @@
     "usage_rs232_rs485",
     "usage_wifi",
     "wiki",
-    "x11vnc",
-    "github-chat-refresh-20261010"
+    "x11vnc"
   ],
   "defaultOpen": true,
   "collapsible": true
